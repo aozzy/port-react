@@ -1,21 +1,28 @@
-import { useState } from 'react'
-
-import './App.css'
+import styled from 'styled-components'
 import Main from './components/Main'
 import  Experience  from './components/Experience'
 import About  from './components/About'
 import Contact from './components/Contact'
+
+const Container = styled.div`
+height: 100vh;
+background-color: #2192FF;
+`
+
 function App() {
  
 
   return (
-    <>
-      <h1>Hello World</h1>
+   
+      <Container>
+     
+
       <Main/>
       <Experience/>
       <About/>
       <Contact/>
-    </>
+      </Container>
+    
   )
 }
 
