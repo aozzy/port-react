@@ -4,6 +4,7 @@ function Contact() {
   const Section = styled.div`
   height: 100vh;
   background-color: #FF8303;
+  scroll-snap-align: center;
 `;
   return (
     <Section>Contact</Section>

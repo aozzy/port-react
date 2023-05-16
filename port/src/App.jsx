@@ -6,7 +6,13 @@ import Contact from './components/Contact'
 
 const Container = styled.div`
 height: 100vh;
-background-color: #2192FF;
+scroll-snap-type: y mandatory;
+scroll-behavior: smooth;
+overflow-y: auto;
+scrollbar-width: none;
+  &::-webkit-scrollbar{
+    display: none;
+  }
 `
 
 function App() {

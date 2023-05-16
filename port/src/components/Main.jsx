@@ -5,10 +5,11 @@ export default function Main() {
   const Section = styled.div`
 height: 100vh;
 background-color: #2192FF;
+scroll-snap-align: center;
 `
   return (
     <Section>
-      <h1>Main</h1>
+      Main
 
     </Section>
   )
