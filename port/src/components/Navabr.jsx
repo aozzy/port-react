@@ -3,11 +3,19 @@ import styled from 'styled-components'
 
 export default function Navabr() {
   const Section = styled.div`
-height: 100vh;
-
-scroll-snap-align: center;
+  display:flex;
+  justify-content: center;
+`
+const Container = styled.div`
+width: 1500px;
+background-color:rebeccapurple;
+text-align:center;
 `
   return (
-    <Section>Navabr</Section>
+    <Section>
+      <Container>
+      Navbar
+        </Container>
+      </Section>
   )
 }
