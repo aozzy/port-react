@@ -2,9 +2,25 @@
   height: 100vh;
 
 scroll-snap-align: center;
+display: flex;
+align-items: center;
+justify-content: space-between;
+flex-direction: column;
 }
 
 .container{
   height: 100vh;
   scroll-snap-align: center;
+  width: 1500px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.left{
+
+}
+
+.right{
+  
 }
