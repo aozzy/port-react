@@ -1,0 +1,9 @@
+.container{
+  display:flex;
+  justify-content: center;
+}
+
+.nav{
+  width: 1500px;
+background-color:rebeccapurple;
+}
