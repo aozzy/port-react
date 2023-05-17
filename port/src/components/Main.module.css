@@ -6,6 +6,7 @@ display: flex;
 align-items: center;
 justify-content: space-between;
 flex-direction: column;
+color: white;
 }
 
 .container{
@@ -18,9 +19,14 @@ flex-direction: column;
 
 
 .left{
-
+flex: 2;
 }
 
 .right{
-  
+  flex: 3;
+}
+
+.image img{
+  height: 400px;
+  border-radius: 50%;
 }

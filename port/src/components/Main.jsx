@@ -8,12 +8,18 @@ export default function Main() {
       <Navbar/>
       <div className={classes.container}>
         <div className={classes.left}>
-          <h1>Hi, my name is</h1>
-          <h2>Abdi Osman</h2>
-          <h3>I build things for the web</h3>
-          <p>I'm a Software Engineer that welcomes challenges and architects solutions.</p>
+          <h1 className={classes.title}>Hi, my name is</h1>
+          <h2 className={classes.subtitle}>Abdi Osman</h2>
+          <h3 className={classes.subtitle}>I build things for the web</h3>
+          <p className={classes.description}>I'm a Software Engineer that welcomes challenges and architects solutions.</p>
+          <button className={classes.btn}>Learn More</button>
         </div>
-        <div className={classes.right}></div>
+        <div className={classes.right}>
+          <div className={classes.image}>
+
+          <img src="./images/place-holder.jpeg" alt="" />
+          </div>
+        </div>
       </div>
 
     </div>
