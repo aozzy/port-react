@@ -1,17 +1,13 @@
 import React from 'react'
-import styled from 'styled-components'
+import classes from './Main.module.css'
 import Navbar from './Navabr'
 export default function Main() {
-  const Section = styled.div`
-height: 100vh;
-
-scroll-snap-align: center;
-`
+  
   return (
-    <Section>
+    <div className={classes.hero}>
       <Navbar/>
       Main
 
-    </Section>
+    </div>
   )
 }
