@@ -1,9 +1,56 @@
 .container{
   display:flex;
   justify-content: center;
+  color: white;
+  font-family: 'Roboto', sans-serif;
 }
 
 .nav{
   width: 1500px;
-background-color:rebeccapurple;
+display: flex;
+
+justify-content: space-between;
+align-items: center;
+padding: 10px 0px;
+
+}
+
+.links{
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.navbar{
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+
+
+.icon{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.icon img{
+  width: 50px;
+  cursor: pointer;
+}
+
+
+.navItem{
+  cursor: pointer;
+} 
+
+.btn{
+  width: 100px;
+  padding: 10px;
+  background-color: #D61C4E;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
