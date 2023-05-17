@@ -10,7 +10,7 @@ export default function Main() {
         <div className={classes.left}>
           <h1 className={classes.title}>Hi, my name is</h1>
           <h2 className={classes.subtitle}>Abdi Osman</h2>
-          <h3 className={classes.subtitle}>I build things for the web</h3>
+          <h2 className={classes.subtitle}>I build things for the web</h2>
           <p className={classes.description}>I'm a Software Engineer that welcomes challenges and architects solutions.</p>
           <button className={classes.btn}>Learn More</button>
         </div>
