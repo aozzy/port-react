@@ -17,7 +17,7 @@ export default function Main() {
         <div className={classes.right}>
           <div className={classes.image}>
 
-          <img src="./images/place-holder.jpeg" alt="" />
+          <img className={classes.heroImage} src="./images/place-holder.jpeg" alt="" />
           </div>
         </div>
       </div>
