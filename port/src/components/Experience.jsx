@@ -1,12 +1,10 @@
 import React from "react";
-import styled from "styled-components";
-
+import classes from './Experience.module.css'
 export default function Experience() {
-  const Section = styled.div`
-    height: 100vh;
   
-    scroll-snap-align: center;
-  `;
 
-  return <Section>Experience</Section>;
+  return (
+  <div className={classes.section}>Experience</div>
+
+  )
 }
