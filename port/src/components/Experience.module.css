@@ -14,8 +14,23 @@
 
 .left{
   flex: 1;
+  display: flex;
+  align-items: center;
+  
+  
+}
+.list{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
 
+.item{
+  font-size: 60px;
+  color: white;
+  font-weight: bolder;
+}
 .right{
 flex: 1;
 }
