@@ -3,6 +3,10 @@
  
   scroll-snap-align: center;
 }
+.container{
+
+}
+
 
 .left{
 
@@ -31,6 +35,6 @@
 }
 
 .form{
-  
+
 }
 
