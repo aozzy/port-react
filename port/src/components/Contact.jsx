@@ -11,7 +11,7 @@ function Contact() {
             <h2 className={classes.title}>Contact</h2>
             <input className={classes.input} placeholder='Name' type="text" />
             <input className={classes.input} placeholder='Email' type="email" />
-             <textarea className={classes.textarea} placeholder='Type here' name="" id="" cols="30" rows="10"></textarea>
+             <textarea className={classes.textarea} placeholder='Type message here' name="" id="" cols="30" rows="10"></textarea>
              <button className={classes.btn}>Send</button>
           </form>
         </div>
