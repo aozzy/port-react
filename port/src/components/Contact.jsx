@@ -1,13 +1,10 @@
 import React from 'react'
-import styled from 'styled-components';
+import classes from './Contact.module.css'
+
 function Contact() {
-  const Section = styled.div`
-  height: 100vh;
- 
-  scroll-snap-align: center;
-`;
+  
   return (
-    <Section>Contact</Section>
+    <div className={classes.section}>Contact</div>
   )
 }
 

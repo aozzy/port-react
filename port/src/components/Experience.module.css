@@ -28,9 +28,35 @@
 
 .item{
   font-size: 60px;
-  color: white;
+  color: transparent;
+  -webkit-text-stroke: 1px white;
   font-weight: bolder;
+  cursor: pointer;
+  position: relative;
 }
+
+.item::after{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  color: chocolate;
+  width: 0;
+
+
+}
+.item:hover:after{
+
+  animation: textTransform 0.5s linear;
+  @keyframes textTransform{
+   100%{
+    width:100%;
+   }
+  }
+
+  }
+
 .right{
 flex: 1;
 }
