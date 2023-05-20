@@ -4,37 +4,53 @@
   scroll-snap-align: center;
 }
 .container{
-
+width: 100%;
+height: 100%;
+display: flex;
+justify-content: space-between;
+gap: 10px;
 }
 
 
 .left{
-
+flex: 1;
+display: flex;
+justify-content: center;
+align-items: center;
 }
 
 .right{
-
+flex: 1;
 }
 
 .title{
-
+font-family: 200;
+color: white;
 }
 
 .input{
-
+padding: 20px;
+background-color: rgb(229, 225, 225);
+border: none;
+border-radius: 3px;
 }
 
 
 .textarea{
- 
-  
+ padding: 20px;
+ border: none;
+ border-radius: 3px;
 }
 
 .btn{
-
+  border: none;
+  border-radius: 3px;
 }
 
 .form{
-
+  width: 500px;
+display: flex;
+flex-direction: column;
+gap: 10px;
 }
 
