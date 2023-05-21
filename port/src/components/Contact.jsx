@@ -1,5 +1,6 @@
 import React from 'react'
 import classes from './Contact.module.css'
+import Map from './Map'
 
 function Contact() {
   
@@ -15,7 +16,11 @@ function Contact() {
              <button className={classes.btn}>Send</button>
           </form>
         </div>
-        <div className={classes.right}></div>
+        <div className={classes.right}>
+          <Map>
+
+          </Map>
+        </div>
 
       </div>
     </div>
