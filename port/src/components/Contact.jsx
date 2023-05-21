@@ -4,11 +4,16 @@ import Map from './Map'
 
 function Contact() {
   
+const handleSubmit = (e) => {
+  e.preventDefault()
+
+}
+
   return (
     <div className={classes.section}>
       <div className={classes.container}>
         <div className={classes.left}>
-          <form className={classes.form} action="">
+          <form className={classes.form} action="" onSubmit={handleSubmit}>
             <h2 className={classes.title}>Contact</h2>
             <input className={classes.input} placeholder='Name' type="text" />
             <input className={classes.input} placeholder='Email' type="email" />

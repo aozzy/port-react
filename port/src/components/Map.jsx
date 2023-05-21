@@ -32,7 +32,7 @@ const Map = () => {
         }
       </Geographies>
       <Annotation
-        subject={[2.3522, 48.8566]}
+        subject={[0.1276, 51.5072]}
         dx={-90}
         dy={-30}
         connectorProps={{
@@ -45,6 +45,7 @@ const Map = () => {
           {"London"}
         </text>
       </Annotation>
+    
     </ComposableMap>
   );
 };
