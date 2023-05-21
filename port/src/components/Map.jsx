@@ -16,10 +16,12 @@ const Map = () => {
         center: [-5, -3],
         scale: 1100
       }}
+     style={{width:"100%",height:'100%'}}
     >
       <Geographies
         geography="/data.json"
-        fill="#D6D6DA"
+        fill="#D4ADFC"
+        //* change background color of map above 
         stroke="#FFFFFF"
         strokeWidth={0.5}
       >
@@ -34,13 +36,13 @@ const Map = () => {
         dx={-90}
         dy={-30}
         connectorProps={{
-          stroke: "#FF5533",
+          stroke: "white",
           strokeWidth: 3,
           strokeLinecap: "round"
         }}
       >
-        <text x="-8" textAnchor="end" alignmentBaseline="middle" fill="#F53">
-          {"Paris"}
+        <text x="-8" textAnchor="end" alignmentBaseline="middle" fill="white">
+          {"London"}
         </text>
       </Annotation>
     </ComposableMap>
