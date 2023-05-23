@@ -12,7 +12,7 @@ export default function Experience() {
     
     
   ];
-  const [listItem, setListItem] = useState("projects");
+  const [listItem, setListItem] = useState("Projects");
   return (
     <div className={classes.section}>
       <div className={classes.container}>
@@ -27,13 +27,14 @@ export default function Experience() {
         </div>
         <div className={classes.right}>
           {listItem === "Projects" ? (
-            <Projects />
-          ) : listItem === "Infrastructure & IT support" ? (
+            // <Desktop />
             <IT />
+            ) : listItem === "Infrastructure & IT support" ? (
+            <Projects />
           ) : listItem === "Skills" ? (
             <Skills />
           ) : (
-            <Desktop />
+            <h3>Hello</h3>
           )}
         </div>
       </div>
