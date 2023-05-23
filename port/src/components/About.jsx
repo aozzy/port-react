@@ -10,9 +10,9 @@ export default function About () {
     
     <div className={classes.container}>
       <div className={classes.left}>
-      <Canvas camera={{fov:35}}> //* to increase zoom change the fov
+      <Canvas camera={{fov:35,position:[5,5,5]}}> //* to increase zoom change the fov
   
-  <OrbitControls enableZoom={false}/>
+  <OrbitControls enableZoom={false} autoRotate/>
   <ambientLight intensity={2}/>
   <directionalLight position={[1,1,1]}/>
 <Model/>

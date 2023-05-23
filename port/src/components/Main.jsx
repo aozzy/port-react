@@ -1,6 +1,8 @@
 import React from 'react'
 import classes from './Main.module.css'
 import Navbar from './Navabr'
+import { Canvas } from '@react-three/fiber'
+import { OrbitControls} from '@react-three/drei'
 export default function Main() {
   
   return (
@@ -15,6 +17,13 @@ export default function Main() {
           <button className={classes.btn}>Learn More</button>
         </div>
         <div className={classes.right}>
+        <Canvas camera={{fov:35,position:[5,5,5]}}> //* to increase zoom change the fov
+  
+  <OrbitControls enableZoom={false} autoRotate/>
+  <ambientLight intensity={2}/>
+  <directionalLight position={[1,1,1]}/>
+
+</Canvas>
           <div className={classes.image}>
 
           <img className={classes.heroImage} src="./images/place-holder.jpeg" alt="" />

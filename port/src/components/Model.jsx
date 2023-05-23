@@ -12,7 +12,7 @@ export default function Model() {
             <RenderTexture attach='map'>
               <PerspectiveCamera makeDefault position={[0,0,5]}/>
               <color attach="background" args={['yellow']}/>
-              <Text ref={textRef} fontSize={0.5} color="#555">hello world</Text>
+              <Text ref={textRef} fontSize={1} color="#555">hello world</Text>
             </RenderTexture>
           </meshStandardMaterial>
          
