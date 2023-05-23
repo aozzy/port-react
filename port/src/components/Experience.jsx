@@ -10,7 +10,7 @@ export default function Experience() {
   ]
 
   return (
-  <div className={classes.section}>Experience
+  <div className={classes.section}>
   <div className={classes.container}>
     <div className={classes.left}>
      <ul className={classes.list}>
