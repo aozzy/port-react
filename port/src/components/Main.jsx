@@ -2,7 +2,7 @@ import React from 'react'
 import classes from './Main.module.css'
 import Navbar from './Navabr'
 import { Canvas } from '@react-three/fiber'
-import { OrbitControls} from '@react-three/drei'
+import { MeshDistortMaterial, OrbitControls, Sphere} from '@react-three/drei'
 export default function Main() {
   
   return (
@@ -17,12 +17,14 @@ export default function Main() {
           <button className={classes.btn}>Learn More</button>
         </div>
         <div className={classes.right}>
-        <Canvas camera={{fov:35,position:[5,5,5]}}> //* to increase zoom change the fov
+        <Canvas> //* to increase zoom change the fov
   
   <OrbitControls enableZoom={false} autoRotate/>
   <ambientLight intensity={2}/>
   <directionalLight position={[1,1,1]}/>
-
+<Sphere args={[1,100,200]} scale={2.5}>
+<MeshDistortMaterial color='#E94560' attach='material' distort={0.5} speed={2}/>
+</Sphere>
 </Canvas>
           <div className={classes.image}>
 
