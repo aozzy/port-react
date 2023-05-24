@@ -8,7 +8,7 @@ export default function Main() {
   return (
     <div className={classes.hero}>
       <Navbar/>
-      <div className={classes.container}>
+      {/* <div className={classes.container}>
         <div className={classes.left}>
           <h1 className={classes.title}>Hi, my name is</h1>
           <h2 className={classes.subtitle}>Abdi Osman</h2>
@@ -31,7 +31,7 @@ export default function Main() {
           <img className={classes.heroImage} src="./images/place-holder.jpeg" alt="" />
           </div>
         </div>
-      </div>
+      </div> */}
 
     </div>
   )

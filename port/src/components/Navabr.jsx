@@ -7,10 +7,10 @@ export default function Navabr() {
 
   return (
 
-    <div className={classes.container}>
-      <div className={classes.nav}>
+    <section className={classes.container}>
+      <nav className={classes.nav}>
        <div className={classes.links}>
-        logo goes here
+        logo
        <ul className={classes.navbar}>
         <li className={classes.navItem}>Home</li>
         <li className={classes.navItem}>About</li>
@@ -23,8 +23,8 @@ export default function Navabr() {
        <button className={classes.btn}>Hire Me </button>
        
       </div>
-      </div>
-    </div>
+      </nav>
+    </section>
 
 
     // <Section>

@@ -17,10 +17,10 @@ function App() {
      
 
       <Main/>
-      <About/>
+      {/* <About/>
       <Experience/>
       <Contact/>
-      
+       */}
       </div>
     
   )

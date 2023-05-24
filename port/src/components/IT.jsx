@@ -19,7 +19,7 @@ export default function IT() {
       </mesh>
       </Stage>
   
-      <OrbitControls enableZoom={false}/>
+      <OrbitControls enableZoom={false} />
     </Canvas>
     <p className={classes.description}>I created this model using Blender</p>
     </React.Fragment>
