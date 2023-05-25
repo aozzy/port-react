@@ -17,10 +17,11 @@ function App() {
      
 
       <Main/>
-      {/* <About/>
-      <Experience/>
-      <Contact/>
-       */}
+       <About/>
+       <Experience/>
+      {/* 
+      <Contact/> */}
+     
       </div>
     
   )
