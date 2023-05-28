@@ -26,7 +26,7 @@ flex: 1;
 }
 
 .title{
-font-family: 200;
+font-weight: 200;
 color: white;
 }
 
@@ -66,4 +66,16 @@ gap: 10px;
 .sent{
   color: white;
   font-size: 20px;
+}
+
+@media only screen and (max-width:768px){
+.right{
+  display: none;
+}
+.left{
+  justify-content: center;
+}
+.form{
+  width: 300px;
+}
 }
