@@ -3,6 +3,8 @@ import classes from './Main.module.css'
 import Navbar from './Navabr'
 import { Canvas } from '@react-three/fiber'
 import { MeshDistortMaterial, OrbitControls, Sphere} from '@react-three/drei'
+import lottie from '/heroanimation.json'
+import Lottie from "lottie-react";
 export default function Main() {
   
   return (
@@ -17,7 +19,7 @@ export default function Main() {
           <button className={classes.btn}>Learn More</button>
         </div>
         <div className={classes.right}>
-        <Canvas> //* to increase zoom change the fov
+        {/* <Canvas> //* to increase zoom change the fov
   
   <OrbitControls enableZoom={false} autoRotate/>
   <ambientLight intensity={2}/>
@@ -25,10 +27,11 @@ export default function Main() {
 <Sphere args={[1,100,200]} scale={2.5}>
 <MeshDistortMaterial color='#E94560' attach='material' distort={0.5} speed={2}/>
 </Sphere>
-</Canvas>
+</Canvas> */}
           <div className={classes.image}>
-
-          <img className={classes.heroImage} src="./images/place-holder.jpeg" alt="" />
+           <Lottie loop={false} animationData={lottie}/>
+           //* set loop to true if you want to continously play the animation
+          {/* <img className={classes.heroImage} src="./images/place-holder.jpeg" alt="" /> */}
           </div>
         </div>
       </div>

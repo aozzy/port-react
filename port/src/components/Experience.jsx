@@ -27,8 +27,8 @@ export default function Experience() {
         </div>
         <div className={classes.right}>
           {listItem === "Projects" ? (
-            // <Desktop />
-            <IT />
+            <h3>Hello World</h3>
+            // <IT />
             ) : listItem === "Infrastructure & IT support" ? (
             <Projects />
           ) : listItem === "Skills" ? (

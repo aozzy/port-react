@@ -24,9 +24,9 @@ const handleSubmit = (e) => {
         <div className={classes.left}>
           <form className={classes.form} action="" onSubmit={handleSubmit} ref={form}>
             <h2 className={classes.title}>Contact</h2>
-            <input className={classes.input} placeholder='Name' type="text" name='name' />
-            <input className={classes.input} placeholder='Email' type="email" name='email'/>
-             <textarea className={classes.textarea} placeholder='Type message here' name="message"  cols="30" rows="10"></textarea>
+            <input className={classes.input} placeholder='Name' type="text" name='name' required/>
+            <input className={classes.input} placeholder='Email' type="email" name='email' required/>
+             <textarea className={classes.textarea} placeholder='Type message here' name="message"  cols="30" rows="10" required></textarea>
              <button className={classes.btn}>Send</button>
              {isError && <div className={classes.sent}>Your message has been sent sucessfully</div>}
           </form>
