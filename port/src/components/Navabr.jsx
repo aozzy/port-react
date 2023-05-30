@@ -19,8 +19,8 @@ export default function Navabr() {
        </ul>
        </div>
       <div className={classes.icon}>
-       <img width="48" height="48" src="https://img.icons8.com/color/48/search--v1.png" alt="search--v1"/>
-       <button className={classes.btn}>Hire Me </button>
+       {/* <img width="48" height="48" src="https://img.icons8.com/color/48/search--v1.png" alt="search--v1"/> */}
+       {/* <button className={classes.btn}>Hire Me </button> */}
        
       </div>
       </nav>

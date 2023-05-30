@@ -1,9 +1,7 @@
 import React, { useState } from "react";
 import classes from "./Experience.module.css";
 import Projects from "./Projects";
-import Desktop from "./Desktop"
 import Skills from './Skills'
-import IT from "./IT";
 export default function Experience() {
   const data = [
     "Projects",
@@ -27,8 +25,8 @@ export default function Experience() {
         </div>
         <div className={classes.right}>
           {listItem === "Projects" ? (
-            <h3>Hello World</h3>
-            // <IT />
+            // <h3>Hello World</h3>
+            <Projects />
             ) : listItem === "Infrastructure & IT support" ? (
             <Projects />
           ) : listItem === "Skills" ? (

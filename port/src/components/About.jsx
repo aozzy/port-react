@@ -3,6 +3,7 @@ import classes from './About.module.css'
 import Model from './Model'
 import { Canvas } from '@react-three/fiber'
 import { OrbitControls} from '@react-three/drei'
+import IT from './IT'
 export default function About () {
   
   return (
@@ -17,6 +18,8 @@ export default function About () {
   <directionalLight position={[1,1,1]}/>
 <Model/>
 </Canvas>
+{/* <IT/> */}
+
       </div>
       <div className={classes.right}>
         <h1 className={classes.title}>About Me</h1>

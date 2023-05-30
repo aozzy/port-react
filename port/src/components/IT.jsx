@@ -13,7 +13,7 @@ export default function IT() {
     <Canvas camera={{fov:35,position:[5,5,5]}}>
       <Stage environment={'city'} intensity={1}>
       <PerspectiveCamera makeDefault position={[1.5,0.5,1]}/>
-      <mesh  scale={[1,1,1]}>
+      <mesh  scale={[0.5,0.5,0.5]}>
 
       <Desktop />
       </mesh>

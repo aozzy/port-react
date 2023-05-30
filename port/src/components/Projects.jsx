@@ -4,8 +4,10 @@ import classes from './Projects.module.css'
 
 export default function Projects() {
   return (
-    <div>
-      Hello World
-    </div>
+    <React.Fragment>
+      <section className=''>
+
+      </section>
+    </React.Fragment>
   )
 }

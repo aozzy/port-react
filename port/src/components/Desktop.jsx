@@ -10,7 +10,7 @@ export default function Model(props) {
   const { nodes, materials } = useGLTF('/desktop-transformed.glb')
   return (
     <group {...props} dispose={null}>
-      <mesh geometry={nodes.Plane.geometry} material={materials.Metal} />
+      <mesh geometry={nodes.Plane.geometry} material={materials.Metal} position={[0, 0, 0]}/>
       <group position={[0.74, 2.98, 0]}>
         <mesh geometry={nodes.Plane001_1.geometry} material={materials.Metal} />
         <mesh geometry={nodes.Plane001_2.geometry} material={materials['Front Screen']} />
