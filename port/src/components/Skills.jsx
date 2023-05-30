@@ -250,6 +250,66 @@ export default function Skills() {
         </div>
      
       </div>
+      <div class="skills-box">
+        <div class="skill-title">
+          <div class="skill-img">
+            <img src="https://img.icons8.com/ios-filled/50/000000/redux.png"/>
+          
+          </div>
+          <h4>Redux</h4>
+        </div>
+     
+      </div>
+      <div class="skills-box">
+        <div class="skill-title">
+          <div class="skill-img">
+            <img src="https://img.icons8.com/ios-filled/50/000000/redux.png"/>
+          
+          </div>
+          <h4>Redux</h4>
+        </div>
+     
+      </div>
+      <div class="skills-box">
+        <div class="skill-title">
+          <div class="skill-img">
+            <img src="https://img.icons8.com/ios-filled/50/000000/redux.png"/>
+          
+          </div>
+          <h4>Redux</h4>
+        </div>
+     
+      </div>
+      <div class="skills-box">
+        <div class="skill-title">
+          <div class="skill-img">
+            <img src="https://img.icons8.com/ios-filled/50/000000/redux.png"/>
+          
+          </div>
+          <h4>Redux</h4>
+        </div>
+     
+      </div>
+      <div class="skills-box">
+        <div class="skill-title">
+          <div class="skill-img">
+            <img src="https://img.icons8.com/ios-filled/50/000000/redux.png"/>
+          
+          </div>
+          <h4>Redux</h4>
+        </div>
+     
+      </div>
+      <div class="skills-box">
+        <div class="skill-title">
+          <div class="skill-img">
+            <img src="https://img.icons8.com/ios-filled/50/000000/redux.png"/>
+          
+          </div>
+          <h4>Redux</h4>
+        </div>
+     
+      </div>
       </div>
     </div>
     </React.Fragment>
