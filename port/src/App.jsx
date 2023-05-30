@@ -1,4 +1,4 @@
-import styled from "styled-components";
+
 import Main from "./components/Main";
 import Experience from "./components/Experience";
 import About from "./components/About";

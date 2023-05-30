@@ -3,7 +3,7 @@ import classes from './About.module.css'
 import Model from './Model'
 import { Canvas } from '@react-three/fiber'
 import { OrbitControls} from '@react-three/drei'
-import IT from './IT'
+import Skills from './Skills'
 export default function About () {
   
   return (
@@ -21,6 +21,7 @@ export default function About () {
        
       </div>
       <div className={classes.right}>
+        <Skills/>
       {/* <Canvas camera={{fov:35,position:[5,5,5]}}> //* to increase zoom change the fov
   
   <OrbitControls enableZoom={false} autoRotate/>
