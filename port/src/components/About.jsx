@@ -11,17 +11,6 @@ export default function About () {
     
     <div className={classes.container}>
       <div className={classes.left}>
-      <Canvas camera={{fov:35,position:[5,5,5]}}> //* to increase zoom change the fov
-  
-  <OrbitControls enableZoom={false} autoRotate/>
-  <ambientLight intensity={2}/>
-  <directionalLight position={[1,1,1]}/>
-<Model/>
-</Canvas>
-{/* <IT/> */}
-
-      </div>
-      <div className={classes.right}>
         <h1 className={classes.title}>About Me</h1>
         {/* <h2 className={classes.subtitle}>Abdi Osman</h2>
         <h2 className={classes.subtitle}>I build things for the web</h2> */}
@@ -30,6 +19,17 @@ export default function About () {
         </p>
         <button className={classes.btn}>Learn More</button>
        
+      </div>
+      <div className={classes.right}>
+      {/* <Canvas camera={{fov:35,position:[5,5,5]}}> //* to increase zoom change the fov
+  
+  <OrbitControls enableZoom={false} autoRotate/>
+  <ambientLight intensity={2}/>
+  <directionalLight position={[1,1,1]}/>
+<Model/>
+</Canvas> */}
+{/* <IT/> */}
+
       </div>
     </div>
 

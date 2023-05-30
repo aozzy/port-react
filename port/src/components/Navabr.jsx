@@ -12,8 +12,8 @@ export default function Navabr() {
        <div className={classes.links}>
         logo
        <ul className={classes.navbar}>
-        <li className={classes.navItem}>Home</li>
         <li className={classes.navItem}>About</li>
+        <li className={classes.navItem}>Experience</li>
         <li className={classes.navItem}>Projects</li>
         <li className={classes.navItem}>Contact</li>
        </ul>
