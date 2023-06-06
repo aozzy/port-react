@@ -81,9 +81,30 @@ position: relative;
 .projects{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 30px;
+  gap: 20px;
 }
 
+.images{
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background-color: black;
+  cursor: pointer;
+  position: relative;
+  border-radius: 0.8rem;
+  overflow: hidden;
+}
+ img {
+  width: 85%;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  translate: -50% 20%;
 
+  transition: 0.25s all;
+
+  border-radius: 0.4rem;
+}
 @media only screen and (max-width:768px){
   .container{
     width: 100%;

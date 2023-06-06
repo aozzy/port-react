@@ -23,9 +23,24 @@ export default function Experience() {
       </div>
       <div className={classes.projects}>
         <div className={classes.card}>
+          <div className={classes.images}>
+            <img src="../images/blogcentral.png" alt="blog central site" />
+          </div>
+          <div className={classes.title}>
+
           <h4>title</h4>
-          <div className={classes.description}></div>
+          </div>
+          <div className={classes.info}>
+            buttons for github repo and live project 
+          </div>
+          <div className={classes.description}>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil nam neque quaerat quibusdam aliquam corporis velit, ad quia amet deserunt quae voluptate natus fugiat eum nisi aspernatur placeat laudantium. Sapiente.</p>
+          </div>
+          <div className={classes.subtitle}>
+            
           <h4>Tech used</h4>
+
+          </div>
           <div className={classes.icon}></div>
 
         </div>
