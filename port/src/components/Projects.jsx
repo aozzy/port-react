@@ -1,5 +1,5 @@
 import React from 'react'
-import classes from './Projects.module.css'
+import classes from './modules/Projects.module.css'
 
 
 export default function Projects() {

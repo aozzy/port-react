@@ -1,6 +1,6 @@
 import React from 'react'
 
-import classes from './Navbar.module.css'
+import classes from './modules/Navbar.module.css'
 
 export default function Navabr() {
   

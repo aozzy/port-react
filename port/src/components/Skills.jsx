@@ -4,25 +4,25 @@ import '../index.css'
 export default function Skills() {
   return (
     <React.Fragment>
-      <div class="skills">
-      <div class="skills-inner">
+      <div className="skills">
+      <div className="skills-inner">
   
-        <h4 class="section-title">Skills</h4>
+        <h4 className="section-title">Skills</h4>
       </div>
-      <div class="skills-container">
-      <div class="skills-box">
-        <div class="skill-title">
-          <div class="skill-img">
-            <img src="https://img.icons8.com/ios-filled/50/000000/react-native.png" class="skill-icon"/>
+      <div className="skills-container">
+      <div className="skills-box">
+        <div className="skill-title">
+          <div className="skill-img">
+            <img src="https://img.icons8.com/ios-filled/50/000000/react-native.png" className="skill-icon"/>
           
           </div>
           <h4>React</h4>
         </div>
      
       </div>
-      <div class="skills-box">
-        <div class="skill-title">
-          <div class="skill-img">
+      <div className="skills-box">
+        <div className="skill-title">
+          <div className="skill-img">
             <img src="https://img.icons8.com/color/48/000000/javascript.png"/>
           
           </div>
@@ -30,9 +30,9 @@ export default function Skills() {
         </div>
       
       </div>
-      <div class="skills-box">
-        <div class="skill-title">
-          <div class="skill-img">
+      <div className="skills-box">
+        <div className="skill-title">
+          <div className="skill-img">
             <img src="https://img.icons8.com/color/48/000000/python.png"/>
           
           </div>
@@ -40,9 +40,9 @@ export default function Skills() {
         </div>
       
       </div>
-      <div class="skills-box">
-        <div class="skill-title">
-          <div class="skill-img">
+      <div className="skills-box">
+        <div className="skill-title">
+          <div className="skill-img">
             <img src="https://img.icons8.com/color/48/000000/html-5--v1.png"/>
           
           </div>
@@ -50,9 +50,9 @@ export default function Skills() {
         </div>
      
       </div>
-      <div class="skills-box">
-        <div class="skill-title">
-          <div class="skill-img">
+      <div className="skills-box">
+        <div className="skill-title">
+          <div className="skill-img">
             <img src="https://img.icons8.com/color/48/000000/sass.png"/>
           
           </div>
@@ -60,9 +60,9 @@ export default function Skills() {
         </div>
      
       </div>
-      <div class="skills-box">
-        <div class="skill-title">
-          <div class="skill-img">
+      <div className="skills-box">
+        <div className="skill-title">
+          <div className="skill-img">
             <img src="https://img.icons8.com/color/48/000000/css3.png"/>
           
           </div>
@@ -70,9 +70,9 @@ export default function Skills() {
         </div>
      
       </div>
-      <div class="skills-box">
-        <div class="skill-title">
-          <div class="skill-img">
+      <div className="skills-box">
+        <div className="skill-title">
+          <div className="skill-img">
             <img src="https://img.icons8.com/color/48/000000/mongodb.png"/>
           
           </div>
@@ -80,9 +80,9 @@ export default function Skills() {
         </div>
      
       </div>
-      <div class="skills-box">
-        <div class="skill-title">
-          <div class="skill-img">
+      <div className="skills-box">
+        <div className="skill-title">
+          <div className="skill-img">
             <img src="https://img.icons8.com/cute-clipart/64/000000/flask.png"/>
           
           </div>
@@ -90,9 +90,9 @@ export default function Skills() {
         </div>
      
       </div>
-      <div class="skills-box">
-        <div class="skill-title">
-          <div class="skill-img">
+      <div className="skills-box">
+        <div className="skill-title">
+          <div className="skill-img">
             <img src="https://img.icons8.com/color/48/000000/nodejs.png"/>
           
           </div>
@@ -100,9 +100,9 @@ export default function Skills() {
         </div>
      
       </div>
-      <div class="skills-box">
-        <div class="skill-title">
-          <div class="skill-img">
+      <div className="skills-box">
+        <div className="skill-title">
+          <div className="skill-img">
             <img src="./images/expressjs-icon.svg"/>
           
           </div>
@@ -110,9 +110,9 @@ export default function Skills() {
         </div>
      
       </div>
-      <div class="skills-box">
-        <div class="skill-title">
-          <div class="skill-img">
+      <div className="skills-box">
+        <div className="skill-title">
+          <div className="skill-img">
             <img src="https://img.icons8.com/color/48/000000/postgreesql.png"/>
           
           </div>
@@ -120,9 +120,9 @@ export default function Skills() {
         </div>
      
       </div>
-      <div class="skills-box">
-        <div class="skill-title">
-          <div class="skill-img">
+      <div className="skills-box">
+        <div className="skill-title">
+          <div className="skill-img">
             <img src="https://img.icons8.com/dusk/64/000000/webpack.png"/>
           
           </div>
@@ -130,9 +130,9 @@ export default function Skills() {
         </div>
      
       </div>
-      <div class="skills-box">
-        <div class="skill-title">
-          <div class="skill-img">
+      <div className="skills-box">
+        <div className="skill-title">
+          <div className="skill-img">
             <img src="https://img.icons8.com/color/48/000000/azure-1.png"/>
           
           </div>
@@ -140,9 +140,9 @@ export default function Skills() {
         </div>
      
       </div>
-      <div class="skills-box">
-        <div class="skill-title">
-          <div class="skill-img">
+      <div className="skills-box">
+        <div className="skill-title">
+          <div className="skill-img">
             <img src="https://img.icons8.com/color/48/000000/office-365.png"/>
           
           </div>
@@ -150,9 +150,9 @@ export default function Skills() {
         </div>
      
       </div>
-      <div class="skills-box">
-        <div class="skill-title">
-          <div class="skill-img">
+      <div className="skills-box">
+        <div className="skill-title">
+          <div className="skill-img">
             <img src="./images/mochajs-icon.svg"/>
           
           </div>
@@ -160,9 +160,9 @@ export default function Skills() {
         </div>
      
       </div>
-      <div class="skills-box">
-        <div class="skill-title">
-          <div class="skill-img">
+      <div className="skills-box">
+        <div className="skill-title">
+          <div className="skill-img">
             <img src="./images/chai.svg"/>
           
           </div>
@@ -170,9 +170,9 @@ export default function Skills() {
         </div>
      
       </div>
-      <div class="skills-box">
-        <div class="skill-title">
-          <div class="skill-img">
+      <div className="skills-box">
+        <div className="skill-title">
+          <div className="skill-img">
             <img src="https://img.icons8.com/fluent/48/000000/github.png"/>
           
           </div>
@@ -180,9 +180,9 @@ export default function Skills() {
         </div>
      
       </div>
-      <div class="skills-box">
-        <div class="skill-title">
-          <div class="skill-img">
+      <div className="skills-box">
+        <div className="skill-title">
+          <div className="skill-img">
             <img src="https://img.icons8.com/color/48/000000/heroku.png"/>
           
           </div>
@@ -190,9 +190,9 @@ export default function Skills() {
         </div>
      
       </div>
-      <div class="skills-box">
-        <div class="skill-title">
-          <div class="skill-img">
+      <div className="skills-box">
+        <div className="skill-title">
+          <div className="skill-img">
             <img src="https://img.icons8.com/dusk/64/000000/babel.png"/>
           
           </div>
@@ -200,9 +200,9 @@ export default function Skills() {
         </div>
      
       </div>
-      <div class="skills-box">
-        <div class="skill-title">
-          <div class="skill-img">
+      <div className="skills-box">
+        <div className="skill-title">
+          <div className="skill-img">
             <img src="https://img.icons8.com/ios-filled/50/000000/server-windows.png"/>
           
           </div>
@@ -210,9 +210,9 @@ export default function Skills() {
         </div>
      
       </div>
-      <div class="skills-box">
-        <div class="skill-title">
-          <div class="skill-img">
+      <div className="skills-box">
+        <div className="skill-title">
+          <div className="skill-img">
             <img src="https://img.icons8.com/color/48/000000/nextjs.png"/>
           
           </div>
@@ -220,9 +220,9 @@ export default function Skills() {
         </div>
      
       </div>
-      <div class="skills-box">
-        <div class="skill-title">
-          <div class="skill-img">
+      <div className="skills-box">
+        <div className="skill-title">
+          <div className="skill-img">
             <img src="https://img.icons8.com/ios-filled/50/000000/django.png"/>
           
           </div>
@@ -230,9 +230,9 @@ export default function Skills() {
         </div>
      
       </div>
-      <div class="skills-box">
-        <div class="skill-title">
-          <div class="skill-img">
+      <div className="skills-box">
+        <div className="skill-title">
+          <div className="skill-img">
             <img src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/000000/external-sql-computer-programming-flaticons-lineal-color-flat-icons.png"/>
           
           </div>
@@ -240,9 +240,9 @@ export default function Skills() {
         </div>
      
       </div>
-      <div class="skills-box">
-        <div class="skill-title">
-          <div class="skill-img">
+      <div className="skills-box">
+        <div className="skill-title">
+          <div className="skill-img">
             <img src="https://img.icons8.com/ios-filled/50/000000/redux.png"/>
           
           </div>
@@ -250,9 +250,9 @@ export default function Skills() {
         </div>
      
       </div>
-      <div class="skills-box">
-        <div class="skill-title">
-          <div class="skill-img">
+      <div className="skills-box">
+        <div className="skill-title">
+          <div className="skill-img">
             <img src="https://img.icons8.com/ios-filled/50/000000/redux.png"/>
           
           </div>
@@ -260,9 +260,9 @@ export default function Skills() {
         </div>
      
       </div>
-      <div class="skills-box">
-        <div class="skill-title">
-          <div class="skill-img">
+      <div className="skills-box">
+        <div className="skill-title">
+          <div className="skill-img">
             <img src="https://img.icons8.com/ios-filled/50/000000/redux.png"/>
           
           </div>
@@ -270,9 +270,9 @@ export default function Skills() {
         </div>
      
       </div>
-      <div class="skills-box">
-        <div class="skill-title">
-          <div class="skill-img">
+      <div className="skills-box">
+        <div className="skill-title">
+          <div className="skill-img">
             <img src="https://img.icons8.com/ios-filled/50/000000/redux.png"/>
           
           </div>
@@ -280,9 +280,9 @@ export default function Skills() {
         </div>
      
       </div>
-      <div class="skills-box">
-        <div class="skill-title">
-          <div class="skill-img">
+      <div className="skills-box">
+        <div className="skill-title">
+          <div className="skill-img">
             <img src="https://img.icons8.com/ios-filled/50/000000/redux.png"/>
           
           </div>
@@ -290,9 +290,9 @@ export default function Skills() {
         </div>
      
       </div>
-      <div class="skills-box">
-        <div class="skill-title">
-          <div class="skill-img">
+      <div className="skills-box">
+        <div className="skill-title">
+          <div className="skill-img">
             <img src="https://img.icons8.com/ios-filled/50/000000/redux.png"/>
           
           </div>
@@ -300,9 +300,9 @@ export default function Skills() {
         </div>
      
       </div>
-      <div class="skills-box">
-        <div class="skill-title">
-          <div class="skill-img">
+      <div className="skills-box">
+        <div className="skill-title">
+          <div className="skill-img">
             <img src="https://img.icons8.com/ios-filled/50/000000/redux.png"/>
           
           </div>

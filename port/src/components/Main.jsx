@@ -1,5 +1,5 @@
 import React from 'react'
-import classes from './Main.module.css'
+import classes from './modules/Main.module.css'
 import Navbar from './Navabr'
 import { Canvas } from '@react-three/fiber'
 import { MeshDistortMaterial, OrbitControls, Sphere} from '@react-three/drei'

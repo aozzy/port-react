@@ -1,6 +1,6 @@
 import React, { useRef,useState }from 'react'
 import emailjs from '@emailjs/browser'
-import classes from './Contact.module.css'
+import classes from './modules/Contact.module.css'
 import Map from './Map'
 
 function Contact() {

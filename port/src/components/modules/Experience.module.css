@@ -4,9 +4,9 @@
   height: 100vh;
   
     scroll-snap-align: center;
-}
-
-.container{
+  }
+  
+  .container{
   width: 1400px;
   display: flex;
   justify-content: space-between;
@@ -62,8 +62,25 @@
 flex: 2;
 margin-left: 40px;
 position: relative;
-/* background-color: brown; */
 
+
+}
+/* .section{
+  height: 100vh;
+  position: relative;
+  max-width: 1150px;
+  margin: auto;
+  padding: 50px;
+  scroll-snap-align: center;
+} */
+
+.heading{
+  font-size: 50px;
+}
+
+.projects{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 
