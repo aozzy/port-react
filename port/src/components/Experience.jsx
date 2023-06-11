@@ -22,54 +22,7 @@ export default function Experience() {
         <h3>Projects</h3>
       </div>
       <div className={classes.projects}>
-        <div className={classes.card}>
-          <div className={classes.images}>
-            <img src="../images/blogcentral.png" alt="blog central site" />
-          </div>
-          <div className={classes.title}>
-
-          <h4>title</h4>
-          </div>
-          <div className={classes.info}>
-            buttons for github repo and live project 
-          </div>
-          <div className={classes.description}>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil nam neque quaerat quibusdam aliquam corporis velit, ad quia amet deserunt quae voluptate natus fugiat eum nisi aspernatur placeat laudantium. Sapiente.</p>
-          </div>
-          <div className={classes.subtitle}>
-            
-          <h4>Tech used</h4>
-
-          </div>
-          <div className={classes.icon}>
-            icons go here
-          </div>
-
-        </div>
-        <div className={classes.card}>
-          <div className={classes.images}>
-            <img src="../images/blogcentral.png" alt="blog central site" />
-          </div>
-          <div className={classes.title}>
-
-          <h4>title</h4>
-          </div>
-          <div className={classes.info}>
-            buttons for github repo and live project 
-          </div>
-          <div className={classes.description}>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil nam neque quaerat quibusdam aliquam corporis velit, ad quia amet deserunt quae voluptate natus fugiat eum nisi aspernatur placeat laudantium. Sapiente.</p>
-          </div>
-          <div className={classes.subtitle}>
-            
-          <h4>Tech used</h4>
-
-          </div>
-          <div className={classes.icon}>
-            icons go here
-          </div>
-
-        </div>
+      
         <div className={classes.card}>
           <div className={classes.images}>
             <img src="../images/blogcentral.png" alt="blog central site" />
@@ -96,6 +49,24 @@ export default function Experience() {
             <img className={classes.icons} src="https://img.icons8.com/color/48/000000/python.png" alt="" />
           <div>
             Python
+          </div>
+          </div>
+          <div className={classes.iconContainer}>
+            <img className={classes.icons} src="https://img.icons8.com/cute-clipart/64/000000/flask.png" alt="" />
+          <div>
+           Flask
+          </div>
+          </div>
+          <div className={classes.iconContainer}>
+            <img className={classes.icons} src="https://img.icons8.com/color/48/bootstrap.png" alt="" />
+          <div>
+            Flask Bootstrap
+          </div>
+          </div>
+          <div className={classes.iconContainer}>
+            <img className={classes.icons} src="../images/jinja.svg" alt="" />
+          <div>
+            Jinja
           </div>
           </div>
           </div>

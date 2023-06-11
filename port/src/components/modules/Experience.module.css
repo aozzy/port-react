@@ -15,6 +15,7 @@
 }
 .heading{
   font-size: 50px;
+  color: white;
 }
 
 .projects{
@@ -54,13 +55,32 @@
 .iconContainer{
   width: 100px;
   padding: 10px;
-  margin: 10px;
+  /* margin: 10px; */
   /* height: 50px; */
   text-align: center;
 }
 .icons{
-  width: 90px;
-  height: 90px;
+  width: 45px;
+  height: 45px;
+  
+}
+.btn{
+  padding: 10px;
+  width: 100px;
+  border: none;
+  border-radius: 5px;
+  background-color: #FF75A0;
+  color: white;
+  cursor:pointer;
+  margin: 5px;
+}
+
+.description p{
+  margin: 0;
+}
+.card{
+  color: white;
+  
   
 }
 @media only screen and (max-width:768px){
