@@ -42,3 +42,14 @@ left: 50%;
 .right img {
   left: -20px;
 }
+
+.timeline::after{
+  content: "";
+  position: absolute;
+  width: 6px;
+  height: 100%;
+  background: #fff;
+  top: 0;
+  left: 50%;
+  margin-left: -3px;
+}
