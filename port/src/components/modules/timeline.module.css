@@ -1,0 +1,14 @@
+.timeline{
+  position: relative;
+  max-width: 1200px;
+  margin: 100px auto;
+  /* height: 100vh; */
+}
+
+.container{
+padding: 10px 50px;
+position: relative;
+width: 50%;
+background: rgba(0,0,0,0.3);
+border-radius: 5px;
+}
