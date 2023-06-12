@@ -5,6 +5,7 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import Carousels from "./components/Carousels";
 import "./index.css";
+import TimeLine from "./components/TimeLine";
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Main />
       <About />
       <Experience />
+      <TimeLine/>
       {/* <Carousels/> */}
       <Contact />
     </div>
