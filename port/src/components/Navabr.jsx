@@ -9,6 +9,7 @@ export default function Navabr() {
 
     <section className={classes.container}>
       <nav className={classes.nav}>
+      <input id="nav-toggle" type="checkbox"/>
        <div className={classes.links}>
        <img width="64" height="64" src="https://img.icons8.com/external-flaticons-lineal-flat-icons/64/external-it-support-resume-flaticons-lineal-flat-icons.png" alt="external-it-support-resume-flaticons-lineal-flat-icons"/>
        <ul className={classes.navbar}>
@@ -23,6 +24,12 @@ export default function Navabr() {
        {/* <button className={classes.btn}>Hire Me </button> */}
        
       </div>
+      <label htmlFor="nav-toggle" className={classes.iconBurger}>
+     <div className={classes.line}></div>
+     <div className={classes.line}></div>
+     <div className={classes.line}></div>
+     
+   </label>
       </nav>
     </section>
 
