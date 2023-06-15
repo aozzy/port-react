@@ -141,4 +141,23 @@ right: -15px;
   padding-right: 25px;
 }
 
+.text{
+  font-size: 12px;
+}
+.text small{
+  margin-bottom: 10px;
+}
+.right{
+  left: 0;
+}
+.left img, .right img{
+  left: 10px;
+}
+
+.leftIcon, .rightIcon{
+border-right: 15px solid #fff;
+border-left: 0;
+left: -15px;
+} 
+
 }

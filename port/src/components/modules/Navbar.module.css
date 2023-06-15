@@ -1,7 +1,10 @@
 .container{
+  position: fixed;
   display:flex;
   justify-content: center;
+  z-index: 5;
   color: white;
+  background: #FF75A0;
   
 }
 
@@ -9,7 +12,7 @@
   width: 1500px;
 display: flex;
 
-justify-content: space-between;
+justify-content: center;
 align-items: center;
 padding: 10px 0px;
 
@@ -23,7 +26,7 @@ padding: 10px 0px;
 
 .navbar{
   display: flex;
-  gap: 20px;
+  gap: 200px;
   list-style: none;
 }
 
@@ -43,6 +46,7 @@ padding: 10px 0px;
 
 .navItem{
   cursor: pointer;
+  font-size: 20px;
 } 
 
 .btn{
