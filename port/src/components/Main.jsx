@@ -1,6 +1,7 @@
 import React from 'react'
 import classes from './modules/Main.module.css'
 import Navbar from './Navabr'
+import Nav from "./Nav";
 import { Canvas } from '@react-three/fiber'
 import { MeshDistortMaterial, OrbitControls, Sphere} from '@react-three/drei'
 import lottie from '/heroanimation.json'
@@ -9,7 +10,7 @@ export default function Main() {
   
   return (
     <div className={classes.hero}>
-      <Navbar/>
+      {/* <Nav/> */}
       <div className={classes.container}>
         <div className={classes.left}>
           <h1 className={classes.title}>Hi, my name is</h1>
