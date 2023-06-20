@@ -4,7 +4,7 @@ import * as AiIcons from "react-icons/ai";
 import classes from "./modules/Nav.module.css";
 
 function Nav() {
-  const [sidebar, setSidebar] = useState(true);
+  const [sidebar, setSidebar] = useState(false);
   const handleSidebar = () => setSidebar(!sidebar);
 
   return (
