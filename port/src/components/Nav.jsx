@@ -24,13 +24,13 @@ function Nav() {
           `${sidebar ? classes["nav-menu active"] :classes["nav-menu"] }`
         }
       >
-        <ul className={["nav-menu-items"]}>
-          <li className={["navbar-toggle"]}>
+        <ul className={classes["nav-menu-items"]}>
+          <li className={classes["navbar-toggle"]}>
             <a href="#" className={classes["menu-bars"]}>
               <AiIcons.AiOutlineClose className={classes.icon} />
             </a>
           </li>
-          <li className={classes["nav-text"]}>
+          <li className={`${classes["nav-text"]} ${classes.home}`}>
             <a href="#">
               {" "}
               <AiIcons.AiFillHome className={classes.icon}/>
@@ -38,28 +38,28 @@ function Nav() {
             </a>
             
           </li>
-          <li className={classes["nav-text"]}>
+          <li className={`${classes["nav-text"]} ${classes.about}`}>
             <a href="#">
               {" "}
               <span>About</span>
             </a>
             
           </li>
-          <li className={classes["nav-text"]}>
+          <li className={`${classes["nav-text"]} ${classes.projects}`}>
             <a href="#">
               {" "}
               <span>Projects</span>
             </a>
             
           </li>
-          <li className={classes["nav-text"]}>
+          <li className={`${classes["nav-text"]} ${classes.experience}`}>
             <a href="#">
               {" "}
               <span>Experience</span>
             </a>
             
           </li>
-          <li className={classes["nav-text"]}>
+          <li className={`${classes["nav-text"]} ${classes.contact}`}>
             <a href="#">
               {" "}
               <span>Contact</span>

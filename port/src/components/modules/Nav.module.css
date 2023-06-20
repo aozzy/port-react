@@ -4,7 +4,7 @@
   display: flex;
   justify-content: start;
   align-items: center;
-  /* width: 100%; */
+ 
 
 }
 
@@ -15,16 +15,16 @@
 }
 
 .nav-menu{
+  z-index: 1000;
   background-color: #060b26;
   width: 250px;
   height: 100vh;
-  display: flex;
-  justify-content: center;
-  position: fixed;
-  top: 0;
-  left: -100%;
-  
-  transition: 850ms;
+ display: flex;
+ justify-content: center;
+ position: fixed;
+ top: 0;
+ /* left: -100%; */
+ transition: 850ms;
 }
 
 .nav-menu.active{
@@ -51,5 +51,42 @@ transition: 350ms;
   align-items: center;
   padding: 0 16px;
   border-radius: 4px;
+
+}
+
+.nav-text a:hover{
+  background-color: #1a83ff;
+}
+
+.nav-menu-items{
+  width: 100%;
+}
+
+.navbar-toggle{
+  background-color: #060b26;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+span{
+  margin-left:16px ;
+}
+
+.home{
+
+}
+
+.about{
+
+}
+
+.projects{
+
+}
+
+.contact{
 
 }
