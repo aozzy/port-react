@@ -1,7 +1,10 @@
 import React, { useState } from "react";
 import * as FaIcons from "react-icons/fa";
 import * as AiIcons from "react-icons/ai";
+import { IconContext } from "react-icons";
 import classes from "./modules/Nav.module.css";
+import '../index.css'
+
 
 function Nav() {
   const [sidebar, setSidebar] = useState(false);
@@ -9,22 +12,24 @@ function Nav() {
 
   return (
     <React.Fragment>
+      <IconContext.Provider value={{color:'#fff'}}>
+
       <div className={classes.navbar}>
         <a href="#" className={classes["menu-bars"]}>
           <FaIcons.FaHamburger
             className={classes.icon}
             onClick={handleSidebar}
-          />
+            />
         </a>
       </div>
 
       <nav
         className={
-          // sidebar ? `${classes["nav-menu active"]}` : `${classes["nav-menu"]}`
-          `${sidebar ? classes["nav-menu active"] :classes["nav-menu"] }`
+          // sidebar ? `${classes["nav-menu_active"]}` : `${classes["nav-menu"]}`
+          `${sidebar ? "nav-menu active" : "nav-menu" }`
         }
-      >
-        <ul className={classes["nav-menu-items"]}>
+        >
+        <ul className={classes["nav-menu-items"]} onClick={handleSidebar}>
           <li className={classes["navbar-toggle"]}>
             <a href="#" className={classes["menu-bars"]}>
               <AiIcons.AiOutlineClose className={classes.icon} />
@@ -53,7 +58,7 @@ function Nav() {
             
           </li>
           <li className={`${classes["nav-text"]} ${classes.experience}`}>
-            <a href="#">
+            <a href='#experience'>
               {" "}
               <span>Experience</span>
             </a>
@@ -68,6 +73,7 @@ function Nav() {
           </li>
         </ul>
       </nav>
+        </IconContext.Provider>
     </React.Fragment>
   );
 }

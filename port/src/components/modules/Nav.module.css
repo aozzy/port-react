@@ -15,7 +15,7 @@
 }
 
 .nav-menu{
-  z-index: 1000;
+  /* z-index: 1000; */
   background-color: #060b26;
   width: 250px;
   height: 100vh;
@@ -23,7 +23,7 @@
  justify-content: center;
  position: fixed;
  top: 0;
- /* left: -100%; */
+ left: -100%;
  transition: 850ms;
 }
 
@@ -35,16 +35,17 @@ transition: 350ms;
 
 .nav-text{
   display: flex;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
   padding: 8px 0px 8px 16px;
   height: 60px;
-  list-style-type:none;
+  list-style:none;
 }
 
 .nav-text a{
   text-decoration: none;
   color: #fff;
+  font-size: 18px;
   width: 95%;
   height: 100%;
   display: flex;
@@ -53,6 +54,8 @@ transition: 350ms;
   border-radius: 4px;
 
 }
+
+
 
 .nav-text a:hover{
   background-color: #1a83ff;
@@ -75,13 +78,15 @@ span{
   margin-left:16px ;
 }
 
-.home{
+/* .home,.about {
+display: flex;
+height: 90vh;
+align-items: center;
+justify-content: center;
+font-size: 24px;
+} */
 
-}
 
-.about{
-
-}
 
 .projects{
 

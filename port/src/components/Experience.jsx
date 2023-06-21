@@ -15,7 +15,7 @@ export default function Experience() {
   ];
   // const [listItem, setListItem] = useState("Projects");
   return (
-    <section className={classes.section}>
+    <section id="experience" className={classes.section}>
       <div className={classes.container}>
       <div className={classes.heading}>
       
