@@ -6,13 +6,14 @@ import { Canvas } from '@react-three/fiber'
 import { MeshDistortMaterial, OrbitControls, Sphere} from '@react-three/drei'
 import lottie from '/heroanimation.json'
 import Lottie from "lottie-react";
+import 'animate.css';
 export default function Main() {
   
   return (
     <div className={classes.hero}>
       {/* <Nav/> */}
       <div className={classes.container}>
-        <div className={classes.left}>
+        <div className={`animate__animated animate__bounce animate__slower ${classes.left}`}>
           <h1 className={classes.title}>Hi, my name is</h1>
           <h2 className={classes.subtitle}>Abdi Osman</h2>
           <h2 className={classes.subtitle}>I build things for the web</h2>
