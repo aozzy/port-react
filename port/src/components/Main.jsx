@@ -31,7 +31,7 @@ export default function Main() {
 </Canvas> */}
           <div className={classes.image}>
            <Lottie loop={false} animationData={lottie}/>
-           //* set loop to true if you want to continously play the animation
+           
           {/* <img className={classes.heroImage} src="./images/place-holder.jpeg" alt="" /> */}
           </div>
         </div>
@@ -40,3 +40,4 @@ export default function Main() {
     </div>
   )
 }
+//* set loop to true if you want to continously play the animation on line 33

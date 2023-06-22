@@ -4,6 +4,8 @@ import Model from './Model'
 import { Canvas } from '@react-three/fiber'
 import { OrbitControls} from '@react-three/drei'
 import Skills from './Skills'
+import Lottie from "lottie-react";
+import lottie from '/about.json'
 
 // import 'bootstrap/dist/css/bootstrap.min.css';
 export default function About () {
@@ -23,7 +25,8 @@ export default function About () {
        
       </div>
       <div className={classes.right}>
-        <Skills/>
+        {/* <Skills/> */}
+       <Lottie loop={false} animationData={lottie}/>
       {/* <Canvas camera={{fov:35,position:[5,5,5]}}> //* to increase zoom change the fov
   
   <OrbitControls enableZoom={false} autoRotate/>
