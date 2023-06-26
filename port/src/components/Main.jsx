@@ -31,7 +31,7 @@ export default function Main() {
 </Sphere>
 </Canvas> */}
           <div className={classes.image}>
-           <Lottie loop={false} animationData={lottie}/>
+           <Lottie loop={false} animationData={lottie} />
            
           {/* <img className={classes.heroImage} src="./images/place-holder.jpeg" alt="" /> */}
           </div>

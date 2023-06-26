@@ -26,7 +26,7 @@ export default function About () {
       </div>
       <div className={classes.right}>
         {/* <Skills/> */}
-       <Lottie loop={false} animationData={lottie}/>
+       <Lottie loop={false} animationData={lottie} style={{width:'1000px'}}/>
       {/* <Canvas camera={{fov:35,position:[5,5,5]}}> //* to increase zoom change the fov
   
   <OrbitControls enableZoom={false} autoRotate/>
