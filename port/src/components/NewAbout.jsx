@@ -3,11 +3,11 @@ import classes from './modules/NewAbout.module.css'
 
 function NewAbout() {
   return (
-    <div className={classes.section}>
+    <section className={classes['section-about']}>
    <div className={classes.container}>
     
    </div>
-    </div>
+    </section>
   )
 }
 
