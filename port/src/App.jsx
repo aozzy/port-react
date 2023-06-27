@@ -8,6 +8,7 @@ import Contact from "./components/Contact";
 import "./index.css";
 import TimeLine from "./components/TimeLine";
 import Nav from "./components/Nav";
+import NewAbout from "./components/NewAbout";
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
     <div className="contain">
       <Nav/>
       <Main />
+      <NewAbout/>
       <About />
       <Experience />
       <TimeLine/>

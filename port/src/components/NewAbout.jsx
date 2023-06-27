@@ -1,14 +1,11 @@
 import React from 'react'
-import classes from './modules/NewAbout.css'
+import classes from './modules/NewAbout.module.css'
 
 function NewAbout() {
   return (
-    <div className=''>
-   <div className={classes.left}>
-    <div className={classes.right}>
-
-    </div>
-
+    <div className={classes.section}>
+   <div className={classes.container}>
+    
    </div>
     </div>
   )
