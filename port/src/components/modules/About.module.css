@@ -12,7 +12,7 @@ color: white;
 }
 
 .contain{
-  height: 100vh;
+  /* height: 100vh; */
   scroll-snap-align: center;
   width: 1500px;
   display: flex;
