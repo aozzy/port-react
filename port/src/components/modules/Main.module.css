@@ -13,7 +13,7 @@ color: white;
 .container{
   height: 100%;
   scroll-snap-align: center;
-  width: 1500px;
+  width: 1600px;
   display: flex;
   justify-content: space-between;
 }

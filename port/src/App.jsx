@@ -16,7 +16,7 @@ function App() {
     <div className="contain">
       <Nav/>
       <Main />
-      <NewAbout/>
+      {/* <NewAbout/> */}
       <About />
       <Experience />
       <TimeLine/>
