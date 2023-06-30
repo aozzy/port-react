@@ -33,7 +33,8 @@ export default function About () {
            <h4>Technical Skills</h4>
            <div className={classes.skillsInner}>
             <div className={classes.skillContainer}>
-              
+            <a target="_blank" href="https://icons8.com/icon/hKrJAdwqbGgG/javascript">JavaScript</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+
             </div>
            </div>
           </div>
