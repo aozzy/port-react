@@ -31,6 +31,11 @@ export default function About () {
         <div className={classes.services}>
           <div className={classes.skills}>
            <h4>Technical Skills</h4>
+           <div className={classes.skillsInner}>
+            <div className={classes.skillContainer}>
+              
+            </div>
+           </div>
           </div>
           <div className={classes.service}>
 
