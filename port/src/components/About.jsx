@@ -50,6 +50,10 @@ export default function About () {
              
             </div>
             <div className={classes.skillContainer}>
+            <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/css3.png" alt="css3"/>
+             
+            </div>
+            <div className={classes.skillContainer}>
             <img width="50" height="50" src="https://img.icons8.com/ios/50/django.png" alt="django"/>
              
             </div>
@@ -74,11 +78,51 @@ export default function About () {
              
             </div>
             <div className={classes.skillContainer}>
+            <img width="50" height="50" src="https://img.icons8.com/ios/50/flask.png" alt="flask"/>
+             
+            </div>
+            <div className={classes.skillContainer}>
+            <img width="50" height="50" src="https://img.icons8.com/ios/50/express-js.png" alt="express-js"/>
+             
+            </div>
+            <div className={classes.skillContainer}>
+            <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/sass.png" alt="sass"/>
+             
+            </div>
+            <div className={classes.skillContainer}>
+            <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/docker.png" alt="docker"/>
+             
+            </div>
+            <div className={classes.skillContainer}>
+            <img width="50" height="50" src="https://img.icons8.com/external-tal-revivo-regular-tal-revivo/24/external-nginx-accelerates-content-and-application-delivery-improves-security-logo-regular-tal-revivo.png" alt="external-nginx-accelerates-content-and-application-delivery-improves-security-logo-regular-tal-revivo"/>
+             
+            </div>
+            <div className={classes.skillContainer}>
             <Lottie  animationData={pyhton} loop={true}/>
              
             </div>
             <div className={classes.skillContainer}>
             <img width="50" height="50" src="https://img.icons8.com/ios/50/html-filetype--v1.png" alt="html-filetype--v1"/>
+             
+            </div>
+            <div className={classes.skillContainer}>
+            <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/git.png" alt="git"/>
+             
+            </div>
+            <div className={classes.skillContainer}>
+            <img width="50" height="50" src="https://img.icons8.com/windows/32/bootstrap.png" alt="bootstrap"/>
+             
+            </div>
+            <div className={classes.skillContainer}>
+            <img width="50" height="50" src="https://img.icons8.com/ios/50/heroku.png" alt="heroku"/>
+             
+            </div>
+            <div className={classes.skillContainer}>
+            <img width="50" height="50" src="https://img.icons8.com/windows/32/npm.png" alt="npm"/>
+             
+            </div>
+            <div className={classes.skillContainer}>
+            <img width="48" height="48" src="https://img.icons8.com/material-outlined/48/firebase.png" alt="firebase"/>
              
             </div>
 
@@ -89,7 +133,8 @@ export default function About () {
             
            </div>
           </div>
-          <div className={classes.service}>
+          <div className={classes.serviceContainer}>
+          <h4 className={classes.heading}>Services</h4>
 
           </div>
 
