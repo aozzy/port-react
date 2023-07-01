@@ -1,21 +1,22 @@
-import React from 'react'
+import React , {useState} from 'react'
 import classes from './modules/About.module.css'
-import Model from './Model'
-import { Canvas } from '@react-three/fiber'
-import { OrbitControls} from '@react-three/drei'
-import Skills from './Skills'
 import Lottie from "lottie-react";
 import lottie from '/about.json'
+import js from '/javascript.json'
+import react from '/react.json'
+import pyhton from '/python.json'
+import github from '/github.json'
+import { Waypoint } from 'react-waypoint';
 
-// import 'bootstrap/dist/css/bootstrap.min.css';
 export default function About () {
-  
+ const [renderLottie, setRenderLottie] = useState(false)
   return (
     <section className={classes.section}>
     
     <div className={classes.container}>
+      <Waypoint onEnter={()=>setRenderLottie(true)} />
       <div className={classes.left}>
-        <Lottie loop={false} animationData={lottie} style={{width:'800px'}}/>
+       {renderLottie && <Lottie loop={false} animationData={lottie} style={{width:'700px'}} />}
        
       </div>
       <div className={classes.right}>
@@ -30,12 +31,62 @@ export default function About () {
         </div>
         <div className={classes.services}>
           <div className={classes.skills}>
-           <h4>Technical Skills</h4>
+           <h4 className={classes.heading}>Technical Skills</h4>
            <div className={classes.skillsInner}>
             <div className={classes.skillContainer}>
-            <a target="_blank" href="https://icons8.com/icon/hKrJAdwqbGgG/javascript">JavaScript</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
-
+            <Lottie animationData={js} loop={true}/>
+             
             </div>
+            <div className={classes.skillContainer}>
+            <img width="50" height="50" src="https://img.icons8.com/ios/50/c-sharp-logo.png" alt="c-sharp-logo"/>
+             
+            </div>
+            <div className={classes.skillContainer}>
+            <Lottie  animationData={react} loop={true}/>
+             
+            </div>
+            <div className={classes.skillContainer}>
+            <img width="50" height="50" src="https://img.icons8.com/ios/50/typescript.png" alt="typescript"/>
+             
+            </div>
+            <div className={classes.skillContainer}>
+            <img width="50" height="50" src="https://img.icons8.com/ios/50/django.png" alt="django"/>
+             
+            </div>
+            <div className={classes.skillContainer}>
+            <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/redux.png" alt="redux"/>
+             
+            </div>
+            <div className={classes.skillContainer}>
+            <img width="35" height="50"  src="https://img.icons8.com/external-tal-revivo-bold-tal-revivo/24/external-mongodb-a-cross-platform-document-oriented-database-program-logo-bold-tal-revivo.png" alt="external-mongodb-a-cross-platform-document-oriented-database-program-logo-bold-tal-revivo"/>
+             
+            </div>
+            <div className={classes.skillContainer}>
+            <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/postgreesql.png" alt="postgreesql"/>
+             
+            </div>
+            <div className={classes.skillContainer}>
+            <img width="50" height="50" src="https://img.icons8.com/ios/50/sql.png" alt="sql"/>
+             
+            </div>
+            <div className={classes.skillContainer}>
+            <img width="64" height="64" src="https://img.icons8.com/wired/64/webpack.png" alt="webpack"/>
+             
+            </div>
+            <div className={classes.skillContainer}>
+            <Lottie  animationData={pyhton} loop={true}/>
+             
+            </div>
+            <div className={classes.skillContainer}>
+            <img width="50" height="50" src="https://img.icons8.com/ios/50/html-filetype--v1.png" alt="html-filetype--v1"/>
+             
+            </div>
+
+           <div className={classes.skillContainer}>
+            <Lottie  animationData={github} loop={true} style={{width:'50px'}}/>
+             
+            </div> 
+            
            </div>
           </div>
           <div className={classes.service}>
