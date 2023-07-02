@@ -6,6 +6,7 @@ import js from '/javascript.json'
 import react from '/react.json'
 import pyhton from '/python.json'
 import github from '/github.json'
+import chrome from '/chrome.json'
 import { Waypoint } from 'react-waypoint';
 
 export default function About () {
@@ -130,12 +131,41 @@ export default function About () {
             <Lottie  animationData={github} loop={true} style={{width:'50px'}}/>
              
             </div> 
-            
+            <div className={classes.skillContainer}>
+            <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/office-365.png" alt="office-365"/>
+             
+            </div>
+            <div className={classes.skillContainer}>
+            <img width="50" height="50" src="https://img.icons8.com/wired/64/blender-3d.png" alt="blender-3d"/>
+             
+            </div>
+            <div className={classes.skillContainer}>
+            <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/unreal-engine.png" alt="unreal-engine"/>
+             
+            </div>
+            <div className={classes.skillContainer}>
+            <img width="50" height="50" src="https://img.icons8.com/wired/64/postman-api.png" alt="postman-api"/>
+             
+            </div>
+            <div className={classes.skillContainer}>
+            <img width="50" height="50" src="https://img.icons8.com/ios/50/vmware.png" alt="vmware"/>
+             
+            </div>
+            <div className={classes.skillContainer}>
+            <Lottie  animationData={chrome} loop={true} style={{width:'50px'}}/>
+             
+            </div> 
            </div>
           </div>
           <div className={classes.serviceContainer}>
           <h4 className={classes.heading}>Services</h4>
+            <ul className={classes.serviceList}>
+              <li className={classes.serviceListItem}><img width="50" height="50" src="https://img.icons8.com/ios/50/laptop-settings--v3.png" alt="laptop-settings--v3"/> Full Stack Development</li>
+              <li className={classes.serviceListItem}><img width="50" height="50" src="https://img.icons8.com/external-ddara-lineal-ddara/64/external-client-server-analysis-data-user-sync-network-cloud-computing-ddara-lineal-ddara.png" alt="external-client-server-analysis-data-user-sync-network-cloud-computing-ddara-lineal-ddara"/>IT & Infrastructure Support</li>
+              <li className={classes.serviceListItem}><img width="50" height="50" src="https://img.icons8.com/ios-glyphs/60/azure-api-manager.png" alt="azure-api-manager"/>Cloud Computing</li>
+              <li className={classes.serviceListItem}><img width="50" height="50" src="https://img.icons8.com/ios/50/cyber-security.png" alt="cyber-security"/>Cbyber Security</li>
 
+            </ul>
           </div>
 
 
