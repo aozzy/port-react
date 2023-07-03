@@ -53,7 +53,9 @@ justify-content: center;
 }
 
 
-
+.description{
+  margin-bottom:20px ;
+}
 
 
 .btn{
@@ -80,6 +82,7 @@ grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
 .heading{
   text-align: center;
   font-size: 30px;
+  margin-bottom: 40px;
 }
 
 .about{
@@ -123,8 +126,9 @@ margin-right: 10px;
     
   }
 
-  .title{
+  .title h2{
     font-size: 50px;
+    margin-bottom: 40px;
   }
 }
 

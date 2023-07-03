@@ -23,7 +23,7 @@ export default function About () {
       <div className={classes.right}>
         <div className={classes.about}>
 
-        <h2 className={classes.title}>About Me</h2>
+        <h2 className={classes.title} mb={3}>About Me</h2>
         
         <p className={classes.description}>
         I am a keen tech enthusiast with experience in cloud computing, IT and infrastructure support and I’m now seeking to develop my career in the Software development industry. To enhance my skills in Software development, I have completed the Software Engineering Immersive course at General Assembly. I continually try to develop my skill set by keeping abreast of new Technology. I’m currently looking for a Junior developer role as a front end or full stack engineer. Please see my Linkedin profile for my previous roles or get in touch to request a full CV.
