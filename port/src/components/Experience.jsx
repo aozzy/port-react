@@ -1,8 +1,33 @@
 import React, { useState } from "react";
-
+import { styled } from '@mui/material/styles';
+import Card from '@mui/material/Card';
+import CardHeader from '@mui/material/CardHeader';
+import CardMedia from '@mui/material/CardMedia';
+import CardContent from '@mui/material/CardContent';
+import CardActions from '@mui/material/CardActions';
+import Collapse from '@mui/material/Collapse';
+import Avatar from '@mui/material/Avatar';
+import IconButton from '@mui/material/IconButton';
+import Typography from '@mui/material/Typography';
+import { red } from '@mui/material/colors';
+import FavoriteIcon from '@mui/icons-material/Favorite';
+import ShareIcon from '@mui/icons-material/Share';
+import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+import MoreVertIcon from '@mui/icons-material/MoreVert';
+import pyhton from '/python.json'
+import Lottie from "lottie-react";
 import classes from "./modules/Experience.module.css";
 
-
+const ExpandMore = styled((props) => {
+  const { expand, ...other } = props;
+  return <IconButton {...other} />;
+})(({ theme, expand }) => ({
+  transform: !expand ? 'rotate(0deg)' : 'rotate(180deg)',
+  marginLeft: 'auto',
+  transition: theme.transitions.create('transform', {
+    duration: theme.transitions.duration.shortest,
+  }),
+}));
 export default function Experience() {
   
   const data = [
@@ -12,17 +37,71 @@ export default function Experience() {
     
     
   ];
+  const [expanded, setExpanded] = React.useState(false);
+
+  const handleExpandClick = () => {
+    setExpanded(!expanded);
+  };
   // const [listItem, setListItem] = useState("Projects");
   return (
     
     <section id="experience" className={classes.section}>
       <div className={classes.container}>
-      
-    <div className={classes.card}>
-    <img className={classes.image} src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=200&q=80" alt="" />
-    <h3 className={classes.title}>Living room Sofa </h3>
-    <p className={classes.description}>This sofa is perfect for modern tropical spaces, baroque inspired spaces, earthy toned spaces and for people who love a chic design with a sprinkle of vintage design.</p>
-    </div>
+      <Card sx={{ maxWidth: 345 }}>
+      <CardHeader
+        avatar={
+          <img className={classes.logo} src="./images/galogo.png"/>
+          // <Avatar sx={{ bgcolor: red[500] }} aria-label="recipe">
+          //   R
+          // </Avatar>
+        }
+        action={
+          <IconButton aria-label="settings">
+            <MoreVertIcon />
+          </IconButton>
+        }
+        title="Shrimp and Chorizo Paella"
+        subheader="September 14, 2016"
+      />
+      <CardMedia
+        component="img"
+        height="194"
+        image="./images/blogcentral.png"
+        alt="Paella dish"
+      />
+      <CardContent>
+        <Typography variant="body2" color="text.primary">
+        Blog central is a full stack application I built in a week.The app utilises full Crud capabilities,users are able to login/register and post blog content.
+        </Typography>
+      </CardContent>
+      <CardActions disableSpacing>
+        <IconButton aria-label="add to favorites">
+        <Lottie  animationData={pyhton} loop={true}/>
+        </IconButton>
+        <IconButton aria-label="share">
+        <img width="50" height="50" src="https://img.icons8.com/ios/50/flask.png" alt="flask"/>
+        </IconButton>
+        <ExpandMore
+          expand={expanded}
+          onClick={handleExpandClick}
+          aria-expanded={expanded}
+          aria-label="show more"
+        >
+          <ExpandMoreIcon />
+        </ExpandMore>
+      </CardActions>
+      <Collapse in={expanded} timeout="auto" unmountOnExit>
+        <CardContent>
+          <Typography paragraph>Method:</Typography>
+          <Typography paragraph>
+           I used Python Flask as a backend and rendered html templates using Jinja2. Technologies used include flask_bootstrap flask_ckeditor flask_sqlalchemy flask wtforms flask_gravatar werkzeug.security and Postgresql database
+          </Typography>
+         
+         
+          
+        </CardContent>
+      </Collapse>
+    </Card>
      
       </div>
 
