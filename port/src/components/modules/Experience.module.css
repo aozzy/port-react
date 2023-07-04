@@ -9,7 +9,7 @@
   .container{
   width: 1400px;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr ;
   gap: 20px;
   
   
@@ -17,7 +17,7 @@
 
 .card{
   height: 500px;
-  width: 380px;
+  width: 500px;
   background-color: #fff;
   border-radius: 15px;
   display: flex;
@@ -30,8 +30,9 @@
 
 .image{
   border-radius: 15px;
-  height: 150px;
-  width: 50%;
+  /* height: 150px; */
+  /* width: 80%; */
+  margin: 50px;
   /* position: absolute;
   top: 30px;
   left: 30px; */
