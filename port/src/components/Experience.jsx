@@ -18,6 +18,7 @@ import pyhton from '/python.json'
 import Lottie from "lottie-react";
 import classes from "./modules/Experience.module.css";
 
+
 const ExpandMore = styled((props) => {
   const { expand, ...other } = props;
   return <IconButton {...other} />;
@@ -48,6 +49,8 @@ export default function Experience() {
     <section id="experience" className={classes.section}>
       <div className={classes.container}>
       <Card sx={{ maxWidth: 420 }}>
+    
+
       <CardHeader
         avatar={
           <img className={classes.logo} src="./images/galogo.png"/>
@@ -62,16 +65,18 @@ export default function Experience() {
         }
         title="Blog Central"
         subheader="Solo Project"
-      />
+        />
       <CardMedia
         component="img"
         height="300"
         image="./images/blogcentral.png"
-        alt="Paella dish"
-      />
+        alt="Blog Central"
+        />
+        
       <CardContent>
         <Typography variant="body2" color="text.primary">
         Blog central is a full stack application I built in a week.The app utilises full Crud capabilities,users are able to login/register and post blog content.
+        <div className={classes.btnContainer}><button className={classes.btn}><a href="https://blog-central.onrender.com/">Visit</a></button><button className={classes.btn}><a href="">Github</a></button></div>
         </Typography>
       </CardContent>
         <h5 className={classes.subheader}>Tech used</h5>
@@ -93,7 +98,7 @@ export default function Experience() {
           onClick={handleExpandClick}
           aria-expanded={expanded}
           aria-label="show more"
-        >
+          >
          <h6 className={classes.readMore}>Read more</h6>
           <ExpandMoreIcon />
         </ExpandMore>
@@ -109,6 +114,7 @@ export default function Experience() {
           
         </CardContent>
       </Collapse>
+          
     </Card>
      
       </div>
