@@ -47,7 +47,7 @@ export default function Experience() {
     
     <section id="experience" className={classes.section}>
       <div className={classes.container}>
-      <Card sx={{ maxWidth: 345 }}>
+      <Card sx={{ maxWidth: 420 }}>
       <CardHeader
         avatar={
           <img className={classes.logo} src="./images/galogo.png"/>
@@ -57,15 +57,15 @@ export default function Experience() {
         }
         action={
           <IconButton aria-label="settings">
-            <MoreVertIcon />
+            {/* <MoreVertIcon /> */}
           </IconButton>
         }
-        title="Shrimp and Chorizo Paella"
-        subheader="September 14, 2016"
+        title="Blog Central"
+        subheader="Solo Project"
       />
       <CardMedia
         component="img"
-        height="194"
+        height="300"
         image="./images/blogcentral.png"
         alt="Paella dish"
       />
@@ -74,12 +74,19 @@ export default function Experience() {
         Blog central is a full stack application I built in a week.The app utilises full Crud capabilities,users are able to login/register and post blog content.
         </Typography>
       </CardContent>
+        <h5 className={classes.subheader}>Tech used</h5>
       <CardActions disableSpacing>
-        <IconButton aria-label="add to favorites">
-        <Lottie  animationData={pyhton} loop={true}/>
+        <IconButton aria-label="python icon">
+        <Lottie className={classes.icon} animationData={pyhton} loop={true}/>
         </IconButton>
-        <IconButton aria-label="share">
+        <IconButton aria-label="flask icon">
         <img width="50" height="50" src="https://img.icons8.com/ios/50/flask.png" alt="flask"/>
+        </IconButton>
+        <IconButton aria-label="jinja icon">
+        <img width="40" height="40" src="./images/jinja.svg" alt="jinja"/>
+        </IconButton>
+        <IconButton aria-label="flask icon">
+        <img width="40" height="40" src="https://img.icons8.com/ios-filled/50/postgreesql.png" alt="postgreesql"/>
         </IconButton>
         <ExpandMore
           expand={expanded}
@@ -87,6 +94,7 @@ export default function Experience() {
           aria-expanded={expanded}
           aria-label="show more"
         >
+         <h6 className={classes.readMore}>Read more</h6>
           <ExpandMoreIcon />
         </ExpandMore>
       </CardActions>
