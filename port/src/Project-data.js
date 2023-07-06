@@ -13,20 +13,63 @@ export  const data = [
     ga:true,
     image:"./images/snake.png",
     openingDesc:"Project 1 for the General Assembly Software Immersive course. This was my first project during my time at General Assembly, It was a solo project and the duration was a week, the technologies I used are HTML CSS and JavaScript.",
-    icons:[<img width="50" height="50" src="https://img.icons8.com/ios/50/html-filetype--v1.png" alt="html-filetype--v1"/>,<img width="50" height="50" src="https://img.icons8.com/ios-filled/50/css3.png" alt="css3"/>,<Lottie animationData={js} loop={true}/>]
-  
-  },
-  {
-    id: 2,
-    title:"Project 2",
-    subtitle:"The Breaking Bad Project",
-    url:"https://aozzy.github.io/project-2/",
-    type:"Pair Programming Hackathon",
+    icons:[<img width="50" height="50" src="https://img.icons8.com/ios/50/html-filetype--v1.png" alt="html-filetype--v1"/>,<img width="50" height="50" src="https://img.icons8.com/ios-filled/50/css3.png" alt="css3"/>,<Lottie animationData={js} loop={true}/>],
+    additionalTechUsed:[],
+  }, 
+    {
+      id: 2,
+      title:"Project 2",
+      subtitle:"The Breaking Bad Project",
+      url:"https://aozzy.github.io/project-2/",
+      type:"Pair Programming Hackathon",
+      ga:true,
+      image:"./images/breakingbad.png",
+      openingDesc:"Project 2 was a pair programming project in which we had to build a React application that consumes a public API.",
+      icons:[ <img width="50" height="50" src="https://img.icons8.com/windows/64/node-js.png" alt="node-js"/> ,<Lottie  animationData={react} loop={true}/>,<img width="50" height="50" src="https://img.icons8.com/wired/50/webpack.png" alt="webpack"/>,<img width="50" height="50" src="https://img.icons8.com/wired/64/babel.png" alt="babel"/>,<img width="50" height="50" src="https://img.icons8.com/ios-filled/50/sass.png" alt="sass"/>,],
+      techUsedDesc:"the technologies we used were React Node.js React Router Webpack Axios React Player Bulma Babel Google Fonts Git GitHub Lodash Sass and VScode Live Share.",
+      additionalTechUsed:[],
+    },
+  ,{
+    id:3,
+    title:"Project 3",
+    subtitle:"Cityscapes",
+    url:"https://project-3-api.onrender.com/",
+    github:"https://github.com/aozzy/project-3",
+    type:"Group Project",
     ga:true,
-    image:"./images/breakingbad.png",
-    openingDesc:"Project 2 was a pair programming project in which we had to build a React application that consumes a public API.",
-    icons:[  <Lottie  animationData={react} loop={true}/>],
-    techUsedDesc:"the technologies we used were React Node.js React Router Webpack Axios React Player Bulma Babel Google Fonts Git GitHub Lodash Sass and VScode Live Share."
+    image:"./images/cityscapes.png",
+    openingDesc:"For the third project we were tasked as a group to build a full-stack application by making our own backend and front-end.",
+    icons:[ <img width="50" height="50" src="https://img.icons8.com/windows/64/node-js.png" alt="node-js"/> ,<Lottie  animationData={react} loop={true}/>,<img width="50" height="50" src="https://img.icons8.com/ios/50/express-js.png" alt="express-js"/>,<img width="35" height="50"  src="https://img.icons8.com/external-tal-revivo-bold-tal-revivo/24/external-mongodb-a-cross-platform-document-oriented-database-program-logo-bold-tal-revivo.png" alt="external-mongodb-a-cross-platform-document-oriented-database-program-logo-bold-tal-revivo"/>],
+    techUsedDesc:"And to use an Express API to serve data from a Mongo database. We built a travel site. Technologies we used include Express MongoDB Mongoose React Node.js JWT Bcrypt Axios GitHub Git Bulma MapboxGL Supertest Chai and Mocha.",
+    additionalTechUsed:[<img width="50" height="50" src="https://img.icons8.com/ios/50/html-filetype--v1.png" alt="html-filetype--v1"/>,<img width="50" height="50" src="https://img.icons8.com/ios-filled/50/css3.png" alt="css3"/>],
+  
+  },{
+    id:4,
+    title:"Project 4",
+    subtitle:"Baggle",
+    url:"https://baggle.onrender.com/",
+    github:"https://github.com/aozzy/project-4",
+    type:"Group Project",
+    ga:true,
+    image:"./images/homepage.png",
+    openingDesc:"For the final project of the General Assembly Software Immersive Course we were tasked as a group to build a full stack application with a Python Flask back-end.",
+    icons:[<Lottie className={classes.icon} animationData={pyhton} loop={true}/>,<img width="50" height="50" src="https://img.icons8.com/ios/50/flask.png" alt="flask"/>],
+    techUsedDesc:" The duration of the project was a week. After exchanging ideas for the project we choose to develop Baggle, The idea behind Baggle came from the story of Kyle McDonald who went from owning a paper clip to a house in 14 trades. Technologies we used include React Python PostgreSQL Flask Marshmallow & SQLalchemy Git & GitHub Bulma Webpack Heroku Insomnia Tableplus and Babel",
+    additionalTechUsed:[],
+  
+  },{
+    id:1,
+    title:"Project 1",
+    subtitle:"Snake",
+    url:"https://aozzy.github.io/project-1/",
+    github:"https://github.com/aozzy/project-1",
+    type:"Solo",
+    ga:true,
+    image:"./images/snake.png",
+    openingDesc:"Project 1 for the General Assembly Software Immersive course. This was my first project during my time at General Assembly, It was a solo project and the duration was a week, the technologies I used are HTML CSS and JavaScript.",
+    icons:[<img width="50" height="50" src="https://img.icons8.com/ios/50/html-filetype--v1.png" alt="html-filetype--v1"/>,<img width="50" height="50" src="https://img.icons8.com/ios-filled/50/css3.png" alt="css3"/>,<Lottie animationData={js} loop={true}/>],
+    additionalTechUsed:[],
+  
   },
   {
     id: 5,
@@ -39,6 +82,8 @@ export  const data = [
     openingDesc:"Blog central is a full stack application I built in a week.The app utilises full Crud capabilities,users are able to login/register and post blog content.",
     icons:[<Lottie className={classes.icon} animationData={pyhton} loop={true}/>,<img width="50" height="50" src="https://img.icons8.com/ios/50/flask.png" alt="flask"/>,<img width="40" height="40" src="./images/jinja.svg" alt="jinja"/>,<img width="40" height="40" src="https://img.icons8.com/ios-filled/50/postgreesql.png" alt="postgreesql"/>],
     techUsedDesc:"I used Python Flask as a backend and rendered html templates using Jinja2.Technologies used include flask_bootstrap flask_ckeditor flask_sqlalchemy flask wtforms flask_gravatar werkzeug.security and Postgresql database.",
+    additionalTechUsed:[],
+
 
 
 
@@ -50,3 +95,7 @@ export  const data = [
 
 
 ]
+
+
+
+

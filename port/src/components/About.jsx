@@ -75,7 +75,7 @@ export default function About () {
              
             </div>
             <div className={classes.skillContainer}>
-            <img width="64" height="64" src="https://img.icons8.com/wired/64/webpack.png" alt="webpack"/>
+            <img width="50" height="50" src="https://img.icons8.com/wired/50/webpack.png" alt="webpack"/>
              
             </div>
             <div className={classes.skillContainer}>
