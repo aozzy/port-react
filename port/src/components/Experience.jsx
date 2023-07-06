@@ -48,7 +48,7 @@ export default function Experience() {
     
     <section id="experience" className={classes.section}>
       <div className={classes.container}>
-      <Card sx={{ maxWidth: 420 }}>
+      <Card sx={{ maxWidth: 450 }}>
     
 
       <CardHeader
@@ -59,13 +59,20 @@ export default function Experience() {
           // </Avatar>
         }
         action={
+          <div>
+
           <IconButton aria-label="settings">
-            {/* <MoreVertIcon /> */}
+          <button className={classes.btn}><a href="https://blog-central.onrender.com/">Visit</a></button>
           </IconButton>
+          <IconButton aria-label="settings">
+          <button className={classes.btn}><a href="https://github.com/aozzy/blog">Github</a></button>
+          </IconButton>
+          </div>
         }
         title="Blog Central"
         subheader="Solo Project"
         />
+        
       <CardMedia
         component="img"
         height="300"
@@ -76,7 +83,7 @@ export default function Experience() {
       <CardContent>
         <Typography variant="body2" color="text.primary">
         Blog central is a full stack application I built in a week.The app utilises full Crud capabilities,users are able to login/register and post blog content.
-        <div className={classes.btnContainer}><button className={classes.btn}><a href="https://blog-central.onrender.com/">Visit</a></button><button className={classes.btn}><a href="">Github</a></button></div>
+        
         </Typography>
       </CardContent>
         <h5 className={classes.subheader}>Tech used</h5>
@@ -105,9 +112,9 @@ export default function Experience() {
       </CardActions>
       <Collapse in={expanded} timeout="auto" unmountOnExit>
         <CardContent>
-          <Typography paragraph>Method:</Typography>
+          {/* <Typography paragraph>Method:</Typography> */}
           <Typography paragraph>
-           I used Python Flask as a backend and rendered html templates using Jinja2. Technologies used include flask_bootstrap flask_ckeditor flask_sqlalchemy flask wtforms flask_gravatar werkzeug.security and Postgresql database
+           I used Python Flask as a backend and rendered html templates using Jinja2.Technologies used include flask_bootstrap flask_ckeditor flask_sqlalchemy flask wtforms flask_gravatar werkzeug.security and Postgresql database.
           </Typography>
          
          
