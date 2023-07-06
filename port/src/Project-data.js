@@ -2,6 +2,7 @@ import Lottie from "lottie-react";
 import pyhton from '/python.json'
 import js from '/javascript.json'
 import react from '/react.json'
+import chrome from '/chrome.json'
 export  const data = [
   {
     id:1,
@@ -25,9 +26,9 @@ export  const data = [
       ga:true,
       image:"./images/breakingbad.png",
       openingDesc:"Project 2 was a pair programming project in which we had to build a React application that consumes a public API.",
-      icons:[ <img width="50" height="50" src="https://img.icons8.com/windows/64/node-js.png" alt="node-js"/> ,<Lottie  animationData={react} loop={true}/>,<img width="50" height="50" src="https://img.icons8.com/wired/50/webpack.png" alt="webpack"/>,<img width="50" height="50" src="https://img.icons8.com/wired/64/babel.png" alt="babel"/>,<img width="50" height="50" src="https://img.icons8.com/ios-filled/50/sass.png" alt="sass"/>,],
+      icons:[ <img width="50" height="50" src="https://img.icons8.com/windows/64/node-js.png" alt="node-js"/> ,<Lottie  animationData={react} loop={true}/>,<img width="50" height="50" src="https://img.icons8.com/wired/50/webpack.png" alt="webpack"/>,<img width="50" height="50" src="https://img.icons8.com/ios-filled/50/sass.png" alt="sass"/>,],
       techUsedDesc:"the technologies we used were React Node.js React Router Webpack Axios React Player Bulma Babel Google Fonts Git GitHub Lodash Sass and VScode Live Share.",
-      additionalTechUsed:[],
+      additionalTechUsed:[ <Lottie  animationData={chrome} loop={true} style={{width:'50px'}}/>,<img width="50" height="50" src="https://img.icons8.com/ios-filled/50/visual-studio.png" alt="visual-studio"/>,<img width="50" height="50" src="https://img.icons8.com/wired/64/babel.png" alt="babel"/>],
     },
   ,{
     id:3,
@@ -41,7 +42,7 @@ export  const data = [
     openingDesc:"For the third project we were tasked as a group to build a full-stack application by making our own backend and front-end.",
     icons:[ <img width="50" height="50" src="https://img.icons8.com/windows/64/node-js.png" alt="node-js"/> ,<Lottie  animationData={react} loop={true}/>,<img width="50" height="50" src="https://img.icons8.com/ios/50/express-js.png" alt="express-js"/>,<img width="35" height="50"  src="https://img.icons8.com/external-tal-revivo-bold-tal-revivo/24/external-mongodb-a-cross-platform-document-oriented-database-program-logo-bold-tal-revivo.png" alt="external-mongodb-a-cross-platform-document-oriented-database-program-logo-bold-tal-revivo"/>],
     techUsedDesc:"And to use an Express API to serve data from a Mongo database. We built a travel site. Technologies we used include Express MongoDB Mongoose React Node.js JWT Bcrypt Axios GitHub Git Bulma MapboxGL Supertest Chai and Mocha.",
-    additionalTechUsed:[<img width="50" height="50" src="https://img.icons8.com/ios/50/html-filetype--v1.png" alt="html-filetype--v1"/>,<img width="50" height="50" src="https://img.icons8.com/ios-filled/50/css3.png" alt="css3"/>],
+    additionalTechUsed:[<img width="50" height="50" src="https://img.icons8.com/ios-filled/50/css3.png" alt="css3"/>, <Lottie  animationData={chrome} loop={true} style={{width:'50px'}}/>,<img width="50" height="50" src="https://img.icons8.com/ios-filled/50/visual-studio.png" alt="visual-studio"/>],
   
   },{
     id:4,
@@ -55,7 +56,7 @@ export  const data = [
     openingDesc:"For the final project of the General Assembly Software Immersive Course we were tasked as a group to build a full stack application with a Python Flask back-end.",
     icons:[<Lottie className={classes.icon} animationData={pyhton} loop={true}/>,<img width="50" height="50" src="https://img.icons8.com/ios/50/flask.png" alt="flask"/>,<Lottie  animationData={react} loop={true}/>,<img width="40" height="40" src="https://img.icons8.com/ios-filled/50/postgreesql.png" alt="postgreesql"/>],
     techUsedDesc:" The duration of the project was a week. After exchanging ideas for the project we choose to develop Baggle, The idea behind Baggle came from the story of Kyle McDonald who went from owning a paper clip to a house in 14 trades. Technologies we used include React Python PostgreSQL Flask Marshmallow & SQLalchemy Git & GitHub Bulma Webpack Heroku Insomnia Tableplus and Babel",
-    additionalTechUsed:[],
+    additionalTechUsed:[<img width="50" height="50" src="https://img.icons8.com/ios-filled/50/css3.png" alt="css3"/>, <Lottie  animationData={chrome} loop={true} style={{width:'50px'}}/>,<img width="50" height="50" src="https://img.icons8.com/ios-filled/50/visual-studio.png" alt="visual-studio"/>],
   },
     {
       id: 5,
@@ -97,7 +98,7 @@ export  const data = [
   
   },
   {
-    id:6,
+    id:7,
     title:"Sidescroller",
     subtitle:"A classic sidescroller",
     url:"https://aozzy.github.io/Sidescroller-/",
@@ -106,7 +107,7 @@ export  const data = [
     ga:false,
     image:"./images/sidescroller.png",
     openingDesc:"I completed the Sidescrolling game project using HTML CSS and JavaScript, this project taught me how to use the Canvas API and has improved my animation skills",
-    icons:[<img width="50" height="50" src="https://img.icons8.com/ios/50/html-filetype--v1.png" alt="html-filetype--v1"/>,<img width="50" height="50" src="https://img.icons8.com/ios-filled/50/css3.png" alt="css3"/>,<Lottie animationData={js} loop={true}/>],
+    icons:[<img width="50" height="50" src="https://img.icons8.com/ios/50/html-filetype--v1.png" alt="html-filetype--v1"/>,<img width="50" height="50" src="https://img.icons8.com/ios-filled/50/css3.png" alt="css3"/>,<Lottie animationData={js} loop={true}/>,<img width="50" height="50" src="https://img.icons8.com/ios-filled/50/visual-studio.png" alt="visual-studio"/>],
     additionalTechUsed:[],
   
   },
