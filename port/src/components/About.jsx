@@ -155,6 +155,7 @@ export default function About () {
             <Lottie  animationData={chrome} loop={true} style={{width:'50px'}}/>
              
             </div> 
+            
            </div>
           </div>
           <div className={classes.serviceContainer}>
