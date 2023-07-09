@@ -1,3 +1,4 @@
+import React from "react";
 import Lottie from "lottie-react";
 import pyhton from '/python.json'
 import js from '/javascript.json'
