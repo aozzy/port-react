@@ -22,6 +22,7 @@ import classes from "./modules/Experience.module.css";
 
 
 
+
 const ExpandMore = styled((props) => {
   const { expand, ...other } = props;
   return <IconButton {...other} />;
@@ -51,6 +52,7 @@ const data = [
       title:"Project 2",
       subtitle:"The Breaking Bad Project",
       url:"https://aozzy.github.io/project-2/",
+      github:"https://github.com/aozzy/project-2",
       type:"Pair Programming Hackathon",
       ga:true,
       image:"./images/breakingbad.png",
@@ -59,7 +61,7 @@ const data = [
       techUsedDesc:"the technologies we used were React Node.js React Router Webpack Axios React Player Bulma Babel Google Fonts Git GitHub Lodash Sass and VScode Live Share.",
       additionalTechUsed:[ <Lottie  animationData={chrome} loop={true} style={{width:'50px'}}/>,<img width="50" height="50" src="https://img.icons8.com/ios-filled/50/visual-studio.png" alt="visual-studio"/>,<img width="50" height="50" src="https://img.icons8.com/wired/64/babel.png" alt="babel"/>],
     },
-  ,{
+  {
     id:3,
     title:"Project 3",
     subtitle:"Cityscapes",
@@ -130,20 +132,15 @@ const data = [
   },
 
 ]
+
 export default function Experience() {
   
   
+ console.log(data)
   
   
   
   
-  // const data = [
-  //   "Projects",
-  //   "Infrastructure & IT support",
-  //   "Skills"
-    
-    
-  // ];
   const [expanded, setExpanded] = React.useState(false);
 
   const handleExpandClick = () => {
@@ -229,11 +226,29 @@ export default function Experience() {
       </Collapse>
           
     </Card>
-     {/* {data.map(card => {
+     {data.map(card => {
       <Card sx={{ maxWidth: 450 }}>
+     {card.ga && <CardHeader avatar={
+          <img className={classes.logo} src={`${card.ga}`}/>
+          // <Avatar sx={{ bgcolor: red[500] }} aria-label="recipe">
+          //   R
+          // </Avatar>
+        } action={
+          <div>
 
+          <IconButton aria-label="settings">
+          <button className={classes.btn}><a href={`${card.url}`}>Visit</a></button>
+          </IconButton>
+          <IconButton aria-label="settings">
+          <button className={classes.btn}><a href={`${card.github}`}>Github</a></button>
+          </IconButton>
+          </div>
+        }title={`${card.title}`}
+        subheader={`${card.type}`}/>
+      
+     }
       </Card>
-     })} */}
+     })}
       </div>
 
     </section>
