@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { styled } from '@mui/material/styles';
 import Card from '@mui/material/Card';
 import CardHeader from '@mui/material/CardHeader';
@@ -135,8 +135,7 @@ const data = [
 
 export default function Experience() {
   
-  
- console.log(data)
+ 
   
   
   
@@ -146,6 +145,12 @@ export default function Experience() {
   const handleExpandClick = () => {
     setExpanded(!expanded);
   };
+  const [projectData,updateProjectData] = useState([])
+
+  useEffect(()=>{
+  updateProjectData(data)
+},[])
+console.log(projectData,"project-data")
   // const [listItem, setListItem] = useState("Projects");
   return (
     
@@ -227,27 +232,31 @@ export default function Experience() {
           
     </Card>
      {data.map(card => {
-      <Card sx={{ maxWidth: 450 }}>
-     {card.ga && <CardHeader avatar={
-          <img className={classes.logo} src={`${card.ga}`}/>
-          // <Avatar sx={{ bgcolor: red[500] }} aria-label="recipe">
-          //   R
-          // </Avatar>
-        } action={
-          <div>
+    //   <Card sx={{ maxWidth: 450 }}>
+    //  {card.ga && <CardHeader avatar={
+    //       <img className={classes.logo} src={`${card.ga}`}/>
+    //       // <Avatar sx={{ bgcolor: red[500] }} aria-label="recipe">
+    //       //   R
+    //       // </Avatar>
+    //     } action={
+    //       <div>
 
-          <IconButton aria-label="settings">
-          <button className={classes.btn}><a href={`${card.url}`}>Visit</a></button>
-          </IconButton>
-          <IconButton aria-label="settings">
-          <button className={classes.btn}><a href={`${card.github}`}>Github</a></button>
-          </IconButton>
-          </div>
-        }title={`${card.title}`}
-        subheader={`${card.type}`}/>
+    //       <IconButton aria-label="settings">
+    //       <button className={classes.btn}><a href={`${card.url}`}>Visit</a></button>
+    //       </IconButton>
+    //       <IconButton aria-label="settings">
+    //       <button className={classes.btn}><a href={`${card.github}`}>Github</a></button>
+    //       </IconButton>
+    //       </div>
+    //     }title={`${card.title}`}
+    //     subheader={`${card.type}`}/>
+
+        
+        
       
-     }
-      </Card>
+    //  }
+    //  {!card.ga}
+    //   </Card>
      })}
       </div>
 
