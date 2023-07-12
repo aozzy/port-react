@@ -53,7 +53,7 @@ const data = [
       subtitle:"The Breaking Bad Project",
       url:"https://aozzy.github.io/project-2/",
       github:"https://github.com/aozzy/project-2",
-      type:"Pair Programming Hackathon",
+      type:"Pair Programming",
       ga:true,
       image:"./images/breakingbad.png",
       openingDesc:"Project 2 was a pair programming project in which we had to build a React application that consumes a public API.",
@@ -151,7 +151,11 @@ export default function Experience() {
   updateProjectData(data)
 },[])
 console.log(projectData,"project-data")
+const techIcons = projectData.techUsedDesc ? <Typography>{projectData.card.techUsedDesc}</Typography> : ""
   // const [listItem, setListItem] = useState("Projects");
+let cardHeader = projectData.ga ? <img className={classes.logo} src="./images/galogo.png"/> : <Avatar sx={{ bgcolor: red[500] }} aria-label="logo">
+            
+</Avatar>
   return (
     
     <section id="experience" className={classes.section}>
@@ -162,9 +166,7 @@ console.log(projectData,"project-data")
       <CardHeader
         avatar={
           <img className={classes.logo} src="./images/galogo.png"/>
-          // <Avatar sx={{ bgcolor: red[500] }} aria-label="recipe">
-          //   R
-          // </Avatar>
+        
         }
         action={
           <div>
@@ -220,7 +222,7 @@ console.log(projectData,"project-data")
       </CardActions>
       <Collapse in={expanded} timeout="auto" unmountOnExit>
         <CardContent>
-          {/* <Typography paragraph>Method:</Typography> */}
+         {techIcons}
           <Typography paragraph>
            I used Python Flask as a backend and rendered html templates using Jinja2.Technologies used include flask_bootstrap flask_ckeditor flask_sqlalchemy flask wtforms flask_gravatar werkzeug.security and Postgresql database.
           </Typography>
@@ -231,32 +233,69 @@ console.log(projectData,"project-data")
       </Collapse>
           
     </Card>
-     {data.map(card => {
-    //   <Card sx={{ maxWidth: 450 }}>
-    //  {card.ga && <CardHeader avatar={
-    //       <img className={classes.logo} src={`${card.ga}`}/>
-    //       // <Avatar sx={{ bgcolor: red[500] }} aria-label="recipe">
-    //       //   R
-    //       // </Avatar>
-    //     } action={
-    //       <div>
+     {projectData.map(card => {
+    return  <Card sx={{ maxWidth: 550 }} key={card.id}>
+      <CardHeader avatar={
+        cardHeader
+         
+        } action={
+          <div>
 
-    //       <IconButton aria-label="settings">
-    //       <button className={classes.btn}><a href={`${card.url}`}>Visit</a></button>
-    //       </IconButton>
-    //       <IconButton aria-label="settings">
-    //       <button className={classes.btn}><a href={`${card.github}`}>Github</a></button>
-    //       </IconButton>
-    //       </div>
-    //     }title={`${card.title}`}
-    //     subheader={`${card.type}`}/>
+          <IconButton aria-label="settings">
+          <button className={classes.btn}><a href={`${card.url}`}>Visit</a></button>
+          </IconButton>
+          <IconButton aria-label="settings">
+          <button className={classes.btn}><a href={`${card.github}`}>Github</a></button>
+          </IconButton>
+          </div>
+        }title={`${card.title}`}
+        subheader={`${card.type}`}/>
 
         
-        
+<CardMedia
+        component="img"
+        height="300"
+        image={`${card.image}`}
+        alt={`${card.title}`}
+        />
       
-    //  }
-    //  {!card.ga}
-    //   </Card>
+      <CardContent>
+        <Typography variant="body2" color="text.primary">
+        {card.openingDesc}
+        
+        </Typography>
+      </CardContent>
+        <h5 className={classes.subheader}>Tech used</h5>
+        <CardActions disableSpacing>
+        <IconButton aria-label="python icon">
+        <Lottie className={classes.icon} animationData={pyhton} loop={true}/>
+        </IconButton>
+        
+      {card.icons}
+        <ExpandMore
+          expand={expanded}
+          onClick={handleExpandClick}
+          aria-expanded={expanded}
+          aria-label="show more"
+          >
+         <h6 className={classes.readMore}>Read more</h6>
+          <ExpandMoreIcon />
+        </ExpandMore>
+      </CardActions>
+      <Collapse in={expanded} timeout="auto" unmountOnExit>
+        <CardContent>
+         <Typography>
+          {card.additionalTechUsed}
+         </Typography>
+         {/* {card.techUsedDesc  && <Typography paragraph>
+          {card.card.techUsedDesc}
+          </Typography>} */}
+         
+         
+          
+        </CardContent>
+      </Collapse>
+      </Card>
      })}
       </div>
 
@@ -268,7 +307,7 @@ console.log(projectData,"project-data")
 
 
 
-
+  {/* <Typography paragraph>Method:</Typography> */} //* on line 226
 
 
 
