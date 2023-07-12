@@ -45,6 +45,7 @@ const data = [
     image:"./images/snake.png",
     openingDesc:"Project 1 for the General Assembly Software Immersive course. This was my first project during my time at General Assembly, It was a solo project and the duration was a week, the technologies I used are HTML CSS and JavaScript.",
     icons:[<img width="50" height="50" src="https://img.icons8.com/ios/50/html-filetype--v1.png" alt="html-filetype--v1"/>,<img width="50" height="50" src="https://img.icons8.com/ios-filled/50/css3.png" alt="css3"/>,<Lottie animationData={js} loop={true}/>],
+    techUsedDesc:false,
     additionalTechUsed:[],
   }, 
     {
@@ -150,9 +151,8 @@ export default function Experience() {
   useEffect(()=>{
   updateProjectData(data)
 },[])
-console.log(projectData,"project-data")
-const techIcons = projectData.techUsedDesc ? <Typography>{projectData.card.techUsedDesc}</Typography> : ""
-  // const [listItem, setListItem] = useState("Projects");
+
+
 let cardHeader = projectData.ga ? <img className={classes.logo} src="./images/galogo.png"/> : <Avatar sx={{ bgcolor: red[500] }} aria-label="logo">
             
 </Avatar>
@@ -222,7 +222,7 @@ let cardHeader = projectData.ga ? <img className={classes.logo} src="./images/ga
       </CardActions>
       <Collapse in={expanded} timeout="auto" unmountOnExit>
         <CardContent>
-         {techIcons}
+         
           <Typography paragraph>
            I used Python Flask as a backend and rendered html templates using Jinja2.Technologies used include flask_bootstrap flask_ckeditor flask_sqlalchemy flask wtforms flask_gravatar werkzeug.security and Postgresql database.
           </Typography>
@@ -284,8 +284,13 @@ let cardHeader = projectData.ga ? <img className={classes.logo} src="./images/ga
       </CardActions>
       <Collapse in={expanded} timeout="auto" unmountOnExit>
         <CardContent>
+         {card.techUsedDesc && <Typography>
+          {card.techUsedDesc}
+          </Typography>}
          <Typography>
-          {card.additionalTechUsed}
+          {/* {card.additionalTechUsed} */}
+
+
          </Typography>
          {/* {card.techUsedDesc  && <Typography paragraph>
           {card.card.techUsedDesc}
