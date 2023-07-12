@@ -77,6 +77,13 @@ justify-content: space-between;
   text-decoration: none;
   color: #fff;
 }
+.subtitle{
+  font-size: 15px;
+  /* margin-bottom: 25px; */
+}
+.extraTech{
+  margin-bottom: 10px;
+}
 /* .heading{
   font-size: 50px;
   color: white;

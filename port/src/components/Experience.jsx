@@ -46,7 +46,7 @@ const data = [
     openingDesc:"Project 1 for the General Assembly Software Immersive course. This was my first project during my time at General Assembly, It was a solo project and the duration was a week, the technologies I used are HTML CSS and JavaScript.",
     icons:[<img width="50" height="50" src="https://img.icons8.com/ios/50/html-filetype--v1.png" alt="html-filetype--v1"/>,<img width="50" height="50" src="https://img.icons8.com/ios-filled/50/css3.png" alt="css3"/>,<Lottie animationData={js} loop={true}/>],
     techUsedDesc:false,
-    additionalTechUsed:[],
+    additionalTechUsed:[<img width="50" height="50" src="https://img.icons8.com/ios-filled/50/visual-studio.png" alt="visual-studio"/>],
   }, 
     {
       id: 2,
@@ -60,7 +60,7 @@ const data = [
       openingDesc:"Project 2 was a pair programming project in which we had to build a React application that consumes a public API.",
       icons:[ <img width="50" height="50" src="https://img.icons8.com/windows/64/node-js.png" alt="node-js"/> ,<Lottie  animationData={react} loop={true}/>,<img width="50" height="50" src="https://img.icons8.com/wired/50/webpack.png" alt="webpack"/>,<img width="50" height="50" src="https://img.icons8.com/ios-filled/50/sass.png" alt="sass"/>,],
       techUsedDesc:"the technologies we used were React Node.js React Router Webpack Axios React Player Bulma Babel Google Fonts Git GitHub Lodash Sass and VScode Live Share.",
-      additionalTechUsed:[ <Lottie  animationData={chrome} loop={true} style={{width:'50px'}}/>,<img width="50" height="50" src="https://img.icons8.com/ios-filled/50/visual-studio.png" alt="visual-studio"/>,<img width="50" height="50" src="https://img.icons8.com/wired/64/babel.png" alt="babel"/>],
+      additionalTechUsed:[ <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/visual-studio.png" alt="visual-studio"/>,<img width="50" height="50" src="https://img.icons8.com/wired/64/babel.png" alt="babel"/>],
     },
   {
     id:3,
@@ -74,7 +74,7 @@ const data = [
     openingDesc:"For the third project we were tasked as a group to build a full-stack application by making our own backend and front-end.",
     icons:[ <img width="50" height="50" src="https://img.icons8.com/windows/64/node-js.png" alt="node-js"/> ,<Lottie  animationData={react} loop={true}/>,<img width="50" height="50" src="https://img.icons8.com/ios/50/express-js.png" alt="express-js"/>,<img width="35" height="50"  src="https://img.icons8.com/external-tal-revivo-bold-tal-revivo/24/external-mongodb-a-cross-platform-document-oriented-database-program-logo-bold-tal-revivo.png" alt="external-mongodb-a-cross-platform-document-oriented-database-program-logo-bold-tal-revivo"/>],
     techUsedDesc:"And to use an Express API to serve data from a Mongo database. We built a travel site. Technologies we used include Express MongoDB Mongoose React Node.js JWT Bcrypt Axios GitHub Git Bulma MapboxGL Supertest Chai and Mocha.",
-    additionalTechUsed:[<img width="50" height="50" src="https://img.icons8.com/ios-filled/50/css3.png" alt="css3"/>, <Lottie  animationData={chrome} loop={true} style={{width:'50px'}}/>,<img width="50" height="50" src="https://img.icons8.com/ios-filled/50/visual-studio.png" alt="visual-studio"/>],
+    additionalTechUsed:[<img width="50" height="50" src="https://img.icons8.com/ios-filled/50/css3.png" alt="css3"/>, <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/visual-studio.png" alt="visual-studio"/>],
   
   },{
     id:4,
@@ -88,7 +88,7 @@ const data = [
     openingDesc:"For the final project of the General Assembly Software Immersive Course we were tasked as a group to build a full stack application with a Python Flask back-end.",
     icons:[<Lottie className={classes.icon} animationData={pyhton} loop={true}/>,<img width="50" height="50" src="https://img.icons8.com/ios/50/flask.png" alt="flask"/>,<Lottie  animationData={react} loop={true}/>,<img width="40" height="40" src="https://img.icons8.com/ios-filled/50/postgreesql.png" alt="postgreesql"/>],
     techUsedDesc:" The duration of the project was a week. After exchanging ideas for the project we choose to develop Baggle, The idea behind Baggle came from the story of Kyle McDonald who went from owning a paper clip to a house in 14 trades. Technologies we used include React Python PostgreSQL Flask Marshmallow & SQLalchemy Git & GitHub Bulma Webpack Heroku Insomnia Tableplus and Babel",
-    additionalTechUsed:[<img width="50" height="50" src="https://img.icons8.com/ios-filled/50/css3.png" alt="css3"/>, <Lottie  animationData={chrome} loop={true} style={{width:'50px'}}/>,<img width="50" height="50" src="https://img.icons8.com/ios-filled/50/visual-studio.png" alt="visual-studio"/>],
+    additionalTechUsed:[<img width="50" height="50" src="https://img.icons8.com/ios-filled/50/css3.png" alt="css3"/>, <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/visual-studio.png" alt="visual-studio"/>],
   },
     {
       id: 5,
@@ -101,7 +101,7 @@ const data = [
       openingDesc:"Blog central is a full stack application I built in a week.The app utilises full Crud capabilities,users are able to login/register and post blog content.",
       icons:[<Lottie className={classes.icon} animationData={pyhton} loop={true}/>,<img width="50" height="50" src="https://img.icons8.com/ios/50/flask.png" alt="flask"/>,<img width="40" height="40" src="./images/jinja.svg" alt="jinja"/>,<img width="40" height="40" src="https://img.icons8.com/ios-filled/50/postgreesql.png" alt="postgreesql"/>],
       techUsedDesc:"I used Python Flask as a backend and rendered html templates using Jinja2.Technologies used include flask_bootstrap flask_ckeditor flask_sqlalchemy flask wtforms flask_gravatar werkzeug.security and Postgresql database.",
-      additionalTechUsed:[],
+      additionalTechUsed:[<img width="50" height="50" src="https://img.icons8.com/ios-filled/50/visual-studio.png" alt="visual-studio"/>],
       },
       {
     id:6,
@@ -127,8 +127,8 @@ const data = [
     ga:false,
     image:"./images/sidescroller.png",
     openingDesc:"I completed the Sidescrolling game project using HTML CSS and JavaScript, this project taught me how to use the Canvas API and has improved my animation skills",
-    icons:[<img width="50" height="50" src="https://img.icons8.com/ios/50/html-filetype--v1.png" alt="html-filetype--v1"/>,<img width="50" height="50" src="https://img.icons8.com/ios-filled/50/css3.png" alt="css3"/>,<Lottie animationData={js} loop={true}/>,<img width="50" height="50" src="https://img.icons8.com/ios-filled/50/visual-studio.png" alt="visual-studio"/>],
-    additionalTechUsed:[],
+    icons:[<img width="50" height="50" src="https://img.icons8.com/ios/50/html-filetype--v1.png" alt="html-filetype--v1"/>,<img width="50" height="50" src="https://img.icons8.com/ios-filled/50/css3.png" alt="css3"/>,<Lottie animationData={js} loop={true}/>],
+    additionalTechUsed:[<img width="50" height="50" src="https://img.icons8.com/ios-filled/50/visual-studio.png" alt="visual-studio"/>],
   
   },
 
@@ -141,9 +141,9 @@ export default function Experience() {
   
   
   
-  const [expanded, setExpanded] = React.useState(false);
-
-  const handleExpandClick = () => {
+  const [expanded, setExpanded] = useState(false);
+  // const [expandedId, setExpandedId] = useState(-1)
+  const handleExpandClick = (i) => {
     setExpanded(!expanded);
   };
   const [projectData,updateProjectData] = useState([])
@@ -156,11 +156,13 @@ export default function Experience() {
 let cardHeader = projectData.ga ? <img className={classes.logo} src="./images/galogo.png"/> : <Avatar sx={{ bgcolor: red[500] }} aria-label="logo">
             
 </Avatar>
+
+
   return (
     
     <section id="experience" className={classes.section}>
       <div className={classes.container}>
-      <Card sx={{ maxWidth: 450 }}>
+      {/* <Card sx={{ maxWidth: 450 }}>
     
 
       <CardHeader
@@ -232,12 +234,12 @@ let cardHeader = projectData.ga ? <img className={classes.logo} src="./images/ga
         </CardContent>
       </Collapse>
           
-    </Card>
+    </Card> */}
      {projectData.map(card => {
     return  <Card sx={{ maxWidth: 550 }} key={card.id}>
       <CardHeader avatar={
-        cardHeader
-         
+       
+         card.ga ? <img className={classes.logo} src="./images/galogo.png"/> : <Avatar sx={{ bgcolor: red[500] }} aria-label="logo"></Avatar>
         } action={
           <div>
 
@@ -268,11 +270,12 @@ let cardHeader = projectData.ga ? <img className={classes.logo} src="./images/ga
         <h5 className={classes.subheader}>Tech used</h5>
         <CardActions disableSpacing>
         <IconButton aria-label="python icon">
-        <Lottie className={classes.icon} animationData={pyhton} loop={true}/>
+       
         </IconButton>
         
       {card.icons}
         <ExpandMore
+        // key={card.id}
           expand={expanded}
           onClick={handleExpandClick}
           aria-expanded={expanded}
@@ -284,17 +287,20 @@ let cardHeader = projectData.ga ? <img className={classes.logo} src="./images/ga
       </CardActions>
       <Collapse in={expanded} timeout="auto" unmountOnExit>
         <CardContent>
-         {card.techUsedDesc && <Typography>
+          {/* {card.additionalTechUsed.length > 0  && <Typography>{card.additionalTechUsed}</Typography>} */}
+         {/* {card.techUsedDesc && <Typography paragraph>
           {card.techUsedDesc}
-          </Typography>}
+          </Typography>} */}
          <Typography>
-          {/* {card.additionalTechUsed} */}
+          {card.additionalTechUsed && <div className={classes.extraTech}>
+            <h5 className={classes.subtitle}>Tools</h5>
+            {card.additionalTechUsed}</div>}
 
 
          </Typography>
-         {/* {card.techUsedDesc  && <Typography paragraph>
-          {card.card.techUsedDesc}
-          </Typography>} */}
+         {card.techUsedDesc  && <Typography paragraph>
+          {card.techUsedDesc}
+          </Typography>}
          
          
           
