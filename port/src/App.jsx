@@ -10,6 +10,7 @@ import TimeLine from "./components/TimeLine";
 import Nav from "./components/Nav";
 import NewAbout from "./components/NewAbout";
 import Exp from "./components/Exp";
+import NewTimeline from "./components/NewTimeline";
 
 function App() {
   return (
@@ -22,7 +23,8 @@ function App() {
       <About />
       <Exp/>
       {/* <Experience /> */}
-      <TimeLine/>
+      <NewTimeline/>
+      {/* <TimeLine/> */}
      
       <Contact />
     </div>
