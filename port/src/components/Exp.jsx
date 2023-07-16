@@ -208,14 +208,14 @@ function Exp() {
     <section id="experience" className={classes.section}>
 
    
-      <Grid container spacing={2}>
+      <Grid container spacing={2} alignItems="center" justifyContent="center">
       
        
 
        
           {projectData.map(card => {
     return  <Grid item xs={12} lg={5}>
-    <Card sx={{ maxWidth: 550 }} key={card.id}>
+    <Card sx={{ maxWidth: 650 }} key={card.id}>
       <CardHeader avatar={
        
          card.ga ? <img className={classes.logo} src="./images/galogo.png"/> : <Avatar sx={{ bgcolor: red[500] }} aria-label="logo"></Avatar>
