@@ -9,6 +9,7 @@ import "./index.css";
 import TimeLine from "./components/TimeLine";
 import Nav from "./components/Nav";
 import NewAbout from "./components/NewAbout";
+import Exp from "./components/Exp";
 
 function App() {
   return (
@@ -19,7 +20,8 @@ function App() {
       <Main />
       {/* <NewAbout/> */}
       <About />
-      <Experience />
+      <Exp/>
+      {/* <Experience /> */}
       <TimeLine/>
      
       <Contact />
