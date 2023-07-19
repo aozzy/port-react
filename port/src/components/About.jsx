@@ -7,6 +7,7 @@ import react from '/react.json'
 import pyhton from '/python.json'
 import github from '/github.json'
 import chrome from '/chrome.json'
+import hello from '/helloworld.json'
 import { Waypoint } from 'react-waypoint';
 
 export default function About () {
@@ -17,7 +18,7 @@ export default function About () {
     <div className={classes.container}>
       <Waypoint onEnter={()=>setRenderLottie(true)} />
       <div className={classes.left}>
-       {renderLottie && <Lottie loop={false} animationData={lottie} style={{width:'700px'}} />}
+       {renderLottie && <Lottie loop={false} animationData={hello} style={{width:'700px'}} />}
        
       </div>
       <div className={classes.right}>
