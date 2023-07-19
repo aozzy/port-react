@@ -105,67 +105,6 @@ nav .iconBurger .line{
    .navbar{
     display: none;
    }
-   nav .navItem{
-    float: none;
-    position: fixed;
-    z-index: 9;
-    left: 0;
-    right: 0;
-    top: 100px;
-    bottom:100%;
-    width: auto;
-    height: auto;
-    flex-direction: column;
-    background-color: rgba(0,0,0, .8);
-    overflow: hidden;
-    transition: all .5s ease-in-out;
-    justify-content: space-evenly;
+   
   
-  }
-  nav .iconBurger{
-    display: block;
-  }
-  nav .logo {
-    float: none;
-    width: auto;
-    justify-content: center;
-  } 
-  nav .navItem a {
-    font-size: 20px;
-  
-  }
-  nav :checked ~ .navItem{
-    bottom: 0;
-    
-  }
-  
-  nav :checked ~ .iconBurger .line:nth-child(1){
-    transform:translateY(10px) rotate(225deg);
-  }
-  
-  nav :checked ~ .iconBurger .line:nth-child(3){
-    transform:translateY(-10px)rotate(-225deg);
-  }
-  nav :checked ~ .iconBurger .line:nth-child(2){
-  opacity: 8;
-  
-
-}
-nav .navBar{
-  float: none;
-    position: fixed;
-    z-index: 9;
-    left: 0;
-    right: 0;
-    top: 100px;
-    bottom:100%;
-    width: auto;
-    height: auto;
-    flex-direction: column;
-    background-color: rgba(0,0,0, .8);
-    overflow: hidden;
-    transition: all .5s ease-in-out;
-    justify-content: space-evenly;
-  
-}  
   }
