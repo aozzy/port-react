@@ -11,13 +11,15 @@ import Nav from "./components/Nav";
 import NewAbout from "./components/NewAbout";
 import Exp from "./components/Exp";
 import NewTimeline from "./components/NewTimeline";
+import Navabr from "./components/Navabr";
 
 function App() {
   return (
     
 
     <div className="contain">
-      <Nav/>
+      {/* <Nav/> */}
+      <Navabr/>
       <Main />
       {/* <NewAbout/> */}
       <About />

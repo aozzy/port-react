@@ -2,7 +2,7 @@ import React from 'react'
 
 import classes from './modules/Navbar.module.css'
 import Burger from './Burger'
-
+import Nav from './Nav'
 export default function Navabr() {
   
 
@@ -20,8 +20,8 @@ export default function Navabr() {
         <li className={classes.navItem}>Contact</li>
        </ul>
        </div>
-       <Burger/>
       <div className={classes.icon}>
+     <Nav/>
      
       </div>
       
