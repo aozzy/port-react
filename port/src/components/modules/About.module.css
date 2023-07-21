@@ -9,15 +9,17 @@ display: flex;
 justify-content: center;
 
 color: white;
+margin-top: 50px;
+  margin-bottom: 100px;
 }
 
 .container{
   /* height: 100vh; */
-  margin-top: 50px;
-  margin-bottom: 100px;
+  /* min-height: 100vh; */
+  
   scroll-snap-align: center;
-  width: 1600px;
- 
+  /* width: 1600px; */
+  padding: 50px 5.8vw;
   display: flex;
   justify-content: space-between;
  
