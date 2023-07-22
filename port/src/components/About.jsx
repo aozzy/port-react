@@ -164,13 +164,15 @@ export default function About () {
           </div>
           <div className={classes.serviceContainer}>
           <h4 className={classes.heading}>Services</h4>
-            <ul className={classes.serviceList}>
-              <li className={classes.serviceListItem}><img width="50" height="50" src="https://img.icons8.com/ios/50/laptop-settings--v3.png" alt="laptop-settings--v3"/> Full Stack Development</li>
-              <li className={classes.serviceListItem}><img width="50" height="50" src="https://img.icons8.com/external-ddara-lineal-ddara/64/external-client-server-analysis-data-user-sync-network-cloud-computing-ddara-lineal-ddara.png" alt="external-client-server-analysis-data-user-sync-network-cloud-computing-ddara-lineal-ddara"/>IT & Infrastructure Support</li>
-              <li className={classes.serviceListItem}><img width="50" height="50" src="https://img.icons8.com/ios-glyphs/60/azure-api-manager.png" alt="azure-api-manager"/>Cloud Computing</li>
-              <li className={classes.serviceListItem}><img width="50" height="50" src="https://img.icons8.com/ios/50/cyber-security.png" alt="cyber-security"/>Cbyber Security</li>
+           <div className={classes.serviceList}>
 
-            </ul>
+              <div className={classes.serviceListItem}><img width="50" height="50" src="https://img.icons8.com/ios/50/laptop-settings--v3.png" alt="laptop-settings--v3"/> Full Stack Development</div>
+              <div className={classes.serviceListItem}><img width="50" height="50" src="https://img.icons8.com/external-ddara-lineal-ddara/64/external-client-server-analysis-data-user-sync-network-cloud-computing-ddara-lineal-ddara.png" alt="external-client-server-analysis-data-user-sync-network-cloud-computing-ddara-lineal-ddara"/>IT & Infrastructure Support</div>
+              <div className={classes.serviceListItem}><img width="50" height="50" src="https://img.icons8.com/ios-glyphs/60/azure-api-manager.png" alt="azure-api-manager"/>Cloud Computing</div>
+              <div className={classes.serviceListItem}><img width="50" height="50" src="https://img.icons8.com/ios/50/cyber-security.png" alt="cyber-security"/>Cbyber Security</div>
+           </div>
+
+         
           </div>
 
 
@@ -184,3 +186,12 @@ export default function About () {
   </section>
   )
 }
+
+
+{/* <ul className={classes.serviceList}>
+<li className={classes.serviceListItem}><img width="50" height="50" src="https://img.icons8.com/ios/50/laptop-settings--v3.png" alt="laptop-settings--v3"/> Full Stack Development</li>
+<li className={classes.serviceListItem}><img width="50" height="50" src="https://img.icons8.com/external-ddara-lineal-ddara/64/external-client-server-analysis-data-user-sync-network-cloud-computing-ddara-lineal-ddara.png" alt="external-client-server-analysis-data-user-sync-network-cloud-computing-ddara-lineal-ddara"/>IT & Infrastructure Support</li>
+<li className={classes.serviceListItem}><img width="50" height="50" src="https://img.icons8.com/ios-glyphs/60/azure-api-manager.png" alt="azure-api-manager"/>Cloud Computing</li>
+<li className={classes.serviceListItem}><img width="50" height="50" src="https://img.icons8.com/ios/50/cyber-security.png" alt="cyber-security"/>Cbyber Security</li>
+
+</ul> */}

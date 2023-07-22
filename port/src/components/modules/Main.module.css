@@ -13,13 +13,13 @@ color: white;
 }
 
 .container{
-  margin-top: 50px;
+  margin-top: 0px;
   height: 100%;
   scroll-snap-align: center;
   /* width: 1600px; */
   display: flex;
   justify-content: space-between;
-  padding: 50px 5.8vw;
+  padding: 20px 5.8vw;
  
 }
 

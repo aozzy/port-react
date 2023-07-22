@@ -1,7 +1,7 @@
 
 
 .section{
-  height: 120vh;
+  /* height: 120vh; */
 
 
 display: flex;
@@ -78,6 +78,7 @@ justify-content: center;
 .services{
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 .skillsInner{
 display: grid;
@@ -96,12 +97,14 @@ grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
   text-align: center;
   align-items: center;
 }
+
 .serviceList{
   
-list-style: none;
+
 font-size: 30px;
-line-height: 95px;
+/* line-height: 95px; */
 display: flex;
+/* flex-wrap: wrap; */
 flex-direction: column;
 align-items: flex-start;
 justify-content: center;
@@ -139,3 +142,8 @@ margin-right: 10px;
 
 
 
+/* @media only screen and (max-width:1593px){
+  .serviceContainer{
+   
+  }
+} */
