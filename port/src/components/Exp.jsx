@@ -207,20 +207,22 @@ function Exp() {
   return (
     <section id="experience" className={classes.section}>
 
-   
+   <h3 className={classes.title}>Projects</h3>
+   <div className={classes.container}>
+
       <Grid container spacing={2} alignItems="center" justifyContent="center">
       
        
 
        
           {projectData.map(card => {
-    return  <Grid item xs={12} lg={5}>
-    <Card sx={{ maxWidth: 500 }} key={card.id}>
+            return  <Grid item xs={12} lg={5}>
+    <Card sx={{ maxWidth: 450 }} key={card.id}>
       <CardHeader avatar={
-       
-         card.ga ? <img className={classes.logo} src="./images/galogo.png"/> : <Avatar sx={{ bgcolor: red[500] }} aria-label="logo"></Avatar>
-        } action={
-          <div>
+        
+        card.ga ? <img className={classes.logo} src="./images/galogo.png"/> : <Avatar sx={{ bgcolor: red[500] }} aria-label="logo"></Avatar>
+      } action={
+        <div>
 
           <IconButton aria-label="settings">
           <button className={classes.btn}><a href={`${card.url}`}>Visit</a></button>
@@ -255,11 +257,11 @@ function Exp() {
       {card.icons}
         <ExpandMore
         key={card.id}
-          expand={expanded}
-          onClick={() => handleExpandClick(card.id)}
-          aria-expanded={expanded === card.id}
-          aria-label="show more"
-          >
+        expand={expanded}
+        onClick={() => handleExpandClick(card.id)}
+        aria-expanded={expanded === card.id}
+        aria-label="show more"
+        >
          <h6 className={classes.readMore}>Read more</h6>
           <ExpandMoreIcon />
         </ExpandMore>
@@ -269,7 +271,7 @@ function Exp() {
           {/* {card.additionalTechUsed.length > 0  && <Typography>{card.additionalTechUsed}</Typography>} */}
          {/* {card.techUsedDesc && <Typography paragraph>
           {card.techUsedDesc}
-          </Typography>} */}
+        </Typography>} */}
          <Typography>
           {card.additionalTechUsed && <div className={classes.extraTech}>
             <h5 className={classes.subtitle}>Tools</h5>
@@ -291,6 +293,7 @@ function Exp() {
       
      
      </Grid>
+     </div>
      </section>
   )
 }
