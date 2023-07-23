@@ -216,8 +216,8 @@ function Exp() {
 
        
           {projectData.map(card => {
-            return  <Grid item xs={12} lg={5}>
-    <Card sx={{ maxWidth: 450 }} key={card.id}>
+            return  <Grid item xs={12} lg={4} md={5} sm={12}>
+    <Card sx={{ maxWidth: 500 }} key={card.id}>
       <CardHeader avatar={
         
         card.ga ? <img className={classes.logo} src="./images/galogo.png"/> : <Avatar sx={{ bgcolor: red[500] }} aria-label="logo"></Avatar>
