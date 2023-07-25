@@ -12,7 +12,7 @@ export default function Navabr() {
       <nav className={classes.nav}>
      
        <div className={classes.links}>
-       <img width="64" height="64" src="https://img.icons8.com/external-flaticons-lineal-flat-icons/64/external-it-support-resume-flaticons-lineal-flat-icons.png" alt="external-it-support-resume-flaticons-lineal-flat-icons"/>
+       <img width="48" height="48" src="https://img.icons8.com/pulsar-color/48/source-code.png" alt="source-code"/>
        <ul className={classes.navbar}>
         <li className={classes.navItem}>About</li>
         <li className={classes.navItem}>Experience</li>

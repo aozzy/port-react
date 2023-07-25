@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import * as FaIcons from "react-icons/fa";
 import * as AiIcons from "react-icons/ai";
+import * as RxIcons from "react-icons/rx";
 import { IconContext } from "react-icons";
 import classes from "./modules/Nav.module.css";
 import '../index.css'
@@ -16,7 +17,7 @@ function Nav() {
 
       <div className={classes.navbar}>
         <a href="#" className={classes["menu-bars"]}>
-          <FaIcons.FaHamburger
+          <RxIcons.RxHamburgerMenu
             className={classes.icon}
             onClick={handleSidebar}
             />
