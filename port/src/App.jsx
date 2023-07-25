@@ -12,6 +12,7 @@ import NewAbout from "./components/NewAbout";
 import Exp from "./components/Exp";
 import NewTimeline from "./components/NewTimeline";
 import Navabr from "./components/Navabr";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
       {/* <TimeLine/> */}
      
       <Contact />
+      <Footer/>
     </div>
     
   );

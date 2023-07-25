@@ -8,7 +8,7 @@
   /* width: 100%;
   background: #FF75A0; */
   width: 100%;
-  background-color: #060b26;
+  background-color: #0C1A1A;
   
 }
 
@@ -24,7 +24,10 @@ padding: 10px 0px;
 
 
 }
-
+.lotty{
+  height: 100px;
+  width: 100px;
+}
 .links{
   display: flex;
   align-items: center;
