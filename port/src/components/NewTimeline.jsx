@@ -12,26 +12,27 @@ function NewTimeline() {
     className="vertical-timeline-element--work"
     contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
     contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-    date="2011 - present"
+    date="2021 - 2022"
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
     // icon={<WorkIcon />}
   >
-    <h3 className="vertical-timeline-element-title">Creative Director</h3>
-    <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
+    <h3 className="vertical-timeline-element-title">
+IT Support Engineer, Contract</h3>
+    <h4 className="vertical-timeline-element-subtitle">Medpace, London</h4>
     <p>
-      Creative Direction, User Experience, Visual Design, Project Management, Team Leading
+      Supporting a base of 400 users in the London office, Providing 1st & 2nd Line Support 
     </p>
   </VerticalTimelineElement>
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
-    date="2010 - 2011"
+    date="2020 - 2021"
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
     // icon={<WorkIcon />}
   >
-    <h3 className="vertical-timeline-element-title">Art Director</h3>
-    <h4 className="vertical-timeline-element-subtitle">San Francisco, CA</h4>
+    <h3 className="vertical-timeline-element-title">Software Engineering Immersive student</h3>
+    <h4 className="vertical-timeline-element-subtitle">General Assembly, London</h4>
     <p>
-      Creative Direction, User Experience, Visual Design, SEO, Online Marketing
+    During the 12 week Software Engineering Immersive course I learned about the fundamentals of web development, the Creation of front-end web applications using Javascript, React, HTML5, CSS & SCSS and how to develop and deploy full-stack applications with technologies including Python with Flask and Express with Node.js. I also learned how to consume and integrate third-party APIs and got to practice version control with Git and Github.
     </p>
   </VerticalTimelineElement>
   <VerticalTimelineElement

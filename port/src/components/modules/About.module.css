@@ -1,7 +1,7 @@
 
 
 .section{
-  height: 120vh;
+  height: 125vh;
 
 
 display: flex;
@@ -10,7 +10,7 @@ justify-content: center;
 
 color: white;
 margin-top: 50px;
-  /* margin-bottom: 100px; */
+  margin-bottom: 100px;
 }
 
 .container{
@@ -126,6 +126,21 @@ justify-content: center;
 }
 .serviceListItem img{
 margin-right: 10px;
+}
+
+.skillContainer{
+ display: flex;
+ align-items: center;
+ justify-content: center; 
+ flex-direction: column;
+}
+.subHeading{
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+.skills{
+  width: 55%;
 }
 @media only screen and (max-width:890px){
   .title{

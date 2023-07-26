@@ -37,124 +37,139 @@ export default function About () {
            <div className={classes.skillsInner}>
             <div className={classes.skillContainer}>
             <Lottie animationData={js} loop={true}/>
+            <h6 className={classes.subHeading}>JavaScript</h6> 
              
             </div>
             <div className={classes.skillContainer}>
             <img width="50" height="50" src="https://img.icons8.com/ios/50/c-sharp-logo.png" alt="c-sharp-logo"/>
-             
+            <h6 className={classes.subHeading}>C#</h6> 
             </div>
             <div className={classes.skillContainer}>
             <Lottie  animationData={react} loop={true}/>
-             
+            <h6 className={classes.subHeading}>React</h6> 
             </div>
             <div className={classes.skillContainer}>
             <img width="50" height="50" src="https://img.icons8.com/ios/50/typescript.png" alt="typescript"/>
-             
+            <h6 className={classes.subHeading}>TypeScript</h6> 
             </div>
             <div className={classes.skillContainer}>
             <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/css3.png" alt="css3"/>
-             
+            <h6 className={classes.subHeading}>CSS</h6> 
             </div>
             <div className={classes.skillContainer}>
             <img width="50" height="50" src="https://img.icons8.com/ios/50/django.png" alt="django"/>
-             
+            <h6 className={classes.subHeading}>Django</h6> 
             </div>
             <div className={classes.skillContainer}>
             <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/redux.png" alt="redux"/>
-             
+            <h6 className={classes.subHeading}>Redux</h6> 
             </div>
             <div className={classes.skillContainer}>
             <img width="35" height="50"  src="https://img.icons8.com/external-tal-revivo-bold-tal-revivo/24/external-mongodb-a-cross-platform-document-oriented-database-program-logo-bold-tal-revivo.png" alt="external-mongodb-a-cross-platform-document-oriented-database-program-logo-bold-tal-revivo"/>
-             
+            <h6 className={classes.subHeading}>MongoDB</h6> 
             </div>
             <div className={classes.skillContainer}>
             <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/postgreesql.png" alt="postgreesql"/>
-             
+            <h6 className={classes.subHeading}>Postgresql</h6> 
             </div>
             <div className={classes.skillContainer}>
             <img width="50" height="50" src="https://img.icons8.com/ios/50/sql.png" alt="sql"/>
-             
+            <h6 className={classes.subHeading}>Sql</h6>  
             </div>
             <div className={classes.skillContainer}>
             <img width="50" height="50" src="https://img.icons8.com/wired/50/webpack.png" alt="webpack"/>
+            <h6 className={classes.subHeading}>Webpack</h6> 
              
             </div>
             <div className={classes.skillContainer}>
             <img width="50" height="50" src="https://img.icons8.com/ios/50/flask.png" alt="flask"/>
+            <h6 className={classes.subHeading}>Flask</h6> 
              
             </div>
             <div className={classes.skillContainer}>
             <img width="50" height="50" src="https://img.icons8.com/ios/50/express-js.png" alt="express-js"/>
-             
+            <h6 className={classes.subHeading}>Express</h6> 
             </div>
             <div className={classes.skillContainer}>
             <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/sass.png" alt="sass"/>
+            <h6 className={classes.subHeading}>Sass</h6> 
              
             </div>
             <div className={classes.skillContainer}>
             <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/docker.png" alt="docker"/>
-             
+            <h6 className={classes.subHeading}>Docker</h6> 
             </div>
             <div className={classes.skillContainer}>
             <img width="50" height="50" src="https://img.icons8.com/external-tal-revivo-regular-tal-revivo/24/external-nginx-accelerates-content-and-application-delivery-improves-security-logo-regular-tal-revivo.png" alt="external-nginx-accelerates-content-and-application-delivery-improves-security-logo-regular-tal-revivo"/>
-             
+            <h6 className={classes.subHeading}>Nginx</h6>  
             </div>
             <div className={classes.skillContainer}>
             <Lottie  animationData={pyhton} loop={true}/>
-             
+            <h6 className={classes.subHeading}>Python</h6> 
             </div>
             <div className={classes.skillContainer}>
             <img width="50" height="50" src="https://img.icons8.com/ios/50/html-filetype--v1.png" alt="html-filetype--v1"/>
-             
+            <h6 className={classes.subHeading}>HTML</h6> 
             </div>
             <div className={classes.skillContainer}>
             <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/git.png" alt="git"/>
+            <h6 className={classes.subHeading}>Git</h6> 
              
             </div>
             <div className={classes.skillContainer}>
             <img width="50" height="50" src="https://img.icons8.com/windows/32/bootstrap.png" alt="bootstrap"/>
+            <h6 className={classes.subHeading}>Bootstrap</h6> 
              
             </div>
             <div className={classes.skillContainer}>
             <img width="50" height="50" src="https://img.icons8.com/ios/50/heroku.png" alt="heroku"/>
+            <h6 className={classes.subHeading}>Heroku</h6> 
              
             </div>
             <div className={classes.skillContainer}>
             <img width="50" height="50" src="https://img.icons8.com/windows/32/npm.png" alt="npm"/>
+            <h6 className={classes.subHeading}>NPM</h6> 
              
             </div>
             <div className={classes.skillContainer}>
             <img width="48" height="48" src="https://img.icons8.com/material-outlined/48/firebase.png" alt="firebase"/>
+            <h6 className={classes.subHeading}>Firebase</h6> 
              
             </div>
 
            <div className={classes.skillContainer}>
             <Lottie  animationData={github} loop={true} style={{width:'50px'}}/>
+            <h6 className={classes.subHeading}>Github</h6> 
              
             </div> 
             <div className={classes.skillContainer}>
             <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/office-365.png" alt="office-365"/>
+            <h6 className={classes.subHeading}>0365</h6> 
              
             </div>
             <div className={classes.skillContainer}>
             <img width="50" height="50" src="https://img.icons8.com/wired/64/blender-3d.png" alt="blender-3d"/>
+            <h6 className={classes.subHeading}>Blender</h6> 
              
             </div>
             <div className={classes.skillContainer}>
             <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/unreal-engine.png" alt="unreal-engine"/>
+            <h6 className={classes.subHeading}>Unreal Engine</h6> 
              
             </div>
             <div className={classes.skillContainer}>
             <img width="50" height="50" src="https://img.icons8.com/wired/64/postman-api.png" alt="postman-api"/>
+            <h6 className={classes.subHeading}>Postman</h6> 
              
             </div>
             <div className={classes.skillContainer}>
             <img width="50" height="50" src="https://img.icons8.com/ios/50/vmware.png" alt="vmware"/>
+            <h6 className={classes.subHeading}>VMware</h6> 
              
             </div>
             <div className={classes.skillContainer}>
             <Lottie  animationData={chrome} loop={true} style={{width:'50px'}}/>
-             
+            <h6 className={classes.subHeading}>Chrome</h6> 
             </div> 
             {/* <div className={classes.skillContainer}>
             <img src="./images/ejs.svg" alt="ejs" />
