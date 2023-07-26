@@ -1,5 +1,5 @@
 .container{
-  margin-top: 10px;
+  /* margin-top: 10px; */
   height: 200px;
   width: 100%;
   background-color: #0C1A1A;
@@ -21,8 +21,16 @@
   transform: translate(-50%, -50%); */
 }
 .inner{
-  width: 10%;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
 }
-/* .icon{
-  align-self: center;
-} */
+.icon{
+padding: 5px 10px;
+}
+.footerItem a{
+  text-decoration: none;
+  color: white;
+}

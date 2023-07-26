@@ -8,11 +8,11 @@ function Footer() {
 
       <div className={classes.footerItem}>
       <img className={classes.icon} width="50" height="50" src="https://img.icons8.com/ios-filled/50/github.png" alt="github"/>
-      <a>https://github.com/aozzy</a>
+      <a href='https://github.com/aozzy' target="_blank">https://github.com/aozzy</a>
       </div>
       <div className={classes.footerItem}>
-      <img className={classes.icon} width="50" height="50" src="https://img.icons8.com/ios-filled/50/linkedin.png" alt="linkedin"/>     
-      <a>www.linkedin.com/in/abdi-osman-000</a>
+      <img className={classes.icon} width="50" height="50" src="https://img.icons8.com/ios-filled/50/linkedin.png" alt="linkedin" target="_blank"/>     
+      <a href='https://linkedin.com/in/abdi-osman-000' target="_blank">www.linkedin.com/in/abdi-osman-000</a>
       </div>
        </div>
       </div>
