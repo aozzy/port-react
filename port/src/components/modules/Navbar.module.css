@@ -32,6 +32,8 @@ padding: 10px 0px;
   display: flex;
   align-items: center;
   gap: 60px;
+  width: 90%;
+  justify-content: space-between;
 }
 
 .navbar{

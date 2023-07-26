@@ -6,7 +6,7 @@ import Contact from "./components/Contact";
 
 
 import "./index.css";
-import TimeLine from "./components/TimeLine";
+
 import Nav from "./components/Nav";
 import NewAbout from "./components/NewAbout";
 import Exp from "./components/Exp";

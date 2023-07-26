@@ -1,6 +1,6 @@
 .container{
   /* margin-top: 10px; */
-  height: 200px;
+  height: 150px;
   width: 100%;
   background-color: #0C1A1A;
   color: white;
@@ -29,6 +29,7 @@
 }
 .icon{
 padding: 5px 10px;
+z-index: 100;
 }
 .footerItem a{
   text-decoration: none;

@@ -19,7 +19,7 @@ export default function Navabr() {
     src="https://cdn.lordicon.com/pxecqsgb.json"
     trigger="hover"
     colors="primary:#109121,secondary:#ebe6ef"
-    style={{width:"100px",height:"100px"}}>
+    style={{width:"65px",height:"65px"}}>
 </lord-icon>
        <ul className={classes.navbar}>
         <li className={classes.navItem}>About</li>

@@ -1,10 +1,12 @@
 import React from 'react'
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
+import classes from './modules/Newtimeline.module.css'
 
 function NewTimeline() {
   return (
     <div>
+      <h3 className={classes.title}>Experience</h3>
       <VerticalTimeline >
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
