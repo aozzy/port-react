@@ -8,13 +8,21 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  /* position: relative; */
 }
 .footerItem{
   display: flex;
   align-items: center;
   justify-content: center;
+  /* position: absolute;
+  top: 50%;
+  left: 50%; */
+  /* -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); */
 }
-
-.icon{
-  align-self: flex-start;
+.inner{
+  width: 10%;
 }
+/* .icon{
+  align-self: center;
+} */
