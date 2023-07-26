@@ -1,6 +1,7 @@
 import React from 'react'
-import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
+import { VerticalTimeline, VerticalTimelineElement}  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
+import WorkIcon from 'react-vertical-timeline-component'
 import classes from './modules/Newtimeline.module.css'
 
 function NewTimeline() {
@@ -41,8 +42,8 @@ IT Support Engineer, Contract</h3>
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
     // icon={<WorkIcon />}
   >
-    <h3 className="vertical-timeline-element-title">Web Designer</h3>
-    <h4 className="vertical-timeline-element-subtitle">Los Angeles, CA</h4>
+    <h3 className="vertical-timeline-element-title">Field and Ad hoc Engineer</h3>
+    <h4 className="vertical-timeline-element-subtitle">Wavex, London</h4>
     <p>
       User Experience, Visual Design
     </p>
