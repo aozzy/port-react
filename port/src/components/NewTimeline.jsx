@@ -9,6 +9,32 @@ function NewTimeline() {
     <div>
       <h3 className={classes.title}>Experience</h3>
       <VerticalTimeline >
+      <VerticalTimelineElement
+    className="vertical-timeline-element--education"
+    date="11/2022 - 03/2022"
+    iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
+    // icon={<SchoolIcon />}
+  >
+    <h3 className="vertical-timeline-element-title">The Lighbulb</h3>
+    <h4 className="vertical-timeline-element-subtitle">Online</h4>
+    <p>
+   I completed a skills bootcamp with the Lightbulb learning new skills like unreal engine and got to mentor junior developers.  
+    </p>
+  </VerticalTimelineElement>
+        
+      <VerticalTimelineElement
+    className="vertical-timeline-element--education"
+    date="02/2022 - 11/2022"
+    iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
+    // icon={<SchoolIcon />}
+  >
+    <h3 className="vertical-timeline-element-title">Udemy</h3>
+    <h4 className="vertical-timeline-element-subtitle">Online Course</h4>
+    <p>
+   I completed the following Udemy courses: The complete JavaScript course 20222, 100 days of Python, React the complete guide,
+   The Web Developer Bootcamp 2022
+    </p>
+  </VerticalTimelineElement>
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
     contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
