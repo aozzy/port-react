@@ -13,7 +13,7 @@ function NewTimeline() {
     className="vertical-timeline-element--education"
     date="11/2022 - 03/2022"
     iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-    // icon={<SchoolIcon />}
+    // icon={  <img width="50" height="50" src="https://img.icons8.com/ios/50/c-sharp-logo.png" alt="c-sharp-logo"/>}
   >
     <h3 className="vertical-timeline-element-title">The Lighbulb</h3>
     <h4 className="vertical-timeline-element-subtitle">Online</h4>

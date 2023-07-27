@@ -13,14 +13,20 @@ export default function Navabr() {
       <nav className={classes.nav}>
      
        <div className={classes.links}>
-       {/* <img width="48" height="48" src="https://img.icons8.com/pulsar-color/48/source-code.png" alt="source-code"/> */}
-       {/* <Lottie loop={false} animationData={computer} className={classes.lotty}/> */}
+       
+       
        <lord-icon
+    src="https://cdn.lordicon.com/myroguwc.json"
+    trigger="hover"
+    colors="outline:#121331,primary:#3f2b96,secondary:#ebe6ef"
+    style={{width:'65px',height:'65px'}}>
+</lord-icon>
+       {/* <lord-icon
     src="https://cdn.lordicon.com/pxecqsgb.json"
     trigger="hover"
     colors="primary:#109121,secondary:#ebe6ef"
     style={{width:"65px",height:"65px"}}>
-</lord-icon>
+</lord-icon> */}
        <ul className={classes.navbar}>
         <li className={classes.navItem}>About</li>
         <li className={classes.navItem}>Experience</li>
