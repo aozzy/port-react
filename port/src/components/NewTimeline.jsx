@@ -52,6 +52,7 @@ IT Support Engineer, Contract</h3>
   </VerticalTimelineElement>
    <VerticalTimelineElement
     className="vertical-timeline-element--education"
+    contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
     date="12/2020 - 04/2021"
     iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
     // icon={<SchoolIcon />}
