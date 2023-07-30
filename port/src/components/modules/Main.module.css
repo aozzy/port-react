@@ -7,7 +7,7 @@ align-items: center;
 justify-content: space-between;
 flex-direction: column;
 color: white;
-
+font-family: 'Open Sans', sans-serif;
  /* margin-top: 50px; */
 
 }
@@ -37,9 +37,11 @@ margin-left: 50px;
 
 
 }
-
+.image{
+  margin-top: 10px;
+}
 .title{
-  font-family: 'Yeseva One', cursive;
+  font-family: 'Raleway', sans-serif;
   font-size: 60px;
   margin-bottom: 0px;
   font-style: normal;
@@ -50,7 +52,7 @@ font-weight: bold;
 
 }
 .subtitle{
-  font-family: 'Yeseva One', cursive;
+  font-family: 'Raleway', sans-serif;
   font-style: normal;
 font-weight: bold;
   font-size: 50px;
@@ -58,7 +60,8 @@ font-weight: bold;
 }
 .description{
   font-size: 25px;
-  font-family: 'Roboto', sans-serif;
+  
+
 
   font-style: normal;
 font-weight: normal;
@@ -143,6 +146,7 @@ letter-spacing: normal;
   margin-left: 150px;
 }
 .right{
+  /* margin-top: 50px; */
   /* flex: 1; */
   /* width: 100%; */
   /* width: 100%;

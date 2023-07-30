@@ -33,7 +33,7 @@ export default function Main() {
           <div className={classes.image}>
             
 
-           <Lottie loop={false} animationData={lottie}  className={classes.lotty}/>
+           <Lottie loop={false} animationData={lottie}  className={classes.lotty} style={{width:'840px'}}/>
           
            
           {/* <img className={classes.heroImage} src="./images/place-holder.jpeg" alt="" /> */}
