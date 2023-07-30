@@ -91,8 +91,13 @@ justify-content: space-between;
   /* margin-bottom: 25px; */
 }
 .extraTech{
+  /* font-size: 7px; */
   margin-bottom: 10px;
 }
+.techUsedDesc {
+font-size: 5px;
+}
+
 .title{
   text-align: center;
   color: white;

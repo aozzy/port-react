@@ -262,7 +262,8 @@ function Exp() {
         aria-expanded={expanded === card.id}
         aria-label="show more"
         >
-         <h6 className={classes.readMore}>Read more</h6>
+         <Typography  className={classes.readMore}>Read more</Typography>
+         {/* <h6 className={classes.readMore}>Read more</h6> */}
           <ExpandMoreIcon />
         </ExpandMore>
       </CardActions>
@@ -272,14 +273,21 @@ function Exp() {
          {/* {card.techUsedDesc && <Typography paragraph>
           {card.techUsedDesc}
         </Typography>} */}
-         <Typography>
+         
           {card.additionalTechUsed && <div className={classes.extraTech}>
-            <h5 className={classes.subtitle}>Tools</h5>
+          <Typography className={classes.subtitle}>Tools</Typography>
+            {/* <h5 className={classes.subtitle}>Tools</h5> */}
+            {/* <Typography variant="body2" color="text.primary">
+        {card.openingDesc}
+        
+        </Typography> */}
             {card.additionalTechUsed}</div>}
 
 
-         </Typography>
-         {card.techUsedDesc  && <Typography paragraph>
+        
+         {card.techUsedDesc  &&
+         
+         <Typography variant="body2" color="text.primary">
           {card.techUsedDesc}
           </Typography>}
          
