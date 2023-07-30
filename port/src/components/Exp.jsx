@@ -225,10 +225,10 @@ function Exp() {
         <div>
 
           <IconButton aria-label="settings">
-          <button className={classes.btn}><a href={`${card.url}`}>Visit</a></button>
+        <a className={classes.btn} href={`${card.url}`}>Visit</a>
           </IconButton>
           <IconButton aria-label="settings">
-          <button className={classes.btn}><a href={`${card.github}`}>Github</a></button>
+          <a className={classes.btn} href={`${card.github}`}>Github</a>
           </IconButton>
           </div>
         }title={`${card.title}`}
