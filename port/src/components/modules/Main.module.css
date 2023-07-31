@@ -1,5 +1,5 @@
 .hero{
-  height: 100vh;
+  height: 120vh;
 
 /* scroll-snap-align: center; */
 display: flex;
@@ -15,7 +15,7 @@ font-family: 'Open Sans', sans-serif;
 
 .container{
   /* margin-top: 10px; */
-  height: 100%;
+  /* height: 100%; */
   /* scroll-snap-align: center; */
   /* width: 1600px; */
   display: flex;
@@ -33,6 +33,7 @@ flex-direction: column;
 justify-content: center;
 gap: 25px;
 margin-left: 50px;
+margin-top: 70px;
 
 
 
@@ -111,8 +112,45 @@ letter-spacing: normal;
   cursor:pointer;
 }
 
+@media only screen and (max-width:1300px){
+  .title{
+    font-size: 50px;
+    
+  }
+  .subtitle{
+    font-size: 40px;
+    margin-top: 5px;
+  }
+  .description{
+   font-size: 20px;
+   margin-top: 5px;
+  }
+  
+  .left{
+    flex: 1;
+    align-items: center;
+    gap: 15px;
+  }
+  .lotty{
+    /* width: 100px; */
+    height: 65%;
+  }
+  .container{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ 
+    /* margin-bottom: 0px; */
+    /* background-color: black; */
+  }
+  .hero{
+    height: 120vh; 
+  }
+}
+
+
 @media only screen and (max-width:1185px){
-  .title, .subtitle{
+  /* .title, .subtitle{
     font-size: 40px;
   }
   .description{
@@ -120,7 +158,7 @@ letter-spacing: normal;
   }
   .left{
     flex: 1;
-  }
+  } */
   /* .right{
     flex: 3;
   } */
