@@ -57,7 +57,7 @@ padding: 10px 0px;
 }
 
 
-.navItem{
+.navItem a{
   cursor: pointer;
   font-size: 20px;
 } 

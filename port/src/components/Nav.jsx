@@ -2,6 +2,9 @@ import React, { useState } from "react";
 import * as FaIcons from "react-icons/fa";
 import * as AiIcons from "react-icons/ai";
 import * as RxIcons from "react-icons/rx";
+import * as BsIcons from "react-icons/bs"
+import * as MdIcons from "react-icons/md"
+import * as GrIcons from "react-icons/gr"
 import { IconContext } from "react-icons";
 import classes from "./modules/Nav.module.css";
 import '../index.css'
@@ -45,15 +48,17 @@ function Nav() {
             
           </li>
           <li className={`${classes["nav-text"]} ${classes.about}`}>
-            <a href="#">
+            <a href="#about">
               {" "}
+              <BsIcons.BsFillPersonFill className={classes.icon}/>
               <span>About</span>
             </a>
             
           </li>
           <li className={`${classes["nav-text"]} ${classes.projects}`}>
-            <a href="#">
+            <a href="#projects">
               {" "}
+              <BsIcons.BsUiChecks className={classes.icon}/>
               <span>Projects</span>
             </a>
             
@@ -61,13 +66,15 @@ function Nav() {
           <li className={`${classes["nav-text"]} ${classes.experience}`}>
             <a href='#experience'>
               {" "}
+              <MdIcons.MdWorkHistory className={classes.icon}/>
               <span>Experience</span>
             </a>
             
           </li>
           <li className={`${classes["nav-text"]} ${classes.contact}`}>
-            <a href="#">
+            <a href="#contact">
               {" "}
+              <MdIcons.MdOutlineContactPhone className={classes.icon}/>
               <span>Contact</span>
             </a>
             
@@ -80,3 +87,6 @@ function Nav() {
 }
 
 export default Nav;
+
+
+

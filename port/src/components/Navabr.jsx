@@ -28,10 +28,10 @@ export default function Navabr() {
     style={{width:"65px",height:"65px"}}>
 </lord-icon> */}
        <ul className={classes.navbar}>
-        <li className={classes.navItem}>About</li>
-        <li className={classes.navItem}>Experience</li>
-        <li className={classes.navItem}>Projects</li>
-        <li className={classes.navItem}>Contact</li>
+        <li className={classes.navItem}> <a href="#about">About</a></li>
+        <li className={classes.navItem}><a href="#projects">Projects</a></li>
+        <li className={classes.navItem}><a href="#experience">Experience</a></li>
+        <li className={classes.navItem}><a href="#contact">Contact</a></li>
        </ul>
        </div>
       <div className={classes.icon}>

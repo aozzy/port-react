@@ -13,7 +13,7 @@ import { Waypoint } from 'react-waypoint';
 export default function About () {
  const [renderLottie, setRenderLottie] = useState(false)
   return (
-    <section className={classes.section}>
+    <section id='about' className={classes.section}>
     
     <div className={classes.container}>
       <Waypoint onEnter={()=>setRenderLottie(true)} />

@@ -19,7 +19,7 @@ const handleSubmit = (e) => {
 }
 
   return (
-    <div className={classes.section}>
+    <section id='contact' className={classes.section}>
       <div className={classes.container}>
         <div className={classes.left}>
           <form className={classes.form} action="" onSubmit={handleSubmit} ref={form}>
@@ -38,7 +38,7 @@ const handleSubmit = (e) => {
         </div>
 
       </div>
-    </div>
+    </section>
   )
 }
 

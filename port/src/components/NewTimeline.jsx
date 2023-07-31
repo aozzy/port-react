@@ -6,7 +6,7 @@ import classes from './modules/Newtimeline.module.css'
 
 function NewTimeline() {
   return (
-    <div>
+    <section id='experience'>
       <h3 className={classes.title}>Experience</h3>
       <VerticalTimeline >
       <VerticalTimelineElement
@@ -252,7 +252,7 @@ Imaging and configuring laptops and desktops using LANDesk.
     // icon={<StarIcon />}
   /> */}
 </VerticalTimeline>
-    </div>
+    </section>
   )
 }
 
