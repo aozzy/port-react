@@ -72,7 +72,7 @@ export default function About () {
   <h6 className={classes.subHeading}>Redux</h6> 
   </div>
   <div className={classes.skillContainer}>
-  <img width="35" height="50"  src="https://img.icons8.com/external-tal-revivo-bold-tal-revivo/24/external-mongodb-a-cross-platform-document-oriented-database-program-logo-bold-tal-revivo.png" alt="external-mongodb-a-cross-platform-document-oriented-database-program-logo-bold-tal-revivo"/>
+  <img className={classes.icon}  src="https://img.icons8.com/external-tal-revivo-bold-tal-revivo/24/external-mongodb-a-cross-platform-document-oriented-database-program-logo-bold-tal-revivo.png" alt="external-mongodb-a-cross-platform-document-oriented-database-program-logo-bold-tal-revivo"/>
   <h6 className={classes.subHeading}>MongoDB</h6> 
   </div>
   <div className={classes.skillContainer}>
@@ -139,7 +139,7 @@ export default function About () {
    
   </div>
   <div className={classes.skillContainer}>
-  <img width="48" height="48" src="https://img.icons8.com/material-outlined/48/firebase.png" alt="firebase"/>
+  <img className={classes.icon} src="https://img.icons8.com/material-outlined/48/firebase.png" alt="firebase"/>
   <h6 className={classes.subHeading}>Firebase</h6> 
    
   </div>

@@ -146,6 +146,7 @@ margin-right: 10px;
 .subHeading{
   margin-top: 10px;
   font-size: 15px;
+  text-align: center;
 }
 
 .skills{
@@ -171,7 +172,7 @@ margin-right: 10px;
     margin: 10px auto;
   } */
 .container{
-  flex-direction: column-reverse;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -193,6 +194,26 @@ margin-right: 10px;
     margin-bottom: 40px;
     /* margin-top: 50px; */
   }
+  .icon{
+    height: 30px;
+    width: 30px;
+  }
+  .subHeading{
+    font-size: 15px;
+    
+  }
+  .serviceListItem {
+    font-size: 17px;
+  }
+  .services{
+    flex-wrap: wrap;
+  }
+  .section{
+    height: 180vh;
+  }
+  .skillContainer{
+    padding: 3px;
+  }
 }
 
 
@@ -200,3 +221,26 @@ margin-right: 10px;
  
 
 
+@media only screen and (max-width:768px){
+  .services{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+  }
+  .description{
+    font-size: 14px;
+  }
+  .subHeading{
+    font-size: 13px;
+    padding: 0;
+    
+  }
+  .skills,.serviceContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+}
