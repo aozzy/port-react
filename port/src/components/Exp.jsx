@@ -33,9 +33,9 @@ const data = [
     ga:true,
     image:"./images/snake.png",
     openingDesc:"Project 1 for the General Assembly Software Immersive course. This was my first project during my time at General Assembly...",
-    icons:[<img className={classes.icons} width="50" height="50" src="https://img.icons8.com/ios/50/html-filetype--v1.png" alt="html-filetype--v1"/>,<img className={classes.icons} width="50" height="50" src="https://img.icons8.com/ios-filled/50/css3.png" alt="css3"/>,<Lottie className={classes.icons} animationData={js} loop={true}/>],
+    icons:[<img className={classes.icons}  src="https://img.icons8.com/ios/50/html-filetype--v1.png" alt="html-filetype--v1"/>,<img className={classes.icons}  src="https://img.icons8.com/ios-filled/50/css3.png" alt="css3"/>,<Lottie className={classes.icons} animationData={js} loop={true}/>],
     techUsedDesc:"It was a solo project and the duration was a week, the technologies I used are HTML CSS and JavaScript.",
-    additionalTechUsed:[<img className={classes.icons} width="40" height="40" src="https://img.icons8.com/ios-filled/50/visual-studio.png" alt="visual-studio"/>],
+    additionalTechUsed:[<img className={classes.icons}  src="https://img.icons8.com/ios-filled/50/visual-studio.png" alt="visual-studio"/>],
   }, 
   {
     id: 2,
@@ -47,9 +47,9 @@ const data = [
     ga:true,
     image:"./images/breakingbad.png",
     openingDesc:"Project 2 was a pair programming Hackathon project in which we had to build a React application that consumes a public API...",
-    icons:[ <img className={classes.icons} width="50" height="50" src="https://img.icons8.com/windows/64/node-js.png" alt="node-js"/> ,<Lottie  className={classes.icons} animationData={react} loop={true}/>,<img className={classes.icons} width="50" height="50" src="https://img.icons8.com/wired/50/webpack.png" alt="webpack"/>,<img className={classes.icons} width="50" height="50" src="https://img.icons8.com/ios-filled/50/sass.png" alt="sass"/>,],
+    icons:[ <img className={classes.icons}  src="https://img.icons8.com/windows/64/node-js.png" alt="node-js"/> ,<Lottie  className={classes.icons} animationData={react} loop={true}/>,<img className={classes.icons}  src="https://img.icons8.com/wired/50/webpack.png" alt="webpack"/>,<img className={classes.icons} src="https://img.icons8.com/ios-filled/50/sass.png" alt="sass"/>,],
     techUsedDesc:" The duration of the project was two days, My classmate Fabien Depasse and I built the Breaking Bad project as we both enjoyed the tv series. The technologies we used were React Node.js React Router Webpack Axios React Player Bulma Babel Google Fonts Git GitHub Lodash Sass and VScode Live Share.",
-    additionalTechUsed:[ <img className={classes.icons} width="40" height="40" src="https://img.icons8.com/ios-filled/50/visual-studio.png" alt="visual-studio"/>,<img className={classes.icons} width="40" height="40" src="https://img.icons8.com/wired/64/babel.png" alt="babel"/>],
+    additionalTechUsed:[ <img className={classes.icons}  src="https://img.icons8.com/ios-filled/50/visual-studio.png" alt="visual-studio"/>,<img className={classes.icons} src="https://img.icons8.com/wired/64/babel.png" alt="babel"/>],
   },
   {
     id:3,
@@ -61,9 +61,9 @@ const data = [
     ga:true,
     image:"./images/cityscapes.png",
     openingDesc:"For the third project we were tasked as a group to build a full-stack application by making our own backend and front-end...",
-    icons:[ <img className={classes.icons} width="50" height="50" src="https://img.icons8.com/windows/64/node-js.png" alt="node-js"/> ,<Lottie className={classes.icons} animationData={react} loop={true}/>,<img className={classes.icons} width="50" height="50" src="https://img.icons8.com/ios/50/express-js.png" alt="express-js"/>,<img className={classes.icons} width="35" height="50"  src="https://img.icons8.com/external-tal-revivo-bold-tal-revivo/24/external-mongodb-a-cross-platform-document-oriented-database-program-logo-bold-tal-revivo.png" alt="external-mongodb-a-cross-platform-document-oriented-database-program-logo-bold-tal-revivo"/>],
+    icons:[ <img className={classes.icons}  src="https://img.icons8.com/windows/64/node-js.png" alt="node-js"/> ,<Lottie className={classes.icons} animationData={react} loop={true}/>,<img className={classes.icons}  src="https://img.icons8.com/ios/50/express-js.png" alt="express-js"/>,<img className={classes.icons}  src="https://img.icons8.com/external-tal-revivo-bold-tal-revivo/24/external-mongodb-a-cross-platform-document-oriented-database-program-logo-bold-tal-revivo.png" alt="external-mongodb-a-cross-platform-document-oriented-database-program-logo-bold-tal-revivo"/>],
     techUsedDesc:"The duration of the project was 9 days and worked in a group of four. As a group we decided we wanted to build a travel site. And to use an Express API to serve data from a Mongo database. We built a travel site. Technologies we used include Express MongoDB Mongoose React Node.js JWT Bcrypt Axios GitHub Git Bulma MapboxGL Supertest Chai and Mocha.",
-    additionalTechUsed:[<img className={classes.icons} width="40" height="40" src="https://img.icons8.com/ios-filled/50/css3.png" alt="css3"/>, <img className={classes.icons} width="40" height="40" src="https://img.icons8.com/ios-filled/50/visual-studio.png" alt="visual-studio"/>],
+    additionalTechUsed:[<img className={classes.icons}  src="https://img.icons8.com/ios-filled/50/css3.png" alt="css3"/>, <img className={classes.icons}  src="https://img.icons8.com/ios-filled/50/visual-studio.png" alt="visual-studio"/>],
     
   },{
     id:4,
@@ -166,9 +166,9 @@ function Exp() {
 
        
           {projectData.map(card => {
-            return  <Grid item xs={12} lg={5} md={6} sm={7}>
+            return  <Grid item xs={9} lg={5} md={6} sm={8} xl={4}>
     <Card sx={{ width:{
-      xs:400,
+      xs:300,
       sm:400,
       md:400,
       lg:400,
@@ -178,7 +178,7 @@ function Exp() {
         
         card.ga ? <img className={classes.logo} src="./images/galogo.png"/> : <Avatar sx={{ bgcolor: red[500],height:"40px", }} aria-label="logo"></Avatar>
       } action={
-        <div>
+        <div className={classes.btnGroup}>
 
           <IconButton aria-label="settings">
         <a className={classes.btn} href={`${card.url}`}>Visit</a>
@@ -193,16 +193,18 @@ function Exp() {
         
 <CardMedia
         component="img"
-        height="300"
+        height="260"
         image={`${card.image}`}
         alt={`${card.title}`}
         />
       
       <CardContent>
-        <Typography variant="body2" color="text.primary">
+        <div className={classes.projectInfo}>
+
         {card.openingDesc}
+        </div>
         
-        </Typography>
+       
       </CardContent>
         <h5 className={classes.subheader}>Tech used</h5>
         <CardActions disableSpacing key={card.id}>
@@ -218,7 +220,7 @@ function Exp() {
         aria-expanded={expanded === card.id}
         aria-label="show more"
         >
-         <Typography  className={classes.readMore}>Read more</Typography>
+         <Typography id="#readMore" className={classes.readMore}>Read more</Typography>
          {/* <h6 className={classes.readMore}>Read more</h6> */}
           <ExpandMoreIcon />
         </ExpandMore>
