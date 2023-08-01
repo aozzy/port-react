@@ -59,7 +59,9 @@ padding: 10px 0px;
 
 .navItem a{
   cursor: pointer;
-  font-size: 20px;
+  font-size: 17px;
+  text-decoration: none;
+  color: #fff;
 } 
 
 .btn{
