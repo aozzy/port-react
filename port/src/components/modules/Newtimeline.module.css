@@ -5,3 +5,24 @@
   margin-bottom: 80px;
   font-family: 'Raleway', sans-serif
 }
+
+/* .btn{
+  padding: 6px;
+  width: 80px;
+  border: none;
+  border-radius: 5px;
+  background-color: #0C1A1A;
+  color: white;
+  cursor:pointer;
+  margin: 0 auto;
+  font-size: 12px;
+  text-decoration: none;
+  color: #fff;
+ 
+} */
+
+
+.link{
+  color: red;
+  text-decoration: none;
+}
