@@ -20,7 +20,10 @@ export default function About () {
       <div className={classes.innerContainer}>
 
       <div className={classes.left}>
-       {renderLottie && <Lottie loop={false} animationData={hello} style={{width:'500px'}} />}
+        <div className="">
+
+        </div>
+       {renderLottie && <Lottie className={classes.lotty} loop={false} animationData={hello} />}
        
       </div>
       <div className={classes.right}>
