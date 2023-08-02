@@ -20,7 +20,7 @@ const Map = () => {
     >
       <Geographies
         geography="/data.json"
-        fill="#0C1A1A"
+        fill="#FFAB00"
         //* change background color of map above 
         stroke="#FFFFFF"
         strokeWidth={0.5}

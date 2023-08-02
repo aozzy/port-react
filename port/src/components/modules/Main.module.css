@@ -34,6 +34,8 @@ justify-content: center;
 gap: 25px;
 margin-left: 50px;
 margin-top: 70px;
+color: #0C1A1A;
+/* color: #FFAB00; */
 
 
 
@@ -48,6 +50,7 @@ margin-top: 70px;
   margin-bottom: 0px;
   font-style: normal;
 font-weight: bold;
+ 
 /* letter-spacing: -1px; */
   
   
@@ -68,6 +71,7 @@ font-weight: bold;
   font-style: normal;
 font-weight: normal;
 letter-spacing: normal;
+color: white;
 }
 .right{
   display: flex;
