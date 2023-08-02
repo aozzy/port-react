@@ -27,8 +27,9 @@ flex: 1;
 }
 
 .title{
-font-weight: 200;
+
 color: white;
+font-family: 'Raleway', sans-serif;
 }
 
 .input{
@@ -78,5 +79,13 @@ gap: 10px;
 }
 .form{
   width: 300px;
+}
+.title{
+  text-align: center;
+  font-size: 40px;
+}
+.section{
+  height: 80vh;
+  margin-top: 20px;
 }
 }

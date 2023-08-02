@@ -29,12 +29,13 @@ function NewTimeline() {
     iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
     // icon={<SchoolIcon />}
   >
-    <h3 className="vertical-timeline-element-title">Udemy</h3>
+    <h3  className="vertical-timeline-element-title">Udemy</h3>
     <h4 className="vertical-timeline-element-subtitle">Online Course</h4>
     <p>
    I completed the following Udemy courses: The complete JavaScript course 20222, 100 days of Python, React the complete guide,
-   The Web Developer Bootcamp 2022
-    </p> <a className={classes.link} href="https://www.linkedin.com/in/abdi-osman-000/details/experience/" target='_blank'>Read more here</a> 
+   The Web Developer Bootcamp 2022.<br/>
+   <a className={classes.link} href="https://www.linkedin.com/in/abdi-osman-000/details/experience/" target='_blank'>Read more here</a> 
+    </p> 
   </VerticalTimelineElement>
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
