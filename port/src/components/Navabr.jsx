@@ -15,18 +15,19 @@ export default function Navabr() {
        <div className={classes.links}>
        
        
-       <lord-icon
+       {/* <lord-icon
     src="https://cdn.lordicon.com/myroguwc.json"
     trigger="hover"
     colors="outline:#121331,primary:#3f2b96,secondary:#ebe6ef"
     style={{width:'65px',height:'65px'}}>
-</lord-icon>
-       {/* <lord-icon
-    src="https://cdn.lordicon.com/pxecqsgb.json"
-    trigger="hover"
-    colors="primary:#109121,secondary:#ebe6ef"
-    style={{width:"65px",height:"65px"}}>
 </lord-icon> */}
+
+       <lord-icon
+    src="https://cdn.lordicon.com/anihkfxp.json"
+    trigger="morph"
+    colors="primary:#ffffff,secondary:#45eba5,tertiary:#45eba5"
+    style={{width:"65px",height:"65px"}}>
+</lord-icon>
        <ul className={classes.navbar}>
         <li className={classes.navItem}> <a href="#about">About</a></li>
         <li className={classes.navItem}><a href="#projects">Projects</a></li>
@@ -46,3 +47,4 @@ export default function Navabr() {
    
   )
 }
+

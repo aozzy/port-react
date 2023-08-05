@@ -42,6 +42,7 @@ export default function Main() {
       </div>
 
     </div>
+    
   )
 }
 //* set loop to true if you want to continously play the animation on line 33
