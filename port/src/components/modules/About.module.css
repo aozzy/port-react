@@ -98,7 +98,7 @@ margin-bottom: 30px;
   border-radius: 5px;
 display: grid;
 grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
-background-color: #fff;
+background-color: #45EBA5;
 }
 
 .heading{
@@ -132,7 +132,7 @@ flex-direction: column;
 align-items: flex-start;
 justify-content: center;
 gap: 23px;
-background-color: #fff;
+background-color: #45EBA5;
 color: #000;
 }
 
@@ -177,7 +177,8 @@ margin-right: 10px;
   /* padding-top: 20px; */
   width: 50px;
   height: 50px;
-  border: 2px solid #45EBA5;
+  border: 1px solid #fff;
+  padding: 1px;
   /* background-color: #fff; */
 }
 
