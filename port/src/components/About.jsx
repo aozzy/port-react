@@ -34,7 +34,7 @@ export default function About () {
         <p className={classes.description}>
         I am a keen tech enthusiast with experience in cloud computing, IT and infrastructure support and I’m now seeking to develop my career in the Software development industry. To enhance my skills in Software development, I have completed the Software Engineering Immersive course at General Assembly. I continually try to develop my skill set by keeping abreast of new Technology. I’m currently looking for a Junior developer role as a front end or full stack engineer. Please see my Linkedin profile for my previous roles or get in touch to request a full CV.
         </p>
-        <button className={classes.btn}>Learn More</button>
+        <a className={classes.btn} href='https://linkedin.com/in/abdi-osman-000' target="_blank">Learn More</a>
         </div>
 
       

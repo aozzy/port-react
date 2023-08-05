@@ -14,11 +14,11 @@ export default function Main() {
       {/* <Nav/> */}
       <div className={classes.container}>
         <div className={`animate__animated animate__bounce animate__slower ${classes.left}`}>
-          <h1 className={classes.title}>Hi, my name is</h1>
+          <h1 className={classes.title}>Hi<span className={classes.coma}>,</span> my name is</h1>
           <h2 className={classes.subtitle}>Abdi Osman</h2>
           <h2 className={classes.subtitle}>I build things for the web</h2>
           <p className={classes.description}>I'm a Software Engineer that welcomes challenges and architects solutions.</p>
-          <button className={classes.btn}>Learn More</button>
+          <a className={classes.btn} href='https://linkedin.com/in/abdi-osman-000' target="_blank">Learn More</a>
         </div>
         <div className={classes.right}>
         {/* <Canvas> //* to increase zoom change the fov
