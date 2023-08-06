@@ -7,9 +7,14 @@
 /* background-image: url('/mix.svg'); */
   align-items: center;
     /* scroll-snap-align: center; */
+    
   }
-  
+  .innerContainer{
+    margin-top: 150px;
+   
+  }
   .container{
+  
     padding: 50px 4vw;
     /* padding-top: 50px;
     margin-top: 100px; */

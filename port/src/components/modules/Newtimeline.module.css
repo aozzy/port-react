@@ -6,6 +6,9 @@
   font-family: 'Raleway', sans-serif
 }
 
+.section{
+  padding: 50px 4vw; 
+}
 /* .btn{
   padding: 6px;
   width: 80px;
@@ -21,7 +24,9 @@
  
 } */
 
-
+.innerContainer{
+  margin-top: 150px;
+}
 .link{
   color: #45EBA5;
   text-decoration: none;

@@ -50,23 +50,23 @@ export default function About () {
   <h6 className={classes.subHeading}>JavaScript</h6> 
    
   </div>
-  <div className={classes.skillContainer}>
+  <div className={`${classes.skillContainer} ${classes.topFive}`}>
   <img className={classes.icon} src="https://img.icons8.com/ios/50/c-sharp-logo.png" alt="c-sharp-logo"/>
   <h6 className={classes.subHeading}>C#</h6> 
   </div>
-  <div className={classes.skillContainer}>
+  <div className={`${classes.skillContainer} ${classes.topFive}`}>
   <Lottie className={classes.icon} animationData={react} loop={true}/>
   <h6 className={classes.subHeading}>React</h6> 
   </div>
-  <div className={classes.skillContainer}>
+  <div className={`${classes.skillContainer} ${classes.topFive}`}>
   <img className={classes.icon} src="https://img.icons8.com/ios/50/typescript.png" alt="typescript"/>
   <h6 className={classes.subHeading}>TypeScript</h6> 
   </div>
-  <div className={classes.skillContainer}>
+  <div className={`${classes.skillContainer} ${classes.topFive}`}>
   <img className={classes.icon} src="https://img.icons8.com/ios-filled/50/css3.png" alt="css3"/>
   <h6 className={classes.subHeading}>CSS</h6> 
   </div>
-  <div className={classes.skillContainer}>
+  <div className={`${classes.skillContainer} ${classes.topFive}`}>
   <img className={classes.icon} src="https://img.icons8.com/ios/50/django.png" alt="django"/>
   <h6 className={classes.subHeading}>Django</h6> 
   </div>
@@ -203,6 +203,7 @@ export default function About () {
 
 
 </div>
+
     </div>
 
   </section>

@@ -6,7 +6,8 @@ import classes from './modules/Newtimeline.module.css'
 
 function NewTimeline() {
   return (
-    <section id='experience'>
+    <section id='experience' className={classes.section}>
+      <div className={classes.innerContainer}></div>
       <h3 className={classes.title}>Experience</h3>
       <VerticalTimeline >
       <VerticalTimelineElement

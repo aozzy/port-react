@@ -1,5 +1,5 @@
 .hero{
-  height: 110vh;
+  /* height: 110vh; */
 
 /* scroll-snap-align: center; */
 display: flex;
@@ -9,7 +9,7 @@ flex-direction: column;
 color: white;
 font-family: 'Open Sans', sans-serif;
  /* margin-top: 50px; */
- margin-bottom: 100px;
+ margin-bottom: 150px;
   /* background-image: url("/lay4.svg");  */
   background-color: #000;
  background-size: cover;  

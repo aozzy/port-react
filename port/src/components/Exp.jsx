@@ -156,7 +156,7 @@ function Exp() {
 
   return (
     <section id="projects" className={classes.section}>
-
+<div className={classes.innerContainer}></div>
    <h3 className={classes.title}>Projects</h3>
    <div className={classes.container}>
 
