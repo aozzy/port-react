@@ -54,6 +54,8 @@ margin-bottom: 30px;
   font-family: 'Raleway', sans-serif;
   margin-top: 5px;
   margin-bottom: 20px;
+  border-bottom: solid 1px #45EBA5;
+  display: inline;
 
 }
 .subtitle{
@@ -72,7 +74,9 @@ margin-bottom: 30px;
 
 .description{
   padding-bottom:20px ;
-  
+  letter-spacing: 1px;
+  /* text-transform: capitalize; */
+  /* text-indent: 100px; */
   font-size: 15px;
 }
 .btn{
@@ -110,11 +114,12 @@ margin-bottom: 30px;
   /* flex-wrap: wrap; */
 }
 .skillsInner{
-  padding-top: 10px;
-  border-radius: 5px;
+  /* padding-top: 10px; */
+  /* border-radius: 5px; */
+
 display: grid;
 grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
-background-color: #45EBA5;
+/* background-color: #45EBA5; */
 }
 
 .heading{
@@ -172,6 +177,7 @@ margin-right: 10px;
  align-items: center;
  justify-content: center; 
  flex-direction: column;
+ background-color: #45EBA5;
  /* background-color: #fff; */
  /* border: 1px solid #000; */
  color: #000;
@@ -182,21 +188,30 @@ margin-right: 10px;
   margin-top: 10px;
   font-size: 15px;
   text-align: center;
+
+  font-weight: 800;
+
+  /* color: #fff; */
 }
 
 .skills{
   width: 50%;
+
   
 }
 
 
 .icon{
+
   /* padding-top: 20px; */
   width: 50px;
   height: 50px;
-  border: 1px solid #fff;
+  border: 1px solid #000;
   padding: 1px;
+  /* padding-top: 5px; */
+  margin-top: 10px;
   /* background-color: #fff; */
+  background-color: #45EBA5;
 }
 
 .innerContainer{

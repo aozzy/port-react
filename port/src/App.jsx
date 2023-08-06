@@ -23,13 +23,15 @@ function App() {
       <Navabr/>
       <Main />
       
-    
+    <hr/>
   
       <About />
-      
+      <hr/>
       <Exp/>
+      <hr/>
       {/* <Experience /> */}
       <NewTimeline/>
+      <hr/>
       {/* <TimeLine/> */}
      
       <Contact />

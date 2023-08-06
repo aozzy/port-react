@@ -1,13 +1,19 @@
 .title{
   color: white;
   font-size: 50px;
-  text-align: center;
+  /* text-align: center; */
   margin-bottom: 80px;
-  font-family: 'Raleway', sans-serif
+  font-family: 'Raleway', sans-serif;
+  border-bottom: solid 1px #45EBA5;
+  display: inline-block;
 }
 
 .section{
-  padding: 50px 4vw; 
+  /* padding: 50px 4vw;  */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 /* .btn{
   padding: 6px;
@@ -26,6 +32,9 @@
 
 .innerContainer{
   margin-top: 150px;
+  width: 60%;
+  display: flex;
+  justify-content: flex-start;
 }
 .link{
   color: #45EBA5;

@@ -17,7 +17,7 @@
 
 .nav-menu{
   /* z-index: 1000; */
-  background-color: #000000;
+  background-color: #000;
   /* background-color: white; */
   width: 250px;
   height: 100vh;
@@ -60,7 +60,7 @@ transition: 350ms;
 
 
 .nav-text a:hover{
-  background-color: #1a83ff;
+  background-color: #45EBA5;
 }
 
 .nav-menu-items{

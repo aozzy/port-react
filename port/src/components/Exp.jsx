@@ -156,8 +156,10 @@ function Exp() {
 
   return (
     <section id="projects" className={classes.section}>
-<div className={classes.innerContainer}></div>
+<div className={classes.innerContainer}>
+
    <h3 className={classes.title}>Projects</h3>
+</div>
    <div className={classes.container}>
 
       <Grid container spacing={2} alignItems="center" justifyContent="center">

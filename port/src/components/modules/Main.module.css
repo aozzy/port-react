@@ -55,7 +55,7 @@ color: #fff;
 font-weight: bold;
 color: #fff;
  
-/* letter-spacing: -1px; */
+/* letter-spacing: px; */
   
   
 
@@ -74,7 +74,7 @@ font-weight: bold;
 
   font-style: normal;
 font-weight: normal;
-letter-spacing: normal;
+letter-spacing: 1px;
 color: #45EBA5;
 }
 .right{
@@ -132,9 +132,9 @@ color: #45EBA5;
   background-color: #45EBA5;
   color: white;
   cursor:pointer;
- 
+  letter-spacing: 1px;
   font-size: 15px;
-  font-weight: bolder;
+  font-weight: bold;
   text-decoration: none;
   color: #000;
  

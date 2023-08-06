@@ -11,6 +11,10 @@
   }
   .innerContainer{
     margin-top: 150px;
+    width: 60%;
+    display: flex;
+    justify-content: flex-end;
+
    
   }
   .container{
@@ -106,10 +110,16 @@ font-size: 5px;
 }
 
 .title{
-  text-align: center;
+  /* text-align: center; */
+  /* align-self: flex-start; */
+  /* display: flex;
+  justify-content: flex-end;
+  align-items: flex-start; */
   color: white;
   font-size: 50px;
-  font-family: 'Raleway', sans-serif
+  font-family: 'Raleway', sans-serif;
+  border-bottom: solid 1px #45EBA5;
+  display: inline;
 }
 .projectInfo{
   font-family: 'Open Sans', sans-serif;

@@ -7,8 +7,11 @@ import classes from './modules/Newtimeline.module.css'
 function NewTimeline() {
   return (
     <section id='experience' className={classes.section}>
-      <div className={classes.innerContainer}></div>
+      {/* <div className={classes.container}></div> */}
+      <div className={classes.innerContainer}>
+
       <h3 className={classes.title}>Experience</h3>
+      </div>
       <VerticalTimeline >
       <VerticalTimelineElement
     className="vertical-timeline-element--education"
@@ -41,7 +44,7 @@ function NewTimeline() {
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
     contentStyle={{  color: '#000' }}
-    contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+    
     date="9/2021 - 1/2022"
     iconStyle={{ background: '#45EBA5', color: '#fff' }}
     // icon={<WorkIcon />}

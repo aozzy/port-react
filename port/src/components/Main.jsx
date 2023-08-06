@@ -13,7 +13,7 @@ export default function Main() {
     <div className={classes.hero}>
       {/* <Nav/> */}
       <div className={classes.container}>
-        <div className={`animate__animated animate__bounce animate__slower ${classes.left}`}>
+        <div className={`animate__animated animate__bounce animate__slower animate__repeat-2 ${classes.left}`}>
           <h1 className={classes.title}>Hi<span className={classes.coma}>,</span> my name is</h1>
           <h2 className={classes.subtitle}>Abdi Osman</h2>
           <h2 className={classes.subtitle}>I build things for the web</h2>
