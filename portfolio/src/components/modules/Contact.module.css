@@ -1,0 +1,104 @@
+.section{
+  /* margin-top: 100px; */
+  /* height: 100vh; */
+ 
+  scroll-snap-align: center;
+}
+.container{
+width: 100%;
+height: 100%;
+
+display: flex;
+justify-content: space-between;
+gap: 10px;
+}
+
+
+.left{
+flex: 1;
+display: flex;
+justify-content: flex-end;
+align-items: center;
+
+}
+
+.right{
+flex: 1;
+}
+
+.title{
+
+color: white;
+font-family: 'Raleway', sans-serif;
+font-size: 50px;
+/* margin-bottom: 41.5px; */
+border-bottom: solid 1px #45EBA5;
+display: inline;
+
+/* border-bottom: solid 1px #45EBA5;
+  display: inline; */
+}
+.titleContainer{
+  /* margin-bottom: 50px; */
+  /* margin-bottom: 42px; */
+  margin-bottom: 41.5px;
+}
+.input{
+padding: 20px;
+background-color: rgb(229, 225, 225);
+border: none;
+border-radius: 5px;
+}
+
+
+.textarea{
+ padding: 20px;
+ border: none;
+ border-radius: 5px;
+ background-color: rgb(229, 225, 225);
+}
+
+.btn{
+  border: none;
+  border: none;
+  border-radius: 5px;
+  color: #000;
+  cursor: pointer;
+  font-weight: bold;
+  background-color: #45EBA5;
+  padding: 20px;
+}
+
+.form{
+  width: 500px;
+display: flex;
+flex-direction: column;
+gap: 10px;
+}
+
+.sent{
+  color: white;
+  font-size: 20px;
+}
+
+@media only screen and (max-width:768px){
+.right{
+  display: none;
+}
+.left{
+  justify-content: center;
+}
+.form{
+  width: 300px;
+}
+.title{
+  text-align: center;
+  font-size: 40px;
+}
+
+.titleContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+}
