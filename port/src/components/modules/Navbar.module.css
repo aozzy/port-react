@@ -33,7 +33,7 @@ padding: 10px 4vw;
   align-items: center;
   /* gap: 60px; */
   width: 100%;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .navbar{
@@ -127,6 +127,8 @@ nav .iconBurger .line{
    .navbar{
     display: none;
    }
-   
+   .links{
+    justify-content: space-between;
+   }
   
   }
