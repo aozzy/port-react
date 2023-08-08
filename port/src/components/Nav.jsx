@@ -40,7 +40,7 @@ function Nav() {
             </a>
           </li>
           <li className={`${classes["nav-text"]} ${classes.home}`}>
-            <a href="#">
+            <a href="#home">
               {" "}
               <AiIcons.AiFillHome className={classes.icon}/>
               <span>Home</span>

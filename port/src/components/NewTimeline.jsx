@@ -7,17 +7,17 @@ import classes from './modules/Newtimeline.module.css'
 function NewTimeline() {
   return (
     <section id='experience' className={classes.section}>
-      {/* <div className={classes.container}></div> */}
+    
       <div className={classes.innerContainer}>
 
       <h3 className={classes.title}>Experience</h3>
       </div>
-      <VerticalTimeline >
+      <VerticalTimeline className={classes.timeline}>
       <VerticalTimelineElement
     className="vertical-timeline-element--education"
     date="11/2022 - 03/2022"
     iconStyle={{ background: '#45EBA5', color: '#fff' }}
-    // icon={  <img width="50" height="50" src="https://img.icons8.com/ios/50/c-sharp-logo.png" alt="c-sharp-logo"/>}
+   
   >
     <h3 className="vertical-timeline-element-title">The Lighbulb</h3>
     <h4 className="vertical-timeline-element-subtitle">Online</h4>
@@ -31,7 +31,7 @@ function NewTimeline() {
     className="vertical-timeline-element--education"
     date="02/2022 - 11/2022"
     iconStyle={{ background: '#45EBA5', color: '#fff' }}
-    // icon={<SchoolIcon />}
+    
   >
     <h3  className="vertical-timeline-element-title">Udemy</h3>
     <h4 className="vertical-timeline-element-subtitle">Online Course</h4>
@@ -47,7 +47,7 @@ function NewTimeline() {
     
     date="9/2021 - 1/2022"
     iconStyle={{ background: '#45EBA5', color: '#fff' }}
-    // icon={<WorkIcon />}
+    
   >
     <h3 className="vertical-timeline-element-title">
 IT Support Engineer, Contract</h3>
@@ -59,11 +59,11 @@ IT Support Engineer, Contract</h3>
   </VerticalTimelineElement>
    <VerticalTimelineElement
     className="vertical-timeline-element--education"
-    // contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+    
     contentStyle={{ color: '#000' }}
     date="12/2020 - 04/2021"
     iconStyle={{ background: '#45EBA5', color: '#fff' }}
-    // icon={<SchoolIcon />}
+    
   >
     <h3 className="vertical-timeline-element-title">Software Engineering Immersive student</h3>
     <h4 className="vertical-timeline-element-subtitle">General Assembly, London</h4>
@@ -77,7 +77,7 @@ IT Support Engineer, Contract</h3>
     className="vertical-timeline-element--work"
     date="02/2020 - 08/2020"
     iconStyle={{ background: '#45EBA5', color: '#fff' }}
-    // icon={<WorkIcon />}
+    
   >
     <h3 className="vertical-timeline-element-title">Field and Ad hoc Engineer, Contract</h3>
     <h4 className="vertical-timeline-element-subtitle">Wavex, London</h4>
@@ -90,7 +90,7 @@ IT Support Engineer, Contract</h3>
     className="vertical-timeline-element--work"
     date="03/2019 - 09/2019"
     iconStyle={{ background: '#45EBA5', color: '#fff' }}
-    // icon={<WorkIcon />}
+    
   >
     <h3 className="vertical-timeline-element-title">Field Engineer, Contract</h3>
     <h4 className="vertical-timeline-element-subtitle">Wavex, London</h4>
@@ -104,7 +104,7 @@ Ability to work effectively with minimal supervision and the ability to prioriti
     className="vertical-timeline-element--work"
     date="09/2018 - 12/2018"
     iconStyle={{ background: '#45EBA5', color: '#fff' }}
-    // icon={<WorkIcon />}
+    
   >
     <h3 className="vertical-timeline-element-title">IT Support Engineer, Contract</h3>
     <h4 className="vertical-timeline-element-subtitle">Ethos, London</h4>
@@ -118,7 +118,7 @@ Administration and maintenance of all IT infrastructure, Supporting Windows Serv
     className="vertical-timeline-element--work"
     date="04/2018 - 03/2018"
     iconStyle={{ background: '#45EBA5', color: '#fff' }}
-    // icon={<WorkIcon />}
+    
   >
     <h3 className="vertical-timeline-element-title">2nd Line Support, Contract</h3>
     <h4 className="vertical-timeline-element-subtitle">RIBA, London</h4>
@@ -133,7 +133,7 @@ Taking ownership of tickets escalated from 1st line support, also participating 
     className="vertical-timeline-element--work"
     date="02/2018 - 03/2018"
     iconStyle={{ background: '#45EBA5', color: '#fff' }}
-    // icon={<WorkIcon />}
+    
   >
     <h3 className="vertical-timeline-element-title">Office 365 rollout and audit Engineer, Contract</h3>
     <h4 className="vertical-timeline-element-subtitle">Havas Media, London</h4>
@@ -148,7 +148,7 @@ Ensuring all previous versions of office has been uninstalled off every device.
     className="vertical-timeline-element--work"
     date="08/2017 - 11/2018"
     iconStyle={{ background: '#45EBA5', color: '#fff' }}
-    // icon={<WorkIcon />}
+    
     >
     <h3 className="vertical-timeline-element-title">Technical Support Analyst, Contract</h3>
     <h4 className="vertical-timeline-element-subtitle">London South Bank University, London</h4>
@@ -164,7 +164,7 @@ Ensuring deskside, phone and AV support across all LSBU Southbank sites.
       className="vertical-timeline-element--work"
       date="01/2017 - 07/2017"
       iconStyle={{ background: '#45EBA5', color: '#fff' }}
-      // icon={<WorkIcon />}
+      
     >
       <h3 className="vertical-timeline-element-title">Team Lead , Windows 10 rollout Engineer, Contract</h3>
       <h4 className="vertical-timeline-element-subtitle">Colt Technology Services, London, Barcelona, Zurich, Paris, Milan</h4>
@@ -182,7 +182,7 @@ Configuring Lenovo Yoga’s 260 and Dell Latitude E5270 Laptops for staff in the
       className="vertical-timeline-element--work"
       date="07/2016 - 10/2016"
       iconStyle={{ background: '#45EBA5', color: '#fff' }}
-      // icon={<WorkIcon />}
+      
     >
       <h3 className="vertical-timeline-element-title">Service Desk Analyst, Contract</h3>
       <h4 className="vertical-timeline-element-subtitle">Cancer Research, London</h4>
@@ -196,7 +196,7 @@ Providing 1st / 2nd line resolutions where applicable and logging calls via the 
       className="vertical-timeline-element--work"
       date="09/2015 - 06/2016"
       iconStyle={{ background: '#45EBA5', color: '#fff' }}
-      // icon={<WorkIcon />}
+      
     >
       <h3 className="vertical-timeline-element-title">2nd Line Support, Contract</h3>
       <h4 className="vertical-timeline-element-subtitle">Omnicom Media Group UK, London</h4>
@@ -212,7 +212,7 @@ Logging and Resolving Tickets through the Altiris ticking system and the Cherwel
       className="vertical-timeline-element--work"
       date="01/2015 - 04/2015"
       iconStyle={{ background: '#45EBA5', color: '#fff' }}
-      // icon={<WorkIcon />}
+      
     >
       <h3 className="vertical-timeline-element-title">1st Line Support, Contract</h3>
       <h4 className="vertical-timeline-element-subtitle">GroupM, London</h4>
@@ -228,46 +228,7 @@ Imaging and configuring laptops and desktops using LANDesk.
   
   
   
-  {/* <VerticalTimelineElement
-    className="vertical-timeline-element--education"
-    date="April 2013"
-    iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-    // icon={<SchoolIcon />}
-  >
-    <h3 className="vertical-timeline-element-title">Content Marketing for Web, Mobile and Social Media</h3>
-    <h4 className="vertical-timeline-element-subtitle">Online Course</h4>
-    <p>
-      Strategy, Social Media
-    </p>
-  </VerticalTimelineElement>
-  <VerticalTimelineElement
-    className="vertical-timeline-element--education"
-    date="November 2012"
-    iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-    // icon={<SchoolIcon />}
-  >
-    <h3 className="vertical-timeline-element-title">Agile Development Scrum Master</h3>
-    <h4 className="vertical-timeline-element-subtitle">Certification</h4>
-    <p>
-      Creative Direction, User Experience, Visual Design
-    </p>
-  </VerticalTimelineElement>
-  <VerticalTimelineElement
-    className="vertical-timeline-element--education"
-    date="2002 - 2006"
-    iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-    // icon={<SchoolIcon />}
-  >
-    <h3 className="vertical-timeline-element-title">Bachelor of Science in Interactive Digital Media Visual Imaging</h3>
-    <h4 className="vertical-timeline-element-subtitle">Bachelor Degree</h4>
-    <p>
-      Creative Direction, Visual Design
-    </p>
-  </VerticalTimelineElement>
-  <VerticalTimelineElement
-    iconStyle={{ background: 'rgb(16, 204, 82)', color: '#fff' }}
-    // icon={<StarIcon />}
-  /> */}
+  
 </VerticalTimeline>
     </section>
   )

@@ -1,7 +1,7 @@
 
 
 .section{
-  /* height: 150vh; */
+
 
 
 display: flex;
@@ -311,7 +311,7 @@ margin-right: 10px;
 
 @media only screen and (max-width:500px){
   .container{
-    height: 190vh;
+    /* height: 190vh; */
   }
   .description{
 

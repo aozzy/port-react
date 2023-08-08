@@ -10,7 +10,7 @@ import 'animate.css';
 export default function Main() {
   
   return (
-    <div className={classes.hero}>
+    <section id='home' className={classes.hero}>
       {/* <Nav/> */}
       <div className={classes.container}>
         <div className={`animate__animated animate__bounce animate__slower animate__repeat-2 ${classes.left}`}>
@@ -41,7 +41,7 @@ export default function Main() {
         </div>
       </div>
 
-    </div>
+    </section>
     
   )
 }

@@ -1,6 +1,6 @@
 .section{
-  margin-top: 100px;
-  height: 100vh;
+  /* margin-top: 100px; */
+  /* height: 100vh; */
  
   scroll-snap-align: center;
 }
@@ -95,8 +95,10 @@ gap: 10px;
   text-align: center;
   font-size: 40px;
 }
-.section{
-  height: 80vh;
-  margin-top: 20px;
+
+.titleContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 }
