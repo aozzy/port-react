@@ -30,8 +30,19 @@ flex: 1;
 
 color: white;
 font-family: 'Raleway', sans-serif;
-}
+font-size: 50px;
+/* margin-bottom: 41.5px; */
+border-bottom: solid 1px #45EBA5;
+display: inline;
 
+/* border-bottom: solid 1px #45EBA5;
+  display: inline; */
+}
+.titleContainer{
+  /* margin-bottom: 50px; */
+  /* margin-bottom: 42px; */
+  margin-bottom: 41.5px;
+}
 .input{
 padding: 20px;
 background-color: rgb(229, 225, 225);
