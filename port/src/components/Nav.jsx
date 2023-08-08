@@ -1,10 +1,8 @@
 import React, { useState } from "react";
-import * as FaIcons from "react-icons/fa";
 import * as AiIcons from "react-icons/ai";
 import * as RxIcons from "react-icons/rx";
 import * as BsIcons from "react-icons/bs"
 import * as MdIcons from "react-icons/md"
-import * as GrIcons from "react-icons/gr"
 import { IconContext } from "react-icons";
 import classes from "./modules/Nav.module.css";
 import '../index.css'
@@ -29,7 +27,7 @@ function Nav() {
 
       <nav
         className={
-          // sidebar ? `${classes["nav-menu_active"]}` : `${classes["nav-menu"]}`
+       
           `${sidebar ? "nav-menu active" : "nav-menu" }`
         }
         >

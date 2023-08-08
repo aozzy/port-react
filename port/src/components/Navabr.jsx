@@ -1,6 +1,4 @@
 import React from 'react'
-import Lottie from "lottie-react";
-import computer from '/computer.json'
 import classes from './modules/Navbar.module.css'
 
 import Nav from './Nav'
@@ -15,12 +13,7 @@ export default function Navabr() {
        <div className={classes.links}>
        
        
-       {/* <lord-icon
-    src="https://cdn.lordicon.com/myroguwc.json"
-    trigger="hover"
-    colors="outline:#121331,primary:#3f2b96,secondary:#ebe6ef"
-    style={{width:'65px',height:'65px'}}>
-</lord-icon> */}
+      
 
        <lord-icon className={classes.lottie} id={classes["lot"]}
     src="https://cdn.lordicon.com/anihkfxp.json"

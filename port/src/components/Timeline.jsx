@@ -2,7 +2,7 @@ import React from 'react'
 import { VerticalTimeline, VerticalTimelineElement}  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import WorkIcon from 'react-vertical-timeline-component'
-import classes from './modules/Newtimeline.module.css'
+import classes from './modules/Timeline.module.css'
 
 function NewTimeline() {
   return (

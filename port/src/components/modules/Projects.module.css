@@ -1,0 +1,170 @@
+.section{
+  /* margin-top: 150px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+
+  align-items: center;
+   
+    
+  }
+  .innerContainer{
+    /* margin-top: 150px; */
+    width: 60%;
+    display: flex;
+    justify-content: flex-end;
+
+   
+  }
+  .container{
+  
+    padding: 0px 4vw;
+    /* padding-top: 50px;
+    margin-top: 100px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  
+  
+}
+
+.card{
+  height: 500px;
+  width: 500px;
+  background-color: #fff;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  
+  gap: 20px;
+  position: relative;
+}
+
+.image{
+  border-radius: 15px;
+  
+  margin: 50px;
+  height: 200px;
+  
+}
+.logo{
+  height: 43px;
+  width: 80px;
+}
+
+.readMore{
+  font-size: 12px;
+  color: #45EBA5;
+}
+.subheader{
+  margin: 0;
+  margin-left: 20px;
+  font-size: 15px;
+}
+
+.icons{
+  height: 40px;
+  width: 40px;
+}
+
+.btnContainer{
+display: flex;
+margin-top: 5px;
+justify-content: space-between;
+}
+.btn{
+  padding: 10px;
+  width: 80px;
+  border: none;
+  border-radius: 5px;
+  background-color: #45EBA5;
+  color: white;
+  cursor:pointer;
+  margin: 0 auto;
+  font-size: 12px;
+  text-decoration: none;
+  color: #000;
+ 
+}
+
+.subtitle{
+  font-size: 15px;
+ 
+}
+.extraTech{
+ 
+  margin-bottom: 10px;
+}
+.techUsedDesc {
+font-size: 5px;
+}
+
+.title{
+  
+  color: white;
+  font-size: 50px;
+  font-family: 'Raleway', sans-serif;
+  border-bottom: solid 1px #45EBA5;
+  display: inline;
+  margin-top: 0px;
+}
+.projectInfo{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+}
+
+@media only screen and (max-width:1650px){
+  .btn{
+    width: 60px;
+  }
+}
+@media only screen and (max-width:1300px){
+  .container{
+   
+  }
+  .icons{
+    height: 30px;
+    width: 30px;
+  }
+  
+}
+
+@media only screen and (max-width:1000px){
+.innerContainer{
+  justify-content: center;
+}
+
+}
+
+@media only screen and (max-width:600px){
+.btn{
+  width: 40px;
+  padding: 7px;
+}
+.icons{
+  height: 30px;
+  width: 30px;
+}
+.title{
+  font-size: 40px;
+  margin-top: 0;
+}
+.btnGroup{
+display: flex;
+flex-direction: column;
+}
+.projectInfo{
+  font-size: 13px;
+}
+#readMore{
+  font-size: 5px;
+}
+.section{
+  margin-bottom: 0px;
+}
+.container{
+  margin-bottom: 0px;
+}
+}
