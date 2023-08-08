@@ -2,7 +2,7 @@ import React from 'react'
 import Lottie from "lottie-react";
 import computer from '/computer.json'
 import classes from './modules/Navbar.module.css'
-import Burger from './Burger'
+
 import Nav from './Nav'
 export default function Navabr() {
   
@@ -22,11 +22,11 @@ export default function Navabr() {
     style={{width:'65px',height:'65px'}}>
 </lord-icon> */}
 
-       <lord-icon
+       <lord-icon className={classes.lottie} id={classes["lot"]}
     src="https://cdn.lordicon.com/anihkfxp.json"
     trigger="morph"
     colors="primary:#ffffff,secondary:#45eba5,tertiary:#45eba5"
-    style={{width:"65px",height:"65px"}}>
+    style={{width:"55px",height:"55px"}}>
 </lord-icon>
        <ul className={classes.navbar}>
         <li className={classes.navItem}> <a href="#about">About</a></li>
