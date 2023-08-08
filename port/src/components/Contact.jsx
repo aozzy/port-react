@@ -6,12 +6,17 @@ import Map from './Map'
 function Contact() {
   const form = useRef();
   const [isError,setIsError] = useState(null)
+
 const handleSubmit = (e) => {
   e.preventDefault()
+ 
+
+ 
   emailjs.sendForm('service_nyoyae2', 'template_rby5hxq', form.current, 'RCSBYoAu5e8OgHNhN')
   .then((result) => {
       console.log(result.text);
       setIsError(true)
+      form.current.reset()
     }, (error) => {
       console.log(error.text);
       setIsError(false)
