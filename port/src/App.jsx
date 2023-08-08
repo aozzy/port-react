@@ -7,32 +7,33 @@ import Contact from "./components/Contact";
 
 import "./index.css";
 
-import Nav from "./components/Nav";
-import NewAbout from "./components/NewAbout";
+
+
 import Exp from "./components/Exp";
 import NewTimeline from "./components/NewTimeline";
 import Navabr from "./components/Navabr";
 import Footer from "./components/Footer";
+import Divider from "./components/Divider";
 
 function App() {
   return (
     
 
     <div className="contain">
-      {/* <Nav/> */}
+    
       <Navabr/>
       <Main />
       
-    <hr/>
-  
+    <Divider/>
+ 
       <About />
-      <hr/>
+      <Divider/>
       <Exp/>
-      <hr/>
-      {/* <Experience /> */}
+      <Divider/>
+    
       <NewTimeline/>
-      <hr/>
-      {/* <TimeLine/> */}
+      <Divider/>
+      
      
       <Contact />
       <Footer/>
